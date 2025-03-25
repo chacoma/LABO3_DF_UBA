@@ -4,7 +4,7 @@
 
 El circuito visto desde los terminales de la carga $R_L$ es:
 
-![SmartSelect_20250324_201647_Samsung Notes](https://hackmd.io/_uploads/HJAW_Pyakg.jpg)
+![circ](images/6-1.jpg)
 
 #### **2. Expresión de la Potencia en $R_L$**
 
@@ -16,22 +16,17 @@ $$
 
 Donde la corriente $I$ que fluye por el circuito es:
 
-
 $$
 I = \frac{V_{th}}{R_{th} + R_L}
 $$
 
 Sustituyendo $I$ en $P$:
 
-
 $$
 P = \left( \frac{V_{th}}{R_{th} + R_L} \right)^2 \cdot R_L
 $$
 
-
 Simplificando:
-
-
 
 $$
 P = \frac{V_{th}^2 \cdot R_L}{(R_{th} + R_L)^2}
@@ -46,8 +41,6 @@ Derivamos $P$ con respecto a $R_L$ e igualamos a cero:
 $$
 \frac{dP}{dR_L} = 0
 $$
-
-
 
 #### **Aplicando la regla del cociente**:
 
@@ -92,12 +85,9 @@ $$
 
 Sustituyendo $R_L = R_{th}$:
 
-
 $$
 P_{\text{máx}} = \frac{V_{th}^2 \cdot R_{th}}{4 R_{th}^2} = \frac{V_{th}^2}{4 R_{th}}
 $$
-
-
 
 ---
 
@@ -159,7 +149,7 @@ Queremos estudiar la transferencia de potencia de un circuito hacia una resisten
   - 2 multimetros
   - 1 potenciometro ($R_L$)
 
-![SmartSelect_20250324_203640_Samsung Notes](https://hackmd.io/_uploads/Hy9j3wya1x.jpg)
+![SmartSelect_20250324_203640_Samsung Notes](images/6-2.jpg)
 
 - Procedimiento:
   Variar la resistencia de carga y estudiar la potencia como $P=IV$ encontrar máximo, chequear que se da cuando $R_L=R_{th}$.
