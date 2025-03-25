@@ -18,9 +18,9 @@ Usando una resistencia de carga conocida ($R_L$):
 
 1. Conecta una **resistencia de carga**$R_L$(valor conocido) entre **A** y **B**.
 
-2. Mide el **voltaje $V_L$** en$R_L$con el voltímetro.  
+2. Mide el **voltaje $V_L$** en $R_L$ con el voltímetro.  
 
-3. Calcula$R_{th}$con la fórmula:  
+3. Calcula $R_{th}$ con la fórmula:  
    
    $$
    R_{th} = R_L \cdot \left( \frac{V_{th}}{V_L} - 1 \right)
@@ -42,9 +42,9 @@ Usando una resistencia de carga conocida ($R_L$):
 
 Medimos:
 
--$V_{th} = 12V$(en circuito abierto).  
+- $V_{th} = 12V$ (en circuito abierto).  
 
-- Al conectar$R_L = 4Ω$, mides$V_L = 8V$.  
+- Al conectar $R_L = 4Ω$, mides $V_L = 8V$.  
 
 Entonces:
 
@@ -92,10 +92,10 @@ $$
 ### **Casos Especiales**
 
 1. **Si hay fuentes dependientes**:  
-   - **No se pueden anular**. Usa el método de la fuente de prueba para$R_{th}$.  
+   - **No se pueden anular**. Usa el método de la fuente de prueba para $R_{th}$.  
 2. **Si el circuito ya tiene una carga entre A y B**:  
    - Remueve la carga temporalmente para calcular $V_{th}$ y $R_{th}$.  
-3. **Si$R_{th} = 0$**:  
+3. **Si $R_{th} = 0$**:  
    - El circuito es una fuente de voltaje ideal.  
 4. **Si $R_{th} = \infty$**:  
    - El circuito es una fuente de corriente ideal.  
