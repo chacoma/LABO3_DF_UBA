@@ -6,7 +6,7 @@ El circuito visto desde los terminales de la carga $R_L$ es:
 
 ![circ](images/6-1.jpg)
 
-<img src="images.png" width="75%">
+<img src="images/6-1.png" width="75%">
 
 #### **2. Expresión de la Potencia en $R_L$**
 
@@ -78,12 +78,9 @@ $R_{th} - R_L = 0$ → $R_L = R_{th} $.
 
 Segunda derivada en $R_L = R_{th}$:
 
-
 $$
 \frac{d^2P}{dR_L^2} \bigg|_{R_L = R_{th}} < 0 \quad \text{(Confirma máximo)}
 $$
-
-
 
 ---
 
