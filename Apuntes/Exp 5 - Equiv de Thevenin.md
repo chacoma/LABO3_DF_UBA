@@ -46,7 +46,7 @@ Medimos:
 
 - Al conectar $R_L = 4Ω$, mides $V_L = 8V$.  
 
-Entonces:
+Entoncesla resistencia de thev:
 
 $$
 R_{th} = 4Ω \cdot \left( \frac{12V}{8V} - 1 \right) = 4Ω \cdot (1.5 - 1) = 2Ω
