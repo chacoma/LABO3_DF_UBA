@@ -6,6 +6,8 @@ El circuito visto desde los terminales de la carga $R_L$ es:
 
 ![circ](images/6-1.jpg)
 
+<img src="images.png" width="75%">
+
 #### **2. Expresión de la Potencia en $R_L$**
 
 La potencia $P$ disipada en $R_L$ es:
@@ -75,9 +77,13 @@ $R_{th} - R_L = 0$ → $R_L = R_{th} $.
 #### **4. Verificación del Máximo (Segunda Derivada)**
 
 Segunda derivada en $R_L = R_{th}$:
+
+
 $$
 \frac{d^2P}{dR_L^2} \bigg|_{R_L = R_{th}} < 0 \quad \text{(Confirma máximo)}
 $$
+
+
 
 ---
 
@@ -153,7 +159,3 @@ Queremos estudiar la transferencia de potencia de un circuito hacia una resisten
 
 - Procedimiento:
   Variar la resistencia de carga y estudiar la potencia como $P=IV$ encontrar máximo, chequear que se da cuando $R_L=R_{th}$.
-
-$$
-P=1
-$$
