@@ -7,24 +7,26 @@ En un **circuito "caja negra"** lineal con dos terminales
 #### **1. Medir el Voltaje de Thévenin ($V_{th}$)**
 
 - **Qué hacer**:  
-  - Conecta un **voltímetro** (en modo DC o AC, según sospeches que hay dentro) directamente a los terminales **A** y **B**.  
-  - **Importante**: No conectes ninguna carga externa (deja los terminales en **circuito abierto**).  
+- Conecta un **voltímetro** (en modo DC o AC, según sospeches que hay dentro) directamente a los terminales **A** y **B**.  
+- **Importante**: No conectes ninguna carga externa (deja los terminales en **circuito abierto**).  
 - **Resultado**:  
-  - La lectura del voltímetro es$V_{th}$.  
+- La lectura del voltímetro es $V_{th}$.  
 
 #### **2. Medir la Resistencia de Thévenin ($R_{th}$)**
 
 Usando una resistencia de carga conocida ($R_L$):
 
 1. Conecta una **resistencia de carga**$R_L$(valor conocido) entre **A** y **B**.
-2. Mide el **voltaje$V_L$** en$R_L$con el voltímetro.  
+
+2. Mide el **voltaje $V_L$** en$R_L$con el voltímetro.  
+
 3. Calcula$R_{th}$con la fórmula:  
    
    $$
    R_{th} = R_L \cdot \left( \frac{V_{th}}{V_L} - 1 \right)
    $$
    
-   *Derivación*: Usando el divisor de voltaje del equivalente de Thévenin cargado:$V_L = V_{th} \cdot \frac{R_L}{R_{th} + R_L}$.  
+   *Derivación*: Usando el divisor de voltaje del equivalente de Thévenin cargado: $V_L = V_{th} \cdot \frac{R_L}{R_{th} + R_L}$.  
 
 ---
 
@@ -50,7 +52,6 @@ $$
 R_{th} = 4Ω \cdot \left( \frac{12V}{8V} - 1 \right) = 4Ω \cdot (1.5 - 1) = 2Ω
 $$
 
- 
 **Equivalente de Thévenin**:  
 
 - Fuente de **12V** en serie con **2Ω**.  
