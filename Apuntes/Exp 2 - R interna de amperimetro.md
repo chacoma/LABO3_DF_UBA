@@ -20,9 +20,7 @@
   
   A $t=0$, se toma nota de la corriente que circula por el amperimetro, la $i_0$, la trensión de la fuente es:
   
-  $$
-  V_0 = i_0 (R_L+r_A)
-  $$
+$$V_0 = i_0 (R_L+r_A)$$
   
   A $t>0$ se cierra la llave y se ajusta el potenciometro hasta medir exactamente la mitad: $i_0/2$. Quiero escribir las corrientes del circuito, la tensión sobre el paralelo es:
   
@@ -31,7 +29,7 @@
   $$
   
   Escribo $i_p$ en función de $i_0$:
-    
+  
   $$
   i_p = \frac{i_0}{2} \frac{r_A}{r_p}
   $$
@@ -77,7 +75,7 @@
   
   $$
   V_0 = I_{max}(R_L + r_A)
-  
+
   $$
   
   Si $V_0=5V$, $r_A \sim 1 \Omega$, $I_{max}=100mA$, luego:
