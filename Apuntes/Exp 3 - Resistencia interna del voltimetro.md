@@ -8,7 +8,7 @@
 
 ### Oción A) Varriando la tensión con un potenciometro
 
-![Screenshot_20250324_173429_EveryCircuit](images/3-1.jpg)
+![Screenshot_20250324_173429_EveryCircuit](images/3-1.png)
 
 - Procedimiento:
   
