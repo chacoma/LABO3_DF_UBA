@@ -26,9 +26,9 @@
 
 - Concepto del divisor de tensión:
   
-  $$
-  V_0 = V_{R_1} + V_{R_2} = I (R_1 + R_2)
-  $$
+$$
+V_0 = V_{R_1} + V_{R_2} = I (R_1 + R_2)
+$$
 
 $$
 V_{R_1} = I R_1 = \frac{R_1}{R_1+R_2} V_0
