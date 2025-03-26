@@ -8,13 +8,15 @@
 
 ### Opción A) Con llave interruptora
 
-![1](images/2-1.jpg)
-
 - Procedimiento:
-  
-  - Con la llave cerrada se mide la corriente que circula sobre el amperimetro, $i_0$.
-  - Se cierra la llave y se ajusta el potenciometro hasta que la corriente que mide el amperimetro es $i_0/2$. 
-  - luego la resistencia del amperimetro es aproximadamente la del potenciometro, $r_A \sim r_p$.
+
+- Con la llave cerrada se mide la corriente que circula sobre el amperimetro, $i_0$:
+  ![1](images/2-1.png)
+
+- Se cierra la llave y se ajusta el potenciometro hasta que la corriente que mide el amperimetro es $i_0/2$:
+  ![2](images/2-2.png)
+
+- luego la resistencia del amperimetro es aproximadamente la del potenciometro, $r_A \sim r_p$.
 
 - Explicación de por que vale $r_A = r_p$ :
   
@@ -26,50 +28,51 @@ $$
 
   A $t>0$ se cierra la llave y se ajusta el potenciometro hasta medir exactamente la mitad: $i_0/2$. Quiero escribir las corrientes del circuito, la tensión sobre el paralelo es:
 
-  $$
-  V_{//} = \frac{i_0}{2} r_A = i_p r_p
-  $$
+$$
+V_{//} = \frac{i_0}{2} r_A = i_p r_p
+$$
 
-  Escribo $i_p$ en función de $i_0$:
+Escribo $i_p$ en función de $i_0$:
 
-  $$
-  i_p = \frac{i_0}{2} \frac{r_A}{r_p}
-  $$
+$$
+i_p = \frac{i_0}{2} \frac{r_A}{r_p}
+$$
 
-  Además sabemos que por ley de mallas:
+Además sabemos que por ley de mallas:
 
-  $$
-  i_L = \frac{i_0}{2} + \frac{i_0}{2} \frac{r_A}{r_p} = \frac{i_0}{2} \rho
-  $$
+$$
+i_L = \frac{i_0}{2} + \frac{i_0}{2} \frac{r_A}{r_p} = \frac{i_0}{2} \rho
+$$
 
-  $$
-  \rho= 1 +\frac{r_A}{r_p}
-  $$
+$$
+\rho= 1 +\frac{r_A}{r_p}
+$$
 
-  La tensión de la fuente antes y después de cerrar la llave es:
+La tensión de la fuente antes y después de cerrar la llave es:
 
-  $$
-  V_0 = i_0 (R_L+r_A) = \frac{i_0}{2}\rho R_L + \frac{i_0}{2}r_A
-  $$
+$$
+V_0 = i_0 (R_L+r_A) = \frac{i_0}{2}\rho R_L + \frac{i_0}{2}r_A
+$$
 
-  Busco expresar $r_A$ en función de $r_p$:
+Busco expresar $r_A$ en función de $r_p$:
 
-  $$
-  2(R_L + r_A) = \rho R_L +  r_A
-  $$
+$$
+2(R_L + r_A) = \rho R_L +  r_A
+$$
 
-  $$
-  2 + 2\frac{r_A}{R_L} = \rho + \frac{r_A}{R_L}
-  $$
+$$
+2 + 2\frac{r_A}{R_L} = \rho + \frac{r_A}{R_L}
+$$
 
-  $$
-  2 + 2\frac{r_A}{R_L} = 1 + \frac{r_A}{r_p} + \frac{r_A}{R_L}
-  $$
+$$
+2 + 2\frac{r_A}{R_L} = 1 + \frac{r_A}{r_p} + \frac{r_A}{R_L}
+$$
 
-  $$  \frac{r_A}{r_p} = 1 + \frac{r_A}{R_L}
-  $$
+$$
+\frac{r_A}{r_p} = 1 + \frac{r_A}{R_L}
+$$
 
-  Note que si $R_L>>r_A$ entonces $r_A=r_p$.
+Note que si $R_L>>r_A$ entonces $r_A=r_p$.
 
 - Resistencia límite para corriente máxima: 
   
@@ -88,8 +91,6 @@ $$
   Ese es el limite inferior de la resistencia, el valor elegido tiene que ser mas grande.
 
 ### Opción B) Con voltímetro
-
-![2](images/2-2.jpg)
 
 - Procedimiento
   
