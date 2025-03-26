@@ -29,23 +29,23 @@ La corriente y potencia máxima que tolera una resistencia de carbono depende pr
    La corriente máxima se calcula a partir de la potencia y la resistencia (R) usando la ley de Joule:  
 
 $$
-I_{\text{máx}} = \sqrt{\frac{P}{R}}
+I_{\text{máx}} = \sqrt{{\frac{P}{R}}}
 $$
 
 **Ejemplo:**  
 Para una resistencia de **1kΩ a 1/4 W**:  
 
 $$
-I_{\text{máx}} = \sqrt{\frac{0.25}{1000}} \approx 0.016 \text{ A} \ (16 \text{ mA})
+I_{\text{máx}} = \sqrt{{\frac{0.25}{1000}}} \approx 0.016 \text{ A} \ (16 \text{ mA})
 $$
-   
-   3. **Límites prácticos**
-   - **Tensión máxima**: Aunque la potencia sea el factor principal, también hay un límite de tensión (usualmente 200–350 V para resistencias de 1/4 W).
-   
-   - **Temperatura**: Si se supera la potencia nominal, la resistencia puede sobrecalentarse, quemarse o cambiar su valor (las de carbono son sensibles al calor).
-   4. **Recomendaciones**
-- **No excedas la potencia nominal** (usa una resistencia de mayor wattaje si es necesario).
-- **Considera el ambiente**: En entornos calurosos, reduce la potencia máxima usable.
+
+3. **Límites prácticos**
+- **Tensión máxima**: Aunque la potencia sea el factor principal, también hay un límite de tensión (usualmente 200–350 V para resistencias de 1/4 W).
+
+- **Temperatura**: Si se supera la potencia nominal, la resistencia puede sobrecalentarse, quemarse o cambiar su valor (las de carbono son sensibles al calor).
+4. **Recomendaciones**
+   - **No excedas la potencia nominal** (usa una resistencia de mayor wattaje si es necesario).
+   - **Considera el ambiente**: En entornos calurosos, reduce la potencia máxima usable.
 
 ---
 
