@@ -29,14 +29,14 @@ La corriente y potencia máxima que tolera una resistencia de carbono depende pr
    La corriente máxima se calcula a partir de la potencia y la resistencia (R) usando la ley de Joule:  
 
 $$
-I_{\text{máx}} = \sqrt{{\frac{P}{R}}}
+I_{\text{máx}} = \sqrt{P/R}
 $$
 
 **Ejemplo:**  
 Para una resistencia de **1kΩ a 1/4 W**:  
 
 $$
-I_{\text{máx}} = \sqrt{{\frac{0.25}{1000}}} \approx 0.016 \text{ A} \ (16 \text{ mA})
+I_{\text{máx}} = \sqrt{0.25/1000} \approx 0.016 \text{ A} \ (16 \text{ mA})
 $$
 
 3. **Límites prácticos**
