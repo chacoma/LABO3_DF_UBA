@@ -74,17 +74,17 @@ $$
 - Resistencia límite para corriente máxima: 
   
   Para no quemar el amperimetro, es importante verificar el valor maximo de corriente que soporta, dependiendo del multimetro en el orden de los $\sim 100 mA$. Esto nos pone un limite en el valor de las resistencias a utilizar. Con el interruptor cerrado el circuito es un divisor de tensión, luego:
-  
+
 $$
 V_0 = I_{max}(R_L + r_A)
 $$
-  
+
 Si $V_0=5V$, $r_A \sim 1 \Omega$, $I_{max}=100mA$, luego:
-  
+
 $$
 {R_L} = V_0/I_{max} - r_A = 5000/100 - 1 = 49 \Omega
 $$
-  
+
   Ese es el limite inferior de la resistencia, el valor elegido tiene que ser mas grande.
 
 ### Opción B) Con voltímetro
