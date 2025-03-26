@@ -21,11 +21,11 @@ Usando una resistencia de carga conocida ($R_L$):
 2. Mide el **voltaje $V_L$** en $R_L$ con el voltímetro.  
 
 3. Calcula $R_{th}$ con la fórmula:  
-   
+
 $$
 R_{th} = R_L \cdot \left( \frac{V_{th}}{V_L} - 1 \right)
 $$
-   
+
    *Derivación*: Usando el divisor de voltaje del equivalente de Thévenin cargado: $V_L = V_{th} \cdot \frac{R_L}{R_{th} + R_L}$.  
 
 ---

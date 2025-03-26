@@ -10,7 +10,7 @@
 
 **Opción A) Medir ley de ohm con fuente de corriente variable**
 
-![1-1](images/1-1.jpg)
+![1-1](images/1-1.png)
 
 - La idea es ir variando la tensión en la fuente y con dos multimetros medir la caida de tensión en la resistencia y la corriente que circula por el circuito. 
 
@@ -20,7 +20,7 @@
 
 **Opción B) Medir ley de ohm con fuente DC fija, variando la tensión utilizando un potenciometro.**
 
-![1-2](images/1-2.jpg)
+![1-2](images/1-2.png)
 
 - La idea es fijar la fuente en un nivel de tensión, e ir variando la resistencia $R_1$ del potenciometro. Al variarla, crearemos distintos niveles de caida en $R_2$. Tenemos que medir $V$ y $I$ para distintos valores de $R_1$ y luego estudiar la ley de ohm $I$ vs $V$.
 

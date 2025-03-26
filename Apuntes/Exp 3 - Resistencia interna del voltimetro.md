@@ -21,7 +21,7 @@
 
 ### Ocpión B) Variando la tensión con la fuente
 
-![Screenshot_20250324_173550_EveryCircuit](images/3-2.jpg)
+![Screenshot_20250324_173550_EveryCircuit](images/3-2.png)
 
 - Procedimiento:
   - Variar la tensión en la fuente y medir la corriente $i$ y la caida de tensión en el voltimetro $V$.
