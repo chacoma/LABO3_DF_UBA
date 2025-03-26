@@ -25,7 +25,7 @@
 - La idea es fijar la fuente en un nivel de tensión, e ir variando la resistencia $R_1$ del potenciometro. Al variarla, crearemos distintos niveles de caida en $R_2$. Tenemos que medir $V$ y $I$ para distintos valores de $R_1$ y luego estudiar la ley de ohm $I$ vs $V$.
 
 - Concepto del divisor de tensión:
-  
+
 $$
 V_0 = V_{R_1} + V_{R_2} = I (R_1 + R_2)
 $$
