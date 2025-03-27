@@ -8,25 +8,25 @@
 
 ### Opción A) Con llave interruptora
 
-- Procedimiento:
+**Procedimiento:**
 
-- Con la llave cerrada se mide la corriente que circula sobre el amperimetro, $i_0$:
-  ![1](images/2-1.png)
+Con la llave cerrada se mide la corriente que circula sobre el amperimetro, $i_0$:
+![1](images/2-1.png)
 
-- Se cierra la llave y se ajusta el potenciometro hasta que la corriente que mide el amperimetro es $i_0/2$:
-  ![2](images/2-2.png)
+Se cierra la llave y se ajusta el potenciometro hasta que la corriente que mide el amperimetro es $i_0/2$:
+![2](images/2-2.png)
 
-- luego la resistencia del amperimetro es aproximadamente la del potenciometro, $r_A \sim r_p$.
+luego la resistencia del amperimetro es aproximadamente la del potenciometro, $r_A \sim r_p$.
 
-- Explicación de por que vale $r_A = r_p$ :
-  
-  A $t=0$, se toma nota de la corriente que circula por el amperimetro, la $i_0$, la trensión de la fuente es:
+**Explicación de por que vale $r_A = r_p$ :**
+
+A $t=0$, se toma nota de la corriente que circula por el amperimetro, la $i_0$, la trensión de la fuente es:
 
 $$
 V_0 = i_0 (R_L+r_A)
 $$
 
-  A $t>0$ se cierra la llave y se ajusta el potenciometro hasta medir exactamente la mitad: $i_0/2$. Quiero escribir las corrientes del circuito, la tensión sobre el paralelo es:
+A $t>0$ se cierra la llave y se ajusta el potenciometro hasta medir exactamente la mitad: $i_0/2$. Quiero escribir las corrientes del circuito, la tensión sobre el paralelo es:
 
 $$
 V_{//} = \frac{i_0}{2} r_A = i_p r_p
@@ -74,9 +74,9 @@ $$
 
 Note que si $R_L>>r_A$ entonces $r_A=r_p$.
 
-- Resistencia límite para corriente máxima: 
-  
-  Para no quemar el amperimetro, es importante verificar el valor maximo de corriente que soporta, dependiendo del multimetro en el orden de los $\sim 100 mA$. Esto nos pone un limite en el valor de las resistencias a utilizar. Con el interruptor cerrado el circuito es un divisor de tensión, luego:
+**Resistencia límite para corriente máxima: **
+
+Para no quemar el amperimetro, es importante verificar el valor maximo de corriente que soporta, dependiendo del multimetro en el orden de los $\sim 100 mA$. Esto nos pone un limite en el valor de las resistencias a utilizar. Con el interruptor cerrado el circuito es un divisor de tensión, luego:
 
 $$
 V_0 = I_{max}(R_L + r_A)
@@ -92,8 +92,14 @@ $$
 
 ### Opción B) Con voltímetro
 
-- Procedimiento
-  
-  - Se fija la fuente en un valor $V_0$ de referencia y se varia el potenciometro $R_L$ **sin exceder la resistencia límite** para no quemar el amperimetro.
-  - Se recopilan los valores de corriente $i_A$ y de tensión $V$.
-  - Graficando la relación $i_A$ vs $V$ se puede obtener el valor de $r_A$ con un ajuste lineal.
+**Procedimiento**
+
+La idea es medir la tensión que cae en el amperimetro. de esta manera utilizando la medición de corriente que este genera, por ley de ohm se puede estimar la resistencia interna.
+
+Utilizamos un divisor de tensión, con una tensión $V_0$ y una resistencia divisora no muy grande, para obtener buena resolución.
+
+![1](images/2-3.png)
+
+Se recopilan los valores de corriente $i_A$ y de tensión $V$.
+
+Por ley de ohm la resistencia será $R= \frac{V}{i_A}$.
