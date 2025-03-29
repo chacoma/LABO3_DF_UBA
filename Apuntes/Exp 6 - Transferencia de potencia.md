@@ -6,8 +6,6 @@ El circuito visto desde los terminales de la carga $R_L$ es:
 
 ![circ](images/6-1.jpg)
 
-<img src="images/6-1.png" width="75%">
-
 #### **2. Expresión de la Potencia en $R_L$**
 
 La potencia $P$ disipada en $R_L$ es:
