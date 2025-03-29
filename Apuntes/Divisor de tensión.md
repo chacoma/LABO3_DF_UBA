@@ -151,7 +151,7 @@ La potencia no se conserva, se pierde por efecto Joule.
 
 La potencia disipada va a cero cuando $x\to \infty$. Esto se debe a que una resistencia inifinita no permite que circule corriente y por lo tanto no hay disipación de potencia.
 
-En uun divisor de tensión donde estamos variando una de las resistencias, la resistencia que esta fija explorara los mayores rangos de potencia cuando en particular cuando $R'<R$, debera tenerse en cuenta los rangos de seguridad a la hora de diseñar en circuito. 
+En un divisor de tensión, donde estamos variando una de las resistencias, la resistencia que esta fija explorará los mayores rangos de potencia cuando en particular cuando $R'<R$, deberá tenerse en cuenta los rangos de seguridad a la hora de diseñar en circuito. 
 
 ### Caso ejemplo:
 
