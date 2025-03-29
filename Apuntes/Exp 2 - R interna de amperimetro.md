@@ -74,7 +74,7 @@ $$
 
 Note que si $R_L>>r_A$ entonces $r_A=r_p$.
 
-**Resistencia límite para corriente máxima: **
+**Resistencia límite para corriente máxima:**
 
 Para no quemar el amperimetro, es importante verificar el valor maximo de corriente que soporta, dependiendo del multimetro en el orden de los $\sim 100 mA$. Esto nos pone un limite en el valor de las resistencias a utilizar. Con el interruptor cerrado el circuito es un divisor de tensión, luego:
 

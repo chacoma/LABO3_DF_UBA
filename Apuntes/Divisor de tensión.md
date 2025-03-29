@@ -167,7 +167,7 @@ Cuando $R'\sim 2R$ obtenemos los siguiente valores:
 
 Podemos ver que el rango de tensiones $V$ accesibles es $(1.68V, 4.9V)$.
 
-Así mismo, el rango de corrientes accesibles es $I$ es $(1.68mA, 4.9mA)$.
+Así mismo, el rango de corrientes $I$ accesibles es $(1.68mA, 4.9mA)$.
 
 Si estamos usando resistencias de carbon que admite una potencia máxima de $P=0.25W$, la corriente de limitación será: 
 
