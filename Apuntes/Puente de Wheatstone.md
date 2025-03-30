@@ -11,7 +11,7 @@ $$
 Las corrientes que circulan por las dos ramas del puente se pueden escribir como:
 
 $$
-I_1 = \frac{V_0}{R_1+R_p}
+I_1 = \frac{V_0}{R_1+R_3}
 $$
 
 $$
@@ -21,57 +21,99 @@ $$
 Busco la diferencia de potencial entre A y B del circuito:
 
 $$
-V_A-V_B = I_1 R_p - I_2 R_x
+V_A-V_B = I_1 R_3 - I_2 R_x
 $$
 
 $$
-V_A-V_B = V_0 \big( \frac{R_p}{R_1+R_p} - \frac{R_x}{R_2+R_x}  \big)
+V_A-V_B = V_0 \big( \frac{R_3}{R_1+R_3} - \frac{R_x}{R_2+R_x}  \big)
 $$
 
 La condición de equilibrio del puente es $V_{AB}=0$, luego la relación entre resistencias debe cumplir:
 
 $$
-\frac{R_p}{R_1+R_p} - \frac{R_x}{R_2+R_x} = 0
+\frac{R_3}{R_1+R_3} - \frac{R_x}{R_2+R_x} = 0
 $$
 
 $$
-R_p(R_2 + R_x) = R_x(R_1+R_p)
+R_3(R_2 + R_x) = R_x(R_1+R_3)
 $$
 
 $$
-\frac{ R_p}{R_1} = \frac{R_x}{R_2} 
+\frac{ R_3}{R_1} = \frac{R_x}{R_2} 
 $$
 
 El cosiente entre las resistencias de la rama 1 tiene que ser igual al cociente entre las resistencias de la rama 2.
 
-Entonces la idea para medir la resistencia incognita es variar $R_p$ hasta que el puente este en equilibrio, $V_{AB}=0$, una vez fijado el valor de esta resistencia puedo hacer la cuenta anterior.
+Entonces la idea para medir la resistencia incognita es variar $R_3$ hasta que el puente este en equilibrio, $V_{AB}=0$, una vez fijado el valor de esta resistencia puedo utilizar la expresión anterior para obtener el valor de $R_x$.
 
 ### El puente como sensor de cambios de resistencia
 
-Supongamos que queremos sensar cambio en $R_x$, esto puede ser por ejemplo por que es un led fotoreceptor donde los cambios de iluminación producen cambios en la resistencia del led. Una buena idea para sensar esos cambios es traducirlo a cambios de la tension $V_{AB}$.
-
-Definimos $x = \frac{R_x}{R_2}$ y $\alpha= \frac{ R_p}{R_1}$, luego:
+Sea $R_e$ la resistencia que equilibra el puente, supongamos que en $R_x$ hacemos una pequeña perturbación respecto al equilibrio:
 
 $$
-\frac{V_{AB}}{V_0} = \frac{\alpha}{1-\alpha} - \frac{x}{1-x}
+R_x = R_e + \Delta R
 $$
 
-Escrito así, el puente esta en equilibrio cuando $x=\alpha$.
-
-Entonces, podemos ver que la tensión en los bornes del puente varia de la sigiuente manera para distintos valores de $\alpha$:
-
-![vab](images/Vab_puenteW.png)
-
-Note que cuando $V_{AB}/V_0 =0$ el puente esta en equilibrio y $x=\alpha$.
-
-Entonces, como en el caso del divisor de tensión, de la relación $R_x/R_2$ puedo obtener el rango de mayor sensibilidad:
+luego la caída de potencial en los bornes del puente puede expresarse así:
 
 $$
-0<R_x<2R_2
+\frac{V_{AB}}{V_0} =  \frac{R_3}{R_1+R_3} - \frac{R_e + \Delta R}{R_2+ R_e+\Delta R}
 $$
 
-Y de la relación $R_p/R_1$ obtengo la translación de la curva en el *eje y*. 
+$$
+\frac{V_{AB}}{V_0} =  \frac{R_3}{R_1+R_3} - \frac{R_e (1+ \frac{\Delta R}{R_e})}{ (R_2 + R_e) (1+ \frac{\Delta R}{ R_e + R_2}) }
+$$
 
-Si $\alpha\to0$, el puente se transforma en divisor de tensión invertido, para $x\to0$ la tensión tiende a 0, y para $x\to\infty$ la tensión tiende a $-V_0$.
+Usando la condición de equilibrio $R_e = R_2R_3/R_1$, se puede ver que:
 
-Si $\alpha\to\infty$, el puente se transforma en divisor de tensión, para $x\to0$ la tensión tiende a $V_0$, y para $x\to\infty$ la tensión tiende a $0$.
+$$
+\frac{R_e}{R_2 + R_e} = \frac{R_3}{R_1 + R_3} = \gamma
+$$
+
+Luego podemos escribir:
+
+$$
+\frac{V_{AB}}{V_0} = \gamma \big( 1 - \frac{ 1+ \frac{\Delta R}{R_e} }{ 1 + \frac{\Delta R}{R_e}\gamma  }     \big)
+$$
+
+El siguiente término se puede expandir en serie así:
+
+$$
+\frac{ 1 }{ 1 + \frac{\Delta R}{R_e}\gamma } \approx 1 -  \frac{\Delta R}{R_e}\gamma
+$$
+
+luego
+
+$$
+\frac{V_{AB}}{V_0} \approx \gamma \big [ 1 - ( 1 + \frac{\Delta R}{R_e} ) (1 -  \frac{\Delta R}{R_e}\gamma) \big]
+$$
+
+Haciendo la distribución y despresiando términos de orden $\Delta R ^2$, obtenemos:
+
+$$
+\frac{V_{AB}}{V_0} \approx \frac{\Delta R}{R_e} \gamma (\gamma-1)
+$$
+
+En terminos de las resistencias:
+
+$$
+\gamma (\gamma-1) = \frac{R_e}{R_2 + R_e} (\frac{R_e}{R_2 + R_e} -1 ) = \frac{R_e}{R_2 + R_e} ( \frac{-R_2}{R_e + R_2} ) = - \frac{R_3}{R_1+R_3} \frac{R_2}{R_e + R_2}
+$$
+
+luego la tensión:
+
+$$
+\frac{V_{AB}}{V_0} \approx - \frac{\Delta R}{R_e} \frac{R_3 R_2}{ (R_1+R_3)(R_e + R_2) }
+$$
+
+Note que si el puente tiene todas las resistencias iguales, $R_e=R_1=R_2=R_3$, entonces la caída de tensión es:
+
+$$
+\frac{V_{AB}}{V_0} \approx -\frac{1}{4} \frac{\Delta R}{R_e}
+$$
+
+En el siguiente gráfico vemos que esta aproximación funciona muy bien para cambios pequeños en la resistencia:
+
+![pw](images/VpuenteW.jpg)
+
+
