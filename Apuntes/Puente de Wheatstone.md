@@ -1,4 +1,4 @@
-## Puente de Wheatstone
+# Puente de Wheatstone
 
 ![pw](images/puenteW.jpg)
 
@@ -116,4 +116,69 @@ En el siguiente gráfico vemos que esta aproximación funciona muy bien para cam
 
 ![pw](images/VpuenteW.jpg)
 
+# Experimento propuesto
 
+- 1 Voltímetro (V)
+- $V_0= 10 V$
+- $R_1 = 4.7k\Omega$ 
+- $R_2= 4.7 k\Omega$
+- $R_3 \in (0,10k\Omega )$ variable (Res. décadas)
+- $R_4= 1.2 k\Omega$ fija
+- $R_5 \in (0, 1k\Omega)$ variable (Res. décadas)
+
+![pw](images/exp_puenteW.jpg)
+
+En este contexto $R_x = R_4 + R_5$
+
+**Procedimiento para buscar el equilibrio**
+
+Fijar $R_5$ en un punto intermedio
+Variar $R_3$ hasta equilibrar el puente, es decir hasta medir $0 V$ en el voltímetro.
+
+**Generar pequeñas perturbaciones**
+
+Con el puente equilibrado, variar $R_5$ hacia valores mas altos y hacia valores más pequeños para producir pequeños apartamientos del equilibrio. Registrar lo medido y comparar con los resultados analíticos.
+
+## Testing en simulaciones
+
+- A continuación muestro valores obtenidos con el puente equilibrado:
+
+![pw](images/exp_puenteW_eq.png)
+
+- Quiero ahora apartarme ahora del equilibrio $-10\%$. Para eso tengo que modificar el valor de $R_5$ de manera acorde.
+
+$$
+R_e = (1200 + 500) \Omega = 1700 \Omega
+$$
+
+$$
+\frac{\Delta R}{Re}=0.1= \frac{\Delta R}{1700 \Omega}
+$$
+
+$$
+\Delta R = 170 \Omega
+$$
+
+Para setear ese valor tengo que modficar $R_5$:
+
+$$
+R_x = 1200 \Omega + (500 - 170) \Omega
+$$
+
+Entonces tengo que fijar $R_5 = 330 \Omega$. Obtengo estos valores:
+
+![pw](images/exp_puenteW_pert1.png)
+
+Al disminuir la resistencia de la rama derecha aumenta la corriente que circula por esa rama, no así la de la rama de la izquierda, por que no modifique las resistencias de esa rama. Si aumenta levemente la corriente total.
+
+El multimetro mide $200 mV$, veamos si la aproximación derivada anteriormente verifica ese valor.
+
+$$
+V_{AB} \approx - \big (\frac{-170}{1700} \frac{1700\times 4700}{ (4700+1700)(1700 + 4700) }\big) 10 V
+$$
+
+$$
+V_{AB} \approx \frac{1}{10} \times \frac{7.99}{ 40.96 } \times 10 V \approx 195 m V
+$$
+
+Como vemos la aproximación es bastante buena.
