@@ -44,7 +44,7 @@ $$
 
 El cosiente entre las resistencias de la rama 1 tiene que ser igual al cociente entre las resistencias de la rama 2.
 
-Entonces la idea para medir la resistencia incognita es variar $R_3$ hasta que el puente este en equilibrio, $V_{AB}=0$, una vez fijado el valor de esta resistencia puedo utilizar la expresión anterior para obtener el valor de $R_x$.
+Entonces la idea para medir la resistencia incognita es ajustar $R_3$ hasta que el puente este en equilibrio, $V_{AB}=0$. Una vez fijado el valor de esta resistencia que equilibra el puente, puedo utilizar la expresión anterior para obtener el valor de $R_x$.
 
 ### El puente como sensor de cambios de resistencia
 
@@ -145,7 +145,7 @@ Con el puente equilibrado, variar $R_5$ hacia valores mas altos y hacia valores 
 
 ![pw](images/exp_puenteW_eq.png)
 
-- Quiero ahora apartarme ahora del equilibrio $-10\%$. Para eso tengo que modificar el valor de $R_5$ de manera acorde.
+- Quiero ahora apartarme del equilibrio $-10\%$. Para eso tengo que modificar el valor de $R_5$ de manera acorde.
 
 $$
 R_e = (1200 + 500) \Omega = 1700 \Omega
@@ -169,9 +169,9 @@ Entonces tengo que fijar $R_5 = 330 \Omega$. Obtengo estos valores:
 
 ![pw](images/exp_puenteW_pert1.png)
 
-Al disminuir la resistencia de la rama derecha aumenta la corriente que circula por esa rama, no así la de la rama de la izquierda, por que no modifique las resistencias de esa rama. Si aumenta levemente la corriente total.
+Al disminuir la resistencia de la rama derecha aumenta la corriente que circula por esa rama, no así la de la rama de la izquierda, por que no modifique las resistencias de esa rama. Esta modificación también verifica un leve aumento de la corriente total demandada a la fuente.
 
-El multimetro mide $200 mV$, veamos si la aproximación derivada anteriormente verifica ese valor.
+El multimetro mide $200 mV$, veamos si la aproximación derivada anteriormente verifica ese valor:
 
 $$
 V_{AB} \approx - \big (\frac{-170}{1700} \frac{1700\times 4700}{ (4700+1700)(1700 + 4700) }\big) 10 V
