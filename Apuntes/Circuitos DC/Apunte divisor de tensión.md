@@ -158,7 +158,7 @@ Donde $P_0= I_0 V_0$, es la potencia disipada en el circuito.
 
 ![dp](images/divisor_PL_plot.jpg)
 
-En el gráfico se muestra la tensión la corriente y la potencia en $R_L$. Aquí $U/U_0 = V_L/V_0, I_L/I_0, P_L/P_0$.
+En el gráfico se muestra la tensión la corriente y la potencia en $R_L$. 
 
 Se puede ver que cuando las resistencias son iguales la potencia entregada a la carga es máxima.
 
