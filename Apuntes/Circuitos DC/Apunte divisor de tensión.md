@@ -4,7 +4,7 @@
 
 Tenemos 1 fuente de tensión $V_0$ que alimenta 2 resistencias en serie $R'$ y $R$:
 
-![div](images/divisor_2.jpg)
+![div](images/divisor_esq.jpg)
 
 Queremos estudiar la caída de tensión sobre la resistencia de carga $R_L$:
 
