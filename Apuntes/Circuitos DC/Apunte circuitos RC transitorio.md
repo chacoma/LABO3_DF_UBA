@@ -4,6 +4,8 @@
 
 #### Carga
 
+![rl](images/RC.jpg)
+
 En $t=0$,  el capacitor esta descargado y se comporta como un corto circuito.
 
 La corriente inicial es la máxima que explorará el circuito:
@@ -16,14 +18,14 @@ $$
 En $t>0$ el capacitor empieza a acumular carga en sus placas y por lo tanto aparece una diferencia de potencial dependiente del tiempo:
 
 $$
-V_C(t) = V_0 \; (1 - e^{-\frac{t}{\tau}}),\quad \tau=RC
+V_C(t) = V_0  (1 - e^{-\frac{t}{\tau}}),\quad \tau=RC
 $$
 
 
 La corriente en el circuito decrece como:
 
 $$
-I (t) = I_0 \; e^{-\frac{t}{\tau}}
+I (t) = I_0  e^{-\frac{t}{\tau}}
 $$
 
 A medida que pasa el tiempo se acumula más carga, este proceso hace que la diferencia de potencial en los bornes del capacitor evolucione haste alcanzar la tensión de la fuente, a partir de ese momento deja de circular corriente.
@@ -36,7 +38,7 @@ El proceso es análogo a poner un compresor a inflar un globo, cuando la presió
 La constante de tiempo $\tau=RC$ es una medida del tiempo característico del sistema, note que depende de los valores de los componente del circuito, resistencia y capacitancia. Se dice que el circuito esta estacionario cuando transcurrieron 5 veces $\tau$, en ese momento:
 
 $$
-V_C(t=5\tau) = V_0 \; (1-e^{-5}) = V_0 \;(1-0.0067) \approx V_0 
+V_C(t=5\tau) = V_0  (1-e^{-5}) = V_0 \;(1-0.0067) \approx V_0 
 $$
 
 $$
@@ -59,13 +61,13 @@ Lo hace sobre la resistencia que disipará la energía por efecto Joule.
 Se comporta temporalmente como una fuente. En ese proceso, la tensión sobre los bornes del capacitor cae exponencialmente,
 
 $$
-V_C = V_0\; e^{-\frac{t}{\tau}}
+V_C = V_0 e^{-\frac{t}{\tau}}
 $$
 
 y la corriente también, con sentido de circulación contrario al proceso de carga.
 
 $$
-I = -I_0\; e^{-\frac{t}{\tau}}
+I = -I_0 e^{-\frac{t}{\tau}}
 $$
 
 ### 2. Experimento propuesto
