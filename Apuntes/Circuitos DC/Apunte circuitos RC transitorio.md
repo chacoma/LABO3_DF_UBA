@@ -35,14 +35,18 @@ En $t\to\infty$ la corriente es nula y la tensión en los bornes del capacitor e
 
 El proceso es análogo a poner un compresor a inflar un globo, cuando la presión interna del globo iguala la del compresor deja de circular aire. En nuestro caso el compresor es la fuente, la presion en el globo es la tensión, y el flujo de aire es la corriente.
 
-La constante de tiempo $\tau=RC$ es una medida del tiempo característico del sistema, note que depende de los valores de los componente del circuito, resistencia y capacitancia. Se dice que el circuito esta estacionario cuando transcurrieron 5 veces $\tau$, en ese momento:
+La constante de tiempo $\tau=RC$ es una medida del tiempo característico del sistema, note que depende de los valores de los componente del circuito, resistencia y capacitancia. 
+
+Si $R$ es chica respecto de $C$ el tiempo característico será chico. Si $R$ es grande el tiempo característico es grande.
+
+Se dice que el circuito esta estacionario cuando transcurrieron 5 veces $\tau$, en ese momento:
 
 $$
-V_C(t=5\tau) = V_0  (1-e^{-5}) = V_0 \;(1-0.0067) \approx V_0 
+V_C(t=5\tau) = V_0  (1-e^{-5}) = V_0 \;(1-0.007) \approx V_0 
 $$
 
 $$
-I(t=5\tau) = I_0 \times 0.0067 \approx 0
+I(t=5\tau) = I_0 \times 0.007 \approx 0
 $$
 
 

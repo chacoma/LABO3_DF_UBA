@@ -31,7 +31,7 @@ I(t) = \frac{V_0}{R} \big( 1- e^{-\frac{t}{\tau}} \big)
 $$
 
 
-Para $t \to \infty$, al estabilizarse la corriente el inductor no tiene tiene cambio al cual oponerse entonces no genera ninguna fem, por tal motivo los bornes del inductor se comportan como un cortocircuito:
+Para $t \to \infty$, al estabilizarse la corriente el inductor no tiene cambio al cual oponerse, entonces no genera ninguna fem. Por tal motivo los bornes del inductor se comportan como un cortocircuito:
 
 $$
 V_L(t\to\infty)=0
@@ -46,6 +46,19 @@ $$
 
 La constante de tiempo $\tau=\frac{L}{R}$ depende de los valores de los componentes del circuito. Si $R$ es chica respecto a $L$ tardará mucho tiempo en estabilizar la corriente. Si $R$ es grande la estabilización será rápida.
 
+Consideramos que la corriente se estabiliza cuando $t=5\tau$, a ese tiempo:
+
+$$
+I(t=5\tau) = \frac{V_0}{R} ( 1- 0.007 ) \approx \frac{V_0}{R}
+$$
+
+y la tensión en los bornes del inductor es:
+
+$$
+V_L(t=5\tau) = V_0 \times 0.007 \approx 0
+$$
+
+
 #### Descarga
 
 Mientras la fuente esta encendida, el inductor almacena energía en forma de campo magnético,
@@ -54,7 +67,7 @@ $$
 E_L = \frac{1}{2} L I_\infty^2
 $$
 
-Si se corta la fuente abruptamente el inductor se opone al cambio de corriente en el circuito generando una tensión para mantener el flujo de corriente. Es decir, genera una "fuente" con la cara positiva mirando hacia donde sale la corriente, para "empujarla" y que no pare de circular. Entonce a $t=0$ la tensión será:
+Si se corta la fuente abruptamente el inductor se opone al cambio de corriente en el circuito generando una tensión para mantener el flujo de corriente. Es decir, genera una "fuente" con la cara positiva mirando hacia donde sale la corriente, para "empujarla" y que no pare de circular. Entonces a $t=0$ la tensión será:
 
 $$
 V_L = - V_0
