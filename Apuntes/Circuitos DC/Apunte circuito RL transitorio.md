@@ -44,7 +44,9 @@ I_{Max} = I_\infty= \frac{V_0}{R}
 $$
 
 
-La constante de tiempo $\tau=\frac{L}{R}$ depende de los valores de los componentes del circuito. Si $R$ es chica respecto a $L$ tardará mucho tiempo en estabilizar la corriente. Si $R$ es grande la estabilización será rápida.
+La constante de tiempo $\tau=\frac{L}{R}$ depende de los valores de los componentes del circuito. 
+
+Si $R$ es chica respecto a $L$ tardará mucho tiempo en estabilizar la corriente. Si $R$ es grande la estabilización será rápida.
 
 Consideramos que la corriente se estabiliza cuando $t=5\tau$, a ese tiempo:
 
@@ -84,3 +86,9 @@ la tensión decae también de manera exponencial pero con la polaridad invertida
 $$
 V_L(t) = - V_0 e^{-\frac{t}{\tau}}
 $$
+
+### 2. Experimento propuesto
+
+### 3. Derivación y resolución de las ecuaciones diferenciales
+
+### 4. Notas teóricas sobre el inductor
