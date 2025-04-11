@@ -88,10 +88,17 @@ Para obtener las tensión que cae en el inductor, tenemos que considerar que $V_
 
 $$
 \boxed{
-    V_L(t) =  \frac{V_0 \omega_0}{\omega} e^{-\gamma t} \sin(\omega t + \phi) 
+    V_L(t) = V_0 e^{-\gamma t} \left( \cos(\omega t) - \frac{\gamma}{\omega} \sin(\omega t) \right)
 }
 $$
 
+
+Para obtener la caida de tensión en el capacitor, consideramos $V_C(t)= \frac{1}{C} \int I dt$, luego se puede probar que,
+
 $$
-\phi = \pi - \tan^{-1}\left( \frac{\omega}{\gamma} \right) 
+\boxed{
+V_C(t) = V_0 \left( 1 - e^{-\gamma t} \left( \cos(\omega t) + \frac{\gamma}{\omega} \sin(\omega t) \right) \right)
+}
 $$
+
+
