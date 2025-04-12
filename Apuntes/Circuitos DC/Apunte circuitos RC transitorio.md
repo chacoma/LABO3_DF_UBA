@@ -76,6 +76,35 @@ $$
 
 ### 2. Experimento propuesto
 
+La idea es exitar el circuito con una onda cuadrada para estudiar el proceso de carga y descarga del capacitor. 
+
+![squem](images/RC_squem.jpg)
+
+Obetivos:
+
+- Variar la resistencia $R_2$ para obtener distintas configuraciones
+- Obtener ciclos de carga y descarga completos
+- Lograr ajustes adecuados de $V_C(t)$ e $I(t)$ de los cuales extraigan el tiempo característico para cada valor de $R_2$
+- Comprobar la linealidad entre $\tau$ y $R$. Con un ajuste determinar $C$
+
+Los tiempos de alto y bajo de la onda cuadrada tienen que ser de aprox $t \approx 5\tau$ para observar todo el proceso de carga y descarga adecuadamente.
+
+En el chanel 1 se mide la tensión del generador de funciones, ese canal puede obtenerse con un *conector T* directo del generador.
+
+En el chanel 2 se mide la tensión en los bornes del capacitor.
+
+La corriente se mide indirectamente como:
+
+$$
+I = \frac{V_{CH1}- V_{CH2}}{ R_1+R_2 }
+$$
+
+Para obtener el error de la corriente hay que propagar el error tensión y resistencia.
+
+
+
+
+
 ### 3. Derivación y resolución de las ecuaciones diferenciales
 
 ### 4. Notas teóricas sobre el capacitor de placas paralelas
