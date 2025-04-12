@@ -95,7 +95,7 @@ $$
 
 
 $$
-I(t) = \frac{V_0}{L} t \, e^{-\gamma t}.
+I(t) = \frac{V_0}{L} t  e^{-\gamma t}.
 $$
 
 
