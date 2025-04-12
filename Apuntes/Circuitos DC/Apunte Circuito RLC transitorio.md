@@ -135,6 +135,8 @@ $$
 
 [Colab para el cálculo del tiempo carcterístico](https://colab.research.google.com/drive/1yhTcZA-GSk9p4tQdrW828Y4U56DDYV1Q?usp=sharing){:target="_blank"}
 
+<a href="https://ejemplo.com" target="_blank">Texto del enlace</a>
+
 - Generar un tren de pulsos cuadrados, tiempo de alto y bajo aproximadamente $5\tau$ para poder ver el transitorio completo.
 
 - Adquirir con el osciloscopio la salida generador de funciones $V_{in}$ y los bornes del capacitor $V_C$, uno en cada canal.
