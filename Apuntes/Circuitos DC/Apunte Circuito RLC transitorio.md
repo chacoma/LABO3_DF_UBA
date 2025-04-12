@@ -80,7 +80,7 @@ Para sacar el valor de las constantes, usamos las condiciones inciales (1) $I(t=
 
 $$
 \boxed{
-I(t) = \frac{V_0}{\omega L} e^{-\gamma t} sin(\omega t)
+I(t) = \frac{V_0}{L \omega} e^{-\gamma t} sin(\omega t)
 }
 $$
 
