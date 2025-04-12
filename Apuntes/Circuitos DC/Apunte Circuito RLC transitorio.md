@@ -13,7 +13,7 @@ $$
 R < 2 \sqrt{ \frac{L}{C} } 
 $$
 
-- **Caso crítico amortiguado.** Curva suave con un único pico antes de decaer, alcanza un máximo en un único pico, tiempo característico $\tau= \frac{2L}{R}$.
+- **Caso crítico.** Curva suave con un único pico antes de decaer, alcanza un máximo en un único pico, tiempo característico $\tau= \frac{2L}{R}$.
 
 $$
 R = 2 \sqrt{ \frac{L}{C} } 
@@ -94,36 +94,36 @@ $$
 
 
 
-\[
+$$
 I(t) = \frac{V_0}{L} t \, e^{-\gamma t}.
-\]
+$$
 
 
-\[
+$$
 V_L(t) = V_0 e^{-\gamma t} (1 - \gamma t).
-\]
+$$
 
 
-\[
+$$
 V_C(t) = V_0 \left( 1 - e^{-\alpha t} (1 + \alpha t) \right).
-\]
+$$
 
 
 #### **Caso sobre amortiguado**: $\gamma^2 > \omega_0^2$
 
 
-\[
+$$
 I(t) = \frac{V_0}{L (s_1 - s_2)} \left( e^{s_1 t} - e^{s_2 t} \right).
-\]
+$$
 
-\[
+$$
 V_L(t) = \frac{V_0}{s_1 - s_2} \left( s_1 e^{s_1 t} - s_2 e^{s_2 t} \right).
-\]
+$$
 
 
-\[
+$$
 V_C(t) = V_0 \left( 1 - \frac{s_2 e^{s_1 t} - s_1 e^{s_2 t}}{s_2 - s_1} \right).
-\]
+$$
 
 
 
