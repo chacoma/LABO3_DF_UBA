@@ -105,7 +105,7 @@ $$
 
 
 $$
-V_C(t) = V_0 \left( 1 - e^{-\alpha t} (1 + \alpha t) \right).
+V_C(t) = V_0 \left( 1 - e^{-\gamma t} (1 + \gamma t) \right).
 $$
 
 
