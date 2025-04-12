@@ -66,9 +66,9 @@ $$
 s_{1,2} = -\gamma \pm \sqrt{ \gamma^2 - \omega_0^2 }
 $$
 
-Dependiendo el valor del discriminante, tendremos distinto tipo de soluciones:
+Dependiendo el valor del discriminante, tendremos distinto tipo de soluciones
 
-**Caso Sub amortiguado**: $\gamma^2 - \omega_0^2 < 0$
+ #### **Caso Sub amortiguado**: $\gamma^2 - \omega_0^2 < 0$
 
 Definimos $\omega = \omega_0^2 - \gamma^2 $, luego la solución se puede escribir como:
 
