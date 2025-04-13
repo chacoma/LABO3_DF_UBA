@@ -99,10 +99,25 @@ $$
 I = \frac{V_{CH1}- V_{CH2}}{ R_1+R_2 }
 $$
 
+
+**Propagación de errores**
+
 Para obtener el error de la corriente hay que propagar el error tensión y resistencia.
 
+El error de la tensión depende de la escala del osciloscopio.
 
+El error de la resistencia depende del error del voltimetro que utilizamos para medirla.
 
+Si tenemos variables independientes y errores pequeños, el error se puede calcular con el método de derivadas parciales:
+
+$$
+\Delta I = \sqrt{
+(\frac{\partial I}{\partial V_1}\Delta V_1 )^2 +  
+(\frac{\partial I}{\partial V_2}\Delta V_2 )^2 +
+(\frac{\partial I}{\partial R_1}\Delta R_1 )^2 +
+(\frac{\partial I}{\partial R_2}\Delta R_2 )^2 
+} 
+$$
 
 
 ### 3. Derivación y resolución de las ecuaciones diferenciales
