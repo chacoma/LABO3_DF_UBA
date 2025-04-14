@@ -72,7 +72,7 @@ Donde $s_1$ raiz de decaimiento lento y $s_2$ raiz de decaimiento rápido. Depen
 
  #### **Caso Sub amortiguado**: $\gamma^2 < \omega_0^2$
 
-Definimos $\omega = \omega_0^2 - \gamma^2 $.
+Definimos $\omega^2 = \omega_0^2 - \gamma^2 $.
 
 
 
