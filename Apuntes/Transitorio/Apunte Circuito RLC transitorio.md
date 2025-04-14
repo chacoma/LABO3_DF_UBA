@@ -13,13 +13,13 @@ $$
 R < 2 \sqrt{ \frac{L}{C} } 
 $$
 
-- **Caso crítico.** Curva suave con un pico antes de decaer, alcanza un máximo, tiempo característico $\tau= \frac{2L}{R}$.
+- **Caso crítico.** Curva suave con un pico antes de decaer, la corriente alcanza un máximo, tiempo característico $\tau= \frac{2L}{R}$.
 
 $$
 R = 2 \sqrt{ \frac{L}{C} } 
 $$
 
-- **Caso sobre amortiguado.** Decaimiento exponencial sin oscilaciones puede alcanzar un máximo dependiendo de las CI. Tiempo caracterísitico $\tau= \frac{2L}{R-\sqrt{ R^2 - 4L/C }}$.
+- **Caso sobre amortiguado.** Decaimiento exponencial sin oscilaciones, la corriente puede alcanzar un máximo dependiendo de las CI. Tiempo caracterísitico $\tau= \frac{2L}{R-\sqrt{ R^2 - 4L/C }}$.
 
 $$
 R > 2 \sqrt{ \frac{L}{C} } 
