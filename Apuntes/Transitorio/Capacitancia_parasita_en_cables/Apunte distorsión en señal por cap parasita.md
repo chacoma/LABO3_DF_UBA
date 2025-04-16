@@ -62,7 +62,7 @@ Este filtro producirá **atenuación** y **desfasaje** en la señal.
 
 Un ejemplo numérico, nuestros Datos:  
 
-\(R_{out} = 50 \ \Omega\), \(R_{in} = 1 \ \text{MΩ}\), \(C_{par} = 100 \ \text{pF}\), \(f = 10 \ \text{MHz}\) (\(\omega = 2 \pi \times 10^7\)).  
+$R_{out} = 50 \ \Omega$, $R_{in} = 1 \ \text{MΩ}$, $C_{par} = 100 \ \text{pF}$, $f = 10 \ \text{MHz} ($\omega = 2 \pi \times 10^7$).  
 
 **Estimación de la atenuación**:  
 
@@ -90,12 +90,12 @@ $$
 Esto significa que \(V_{in}\) *retrasa* a \(V_{out}\) en $17.4$ grados a $10 MHz$. 
 
 ---
-### Simulación
+### 2. Simulación
 
 
 Voy a simular el circuito para ver si puedo recrear el efecto de distorsión. Uso los valores tipicos:
 
-\(R_{out} = 50 \ \Omega\), \(R_{in} = 1 \ \text{MΩ}\), \(C_{par} = 100 \ \text{pF}\)
+$R_{out} = 50 \ \Omega$, $R_{in} = 1 \ \text{MΩ}$, $C_{par} = 100 \ \text{pF}$
 
 La frecuencia de corte para estos valores esta en $f_c \approx 32 MHz$.
 
