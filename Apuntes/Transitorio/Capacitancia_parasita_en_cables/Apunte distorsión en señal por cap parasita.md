@@ -81,7 +81,7 @@ A 10 MHz, hay una atenuación del 5%.
 **Estimación del desfase**:
 
 $$
-\phi = -\arctan\left(\frac{\text{Parte imaginaria}}{\text{Parte real}}\right) = -\arctan(\omega R_{out} C_{par}
+\phi = -\arctan\left(\frac{\text{Parte imaginaria}}{\text{Parte real}}\right) = -\arctan(\omega R_{out} C_{par})
 $$  
 
 $$
