@@ -1,4 +1,4 @@
-## Distorción de señal por capacitancia parásita en los cables BNC
+## Distorsión de señal por capacitancia parásita en los cables BNC
 
 ### 1. Modelo
 
