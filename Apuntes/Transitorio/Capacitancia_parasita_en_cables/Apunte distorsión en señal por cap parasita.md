@@ -62,7 +62,7 @@ Este filtro producirá **atenuación** y **desfasaje** en la señal.
 
 Un ejemplo numérico, nuestros Datos:  
 
-$R_{out} = 50 \ \Omega$, $R_{in} = 1 \ \text{MΩ}$, $C_{par} = 100 \ \text{pF}$, $f = 10 \ \text{MHz} ($\omega = 2 \pi \times 10^7$).  
+$R_{out} = 50\Omega$, $R_{in} = 1\text{MΩ}$, $C_{par} = 100 \text{pF}$, $f = 10 \ \text{MHz}$ ($\omega = 2 \pi \times 10^7$).  
 
 **Estimación de la atenuación**:  
 
@@ -81,13 +81,14 @@ A 10 MHz, hay una atenuación del 5%.
 **Estimación del desfase**:
 
 $$
-\phi = -\arctan\left(\frac{\text{Parte imaginaria}}{\text{Parte real}}\right) = -\arctan(\omega R_{out} C_{par} )
+\phi = -\arctan\left(\frac{\text{Parte imaginaria}}{\text{Parte real}}\right) = -\arctan(\omega R_{out} C_{par}
 $$  
 
 $$
 \phi = -\arctan(0.314) \approx -17.4^\circ.
-$$  
-Esto significa que \(V_{in}\) *retrasa* a \(V_{out}\) en $17.4$ grados a $10 MHz$. 
+$$
+
+Esto significa que $V_{in}$ *retrasa* a $V_{out}$ en $17.4$ grados a $10 MHz$. 
 
 ---
 ### 2. Simulación
