@@ -100,7 +100,7 @@ $R_{out} = 50 \ \Omega$, $R_{in} = 1 \ \text{MΩ}$, $C_{par} = 100 \ \text{pF}$
 
 La frecuencia de corte para estos valores esta en $f_c \approx 32 MHz$.
 
-Voy a simular una 3 señales tipo rampa de distintas frecuencias: (1) $f_s = 10 MHz$, por debajo de $f_c$, (2) $f_s = 32 MHz$, a $f_c$, y (3) $f_s = 60 MHz$, por arriba de $f_c$.
+Voy a simular tres señales tipo rampa de distintas frecuencias: (1) $f_s = 10 MHz$, por debajo de $f_c$, (2) $f_s = 32 MHz$, a $f_c$, y (3) $f_s = 60 MHz$, por arriba de $f_c$.
 
 En el gráfico de abajo muestro los resultados:
 
