@@ -10,13 +10,13 @@ La forma más simple de modelar este efecto es considerar que la conexión entre
 
 ![circ](datos/cap_parasita_esq.jpg)
 
-De un lado tengo el thevenin del generador, con un resistencia de salida $R_{out}$, del otro lado tengo el thevenin del Osciloscopio con una resistencia de entrada $R_{in}$, y en el medio, entre la conexión del vivo y la tierra del cable BNC tengo un capacitor parásito $C_p$.
+De un lado tengo el Thevenin del generador, con un resistencia de salida $R_{out}$, del otro lado tengo el Thevenin del Osciloscopio con una resistencia de entrada $R_{in}$, y en el medio, entre la conexión del vivo y la tierra del cable BNC tengo un capacitor parásito $C_p$.
 
 Los **valores típicos** en esta configuración son:
 
 - $R_{out} \approx 50 \Omega$, impedancia de salida del generador
 - $R_{in} \approx 1 M\Omega$, impedancia de entrada al Osciloscopio.
-- $C_p \approx 100 \frac{pF}{m}$, viene dado por el fabricante de cables, significa que cada 1 metro agrega $100pF$ de capacitancia. Supongamos que tienen un cable de 2 metros, en ese cado $C_p \approx 200 pF$.
+- $C_p \approx 100 \frac{pF}{m}$, viene dado por el fabricante de cables, significa que cada 1 metro agrega $100pF$ de capacitancia. Supongamos que tienen un cable de 2 metros, en ese caso $C_p \approx 200 pF$.
 
 La **tensión de salida en función de la tensión de entrada**  puede escribirse así:
 
@@ -94,7 +94,7 @@ Esto significa que $V_{in}$ *retrasa* a $V_{out}$ en $17.4$ grados a $10 MHz$.
 ### 2. Simulación
 
 
-Voy a simular el circuito para ver si puedo recrear el efecto de distorsión. Uso los valores tipicos:
+Voy a simular el circuito para ver si puedo recrear el efecto de distorsión. Uso los valores típicos:
 
 $R_{out} = 50 \ \Omega$, $R_{in} = 1 \ \text{MΩ}$, $C_{par} = 100 \ \text{pF}$
 
@@ -115,7 +115,7 @@ Vemos que la distorisión es significativa a $f_s=10 MHz$, apreciable a $f_s=f_c
 Esto muestra la importancia de considerar el efecto de los cables en circuitos de alta frecuencia.
 
 
-Para esta simulación use el programa LTSpice, el archivo utilizado **circuito_paracito.asc** esta en esta misma carpeta, lo dejo por que si quieren probar por ustedes mismos.
+Para esta simulación use el programa LTSpice, el archivo utilizado **circuito_paracito.asc** esta en esta misma carpeta.
 
 
 
