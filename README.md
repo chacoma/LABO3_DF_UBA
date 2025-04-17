@@ -1,9 +1,6 @@
 # Contenido 
 
 
-En este repo recopilo material de estudio para la cátedra Laboratorio 3 
-
-
 ### /
 
 ### Apuntes/
