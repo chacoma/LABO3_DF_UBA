@@ -1,9 +1,12 @@
 # Contenido 
 
 
-**/**
+En este repo recopilo material de estudio para la cátedra Laboratorio 3 
 
-**Apuntes/**
+
+### /
+
+### Apuntes/
 
 **├── Transitorio/**
 
@@ -37,7 +40,7 @@
 
 │   ├── [Exp 2 - R interna de amperimetro](./Apuntes/Circuitos%20DC/Exp%202%20-%20R%20interna%20de%20amperimetro.md)
 
-**Programas/**
+### Programas/
 
 **├── Analisis_Transitorio/**
 
