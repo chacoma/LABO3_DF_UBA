@@ -22,35 +22,39 @@ $$
 Donde la impedancia en serie $Z_{LC}$ es :
 
 $$
-Z_{LC} = j \omega L + \frac{1}{j \omega C}
+Z_{LC} = j \omega L + \frac{1}{j \omega C} = j (\omega L- \frac{1}{ \omega C} )
+$$
+
+
+Defino la reactancia
+
+$$
+X(\omega) = \omega L- \frac{1}{ \omega C} 
 $$
 
 Luego,
 
 $$
-V_{out} = V_{in}  \frac{ 1 }{ 1 + j \omega \frac{L}{R} + \frac{1}{j \omega C R}  }
+V_{out} = V_{in}  \frac{ 1 }{ 1 + j \frac{X(\omega)}{R}}
 $$
 
 Definimos la función de transferencia compleja $T$ como:
 
-$$
-V_{out} = T V_{in}  
-$$
 
 $$
-T(\omega) = \frac{ 1 }{ 1 + j \big( \omega \frac{L}{R} - \frac{1}{\omega R C} \big)}
+T(\omega) = \frac{ 1 }{ 1 + j \frac{X(\omega)}{R}}
 $$
 
 La relación entre las amplitudes de entrada y salida viene dada por el modulo de la función de transferencia:
 
 $$
-|T| = \frac{v_{out}}{v_{in}} = \frac{1}{ \sqrt{1 + \big( \omega \frac{L}{R} - \frac{1}{\omega R C} \big)^2}}
+|T| = \frac{v_{out}}{v_{in}} = \frac{1}{ \sqrt{1 + \big( \frac{X(\omega)}{R} )^2}}
 $$
 
 La diferencia de fase será la fase de la función de transferencia:
 
 $$
-\Delta \phi = tan^{-1} \big( \frac{Im(T)}{Re(T)} \big) = -tan^{-1} \big( \omega \frac{L}{R} - \frac{1}{\omega R C}  \big)
+\Delta \phi = tan^{-1} \big( \frac{Im(T)}{Re(T)} \big) = -tan^{-1} \big( \frac{X(\omega)}{R}   \big)
 $$
 
 Note que cuando, 
@@ -157,7 +161,7 @@ $$
 donde $BWD$ es el ancho de banda y esta definido como:
 
 $$
-BWD = f_1 -f_2
+BWD = \omega_2 - \omega_1
 $$
 
-Aquí $f_1$ y $f_2$ se extraen del gráfico de la potencia activa. Se traza una horizontal a la mitad de la potencia máxima, se toman los valores de frecuencia donde la horizontal corta el gráfico de la potencia.
+Aquí $\omega_1$ y $\omega_2$ se extraen del gráfico de la potencia activa. Se traza una horizontal a la mitad de la potencia máxima, se toman los valores de frecuencia donde la horizontal corta el gráfico de la potencia.
