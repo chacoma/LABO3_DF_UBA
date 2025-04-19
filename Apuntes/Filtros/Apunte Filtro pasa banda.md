@@ -78,7 +78,7 @@ A esa frecuencia la energía que se libera en el capacitor es igual a la que abs
 El factor de merito del filtro se define como:
 
 $$
-Q = 2 \pi \frac{Energía \; Almacenada}{Energía \; Disipada \; \times \; ciclo }
+Q = 2 \pi \frac{Energía \ Almacenada}{Energía \ Disipada \ \times \ ciclo }
 $$
 
 
