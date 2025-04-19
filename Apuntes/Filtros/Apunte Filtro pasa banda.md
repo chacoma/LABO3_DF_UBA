@@ -75,12 +75,89 @@ A esa frecuencia la energía que se libera en el capacitor es igual a la que abs
 
 ## 2. Factor de mérito
 
-El factor de merito del filtro se define como:
+El factor de merito del filtro se define en resonancia como:
 
 $$
 Q = 2 \pi \frac{Energía \ Almacenada}{Energía \ Disipada \ \times \ ciclo }
 $$
 
+donde la energía almacenada es:
+
+$$
+E_{Alm} = \frac{1}{2} L I^2 + \frac{1}{2} C V^2 
+$$
+
+La energía disipada por ciclo en resonancia es:
+
+$$
+E_{Dis \ ciclo} = I^2 R \times \frac{1}{\tau} =  I^2 R \times \frac{2 \pi}{\omega_0} 
+$$
+
+Es importante aclarar que aquí la corriente $I$ es la misma la misma en todo el circuito, en otras configuraciones de filtros RLC esto puede cambiar, así que hay que ser cuidadosos al calcular las energías.
+
+En resonancia los dos términos de la energía almacenada son iguales, entonces
+
+$$
+E_{Alm} = L I^2
+$$
+
+con esto, podemos calcular $Q$:
+
+$$
+Q = 2 \pi \frac{L I^2}{ I^2 R \times \frac{2 \pi}{\omega_0}}=  \frac{\omega_0 L}{R}
+$$
+
+Note que cuando $R$ crece, $Q$ se hace más pequeño.
 
 
+## 3. Potencia
 
+
+La potencia total en el sistema puede expresarse en forma compleja como:
+
+$$
+S = V I^* = V(\frac{V}{Z})^* = |V|^2 \frac{1}{ R - j X }
+$$
+
+Donde $R$ es la resistencia y $X$ es la impedancia reactiva.
+
+La parte real de este objeto será la potencia activa:
+
+$$
+P_a = v_{in}^2 \frac{R}{R^2 + X^2}
+$$
+
+Esta es la potencia que se gasta en el sistema. Asimismo definimos la potencia reactiva como:
+
+$$
+P_{reac} = v_{in}^2 \frac{X}{R^2 + X^2}
+$$
+
+Esta potencia no se disipa en trabajo útil, se transfiere entre los componentes inductivos y capacitivos del sistema. Note que en resonancia $X=0$ de modo que toda la potencia que se disipa es activa.
+
+En terminos de la función de transferencia note que:
+
+$$
+\frac{|T|^2}{R} = \frac{R}{R^2 + X^2}
+$$
+
+luego,
+
+$$
+P_a = v_{in}^2 \frac{|T|^2}{R} = \frac{v_{in}^2 \times \frac{v_{out}^2}{v_{in}^2}}{R} = \frac{v_{out}^2}{R}
+$$
+
+
+El factor de mérito también puede ser expresado en terminos de la potencia como:
+
+$$
+Q = \frac{f_0}{BWD}
+$$
+
+donde $BWD$ es el ancho de banda y esta definido como:
+
+$$
+BWD = f_1 -f_2
+$$
+
+Aquí $f_1$ y $f_2$ se extraen del gráfico de la potencia activa. Se traza una horizontal a la mitad de la potencia máxima, se toman los valores de frecuencia donde la horizontal corta el gráfico de la potencia.
