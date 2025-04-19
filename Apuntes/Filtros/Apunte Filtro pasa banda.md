@@ -1,5 +1,6 @@
 # Filtro pasa banda
 
+## 1. Conceptos básicos
 
 ```
  _____ -(SIN,f)+ _____ L _____ C _____ R _____   
@@ -72,7 +73,13 @@ A esa frecuencia la energía que se libera en el capacitor es igual a la que abs
 
 
 
+## 2. Factor de mérito
 
+El factor de merito del filtro se define como:
+
+$$
+Q = 2 \pi \frac{Energía \; Almacenada}{Energía \; Disipada \; \times \; ciclo }
+$$
 
 
 
