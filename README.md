@@ -9,7 +9,7 @@
 
 │   ├── [Apunte Filtros pasa-bajos](./Apuntes/Filtros/Apunte%20Filtros%20pasa-bajos.md)
 
-│   ├── [Apunte filtros pasa-altos](./Apuntes/Filtros/Apunte%20filtros%20pasa-altos.md)
+│   ├── [Apunte Filtros pasa-altos](./Apuntes/Filtros/Apunte%20Filtros%20pasa-altos.md)
 
 │   ├── [Apunte Filtro cancela banda](./Apuntes/Filtros/Apunte%20Filtro%20cancela%20banda.md)
 
