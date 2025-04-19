@@ -5,6 +5,16 @@
 
 ### Apuntes/
 
+**├── Filtros/**
+
+│   ├── [Apunte Filtros pasa-bajos](./Apuntes/Filtros/Apunte%20Filtros%20pasa-bajos.md)
+
+│   ├── [Apunte filtros pasa-altos](./Apuntes/Filtros/Apunte%20filtros%20pasa-altos.md)
+
+│   ├── [Apunte Filtro cancela banda](./Apuntes/Filtros/Apunte%20Filtro%20cancela%20banda.md)
+
+│   ├── [Apunte Filtro pasa banda](./Apuntes/Filtros/Apunte%20Filtro%20pasa%20banda.md)
+
 **├── Transitorio/**
 
 │   ├── [Apunte circuito RL transitorio](./Apuntes/Transitorio/Apunte%20circuito%20RL%20transitorio.md)
