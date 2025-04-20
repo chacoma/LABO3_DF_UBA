@@ -83,3 +83,7 @@
 
 │   ├── [Tutorial_Ajuste_lineal](./Programas/Tutorial_Ajuste_Lineal/Tutorial_Ajuste_lineal.ipynb)
 
+**├── Filtros/**
+
+│   ├── [analisis_filtro_pasa_banda](./Programas/Filtros/analisis_filtro_pasa_banda.ipynb)
+
