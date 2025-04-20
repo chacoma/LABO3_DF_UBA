@@ -85,5 +85,9 @@
 
 **├── Filtros/**
 
-│   ├── [analisis_filtro_pasa_banda](./Programas/Filtros/analisis_filtro_pasa_banda.ipynb)
+│   ├── [Tuto_Adq_filtros](./Programas/Filtros/Tuto_Adq_filtros.ipynb)
+
+**│   ├── analisis/**
+
+│   │   ├── [analisis_filtro_pasa_banda](./Programas/Filtros/analisis/analisis_filtro_pasa_banda.ipynb)
 
