@@ -85,7 +85,7 @@
 
 **├── Filtros/**
 
-│   ├── [Tuto_Adq_filtros](./Programas/Filtros/Tuto_Adq_filtros.ipynb)
+│   ├── [Tutorial_Adq_filtros](./Programas/Filtros/Tutorial_Adq_filtros.ipynb)
 
 **│   ├── analisis/**
 
