@@ -177,6 +177,7 @@ $j\omega$ en el dominio de Laplace/Fourier corresponde a **derivar en el tiempo*
 $RC$ es una constante.  
 
 Entonces, en el **dominio del tiempo**:  
+
 $$
 V_{out}(t) \approx RC \cdot \frac{d}{dt} V_{in}(t)
 $$  
