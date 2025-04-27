@@ -141,8 +141,30 @@ A la frecuencia de corte la atenuación es $A(f_c)\approx 3dB$.
 
 Para $f > f_c$, la atenuación decrece a una razón constante de $20 dB$ por década.
 
+## 4. Aplicacion circuito integrador
 
-## 4. Experimento propuesto
+
+Un filtro **pasa bajos RC**  actúa como **integrador** cuando:  
+
+La frecuencia de la señal es mucho mayor que la frecuencia de corte, $f \gg f_c = \frac{1}{2\pi RC}$.  
+
+
+Cuando $\omega RC \gg 1$ (es decir, $f \gg f_c$):  
+
+El denominador domina $j\omega RC$, y la función se aproxima a:  
+$H(j\omega) \approx \frac{1}{j\omega RC}$  
+
+Esto significa que la salida en el dominio de la frecuencia es:  
+$V_{out}(j\omega) \approx \frac{1}{j\omega RC} \cdot V_{in}(j\omega)$  
+
+En el dominio del tiempo, esta operación se traduce en:  
+$V_{out}(t) \approx \frac{1}{RC} \int V_{in}(t) \, dt$
+
+
+
+
+
+## 5. Experimento propuesto
 
 Armar un circuito filtro pasa-bajos
 

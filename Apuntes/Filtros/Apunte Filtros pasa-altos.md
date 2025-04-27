@@ -141,8 +141,44 @@ A la frecuencia de corte la atenuación es $A(f_c)\approx -3dB$.
 
 Para $f <f_c$, la atenuación crece a una razón constante de $20 dB$ por década.
 
+## 4. Aplicación circuito derivador
 
-## 4. Experimento propuesto
+¡Directo al grano! Aquí está la aproximación matemática que muestra por qué un **circuito pasa altos RC** (con salida en la resistencia) actúa como **derivador** en bajas frecuencias.
+
+
+
+**Aproximación para \( \omega RC \ll 1 \) (frecuencias bajas)**
+
+Cuando la frecuencia es mucho menor que la frecuencia de corte $f \ll f_c = \frac{1}{2\pi RC}$:  
+
+1. El término $j\omega RC$ en el denominador es despreciable:  
+   $$
+   1 + j\omega RC \approx 1
+   $$  
+2. La función de transferencia se simplifica a:  
+   $$
+   H(j\omega) \approx j\omega RC
+   $$  
+
+
+En el dominio de la frecuencia:  
+$$
+V_{out}(j\omega) \approx j\omega RC \cdot V_{in}(j\omega)
+$$  
+
+Sabemos que:  
+- $j\omega$ en el dominio de Laplace/Fourier corresponde a **derivar en el tiempo**.  
+- $RC$ es una constante.  
+
+Entonces, en el **dominio del tiempo**:  
+$$
+V_{out}(t) \approx RC \cdot \frac{d}{dt} V_{in}(t)
+$$  
+
+
+
+
+## 5. Experimento propuesto
 
 Armar un circuito filtro pasa-altos
 
