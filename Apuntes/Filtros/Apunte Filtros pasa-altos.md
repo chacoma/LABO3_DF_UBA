@@ -147,18 +147,19 @@ Para $f <f_c$, la atenuación crece a una razón constante de $20 dB$ por décad
 
 
 
-**Aproximación para \( \omega RC \ll 1 \) (frecuencias bajas)**
+Aproximación para $\omega RC \ll 1$ (frecuencias bajas):
 
 Cuando la frecuencia es mucho menor que la frecuencia de corte $f \ll f_c = \frac{1}{2\pi RC}$:  
 
-1. El término $j\omega RC$ en el denominador es despreciable:  
-   $$
-   1 + j\omega RC \approx 1
-   $$  
-2. La función de transferencia se simplifica a:  
-   $$
-   H(j\omega) \approx j\omega RC
-   $$  
+El término $j\omega RC$ en el denominador es despreciable:  
+$$
+1 + j\omega RC \approx 1
+$$  
+
+La función de transferencia se simplifica a:  
+$$
+H(j\omega) \approx j\omega RC
+$$  
 
 
 En el dominio de la frecuencia:  
@@ -167,8 +168,10 @@ V_{out}(j\omega) \approx j\omega RC \cdot V_{in}(j\omega)
 $$  
 
 Sabemos que:  
-- $j\omega$ en el dominio de Laplace/Fourier corresponde a **derivar en el tiempo**.  
-- $RC$ es una constante.  
+
+$j\omega$ en el dominio de Laplace/Fourier corresponde a **derivar en el tiempo**.  
+
+$RC$ es una constante.  
 
 Entonces, en el **dominio del tiempo**:  
 $$
