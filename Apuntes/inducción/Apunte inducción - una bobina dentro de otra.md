@@ -19,7 +19,10 @@ Para frecuencias superiores a cierto limite, que depende de los componentes de s
 Planteamos las ecuaciones del circuito,
 
 $$
-V_i = I_1 Z_{L1} \pm I_2 Z_M+ V_R  \\
+V_i = I_1 Z_{L1} \pm I_2 Z_M+ V_R
+$$
+
+$$
 V_{ZC} = I_2 Z_{L2} \mp I_1 Z_M
 $$
 
@@ -28,7 +31,10 @@ donde las impedancias son $Z_{L1}=j\omega L_1$, $Z_M=j \omega M$, $Z_{L2}=j \ome
 Si $Z_C\to \infty$, por ejemplo en el caso de la impedancia de entrada del osciloscopio, el secundario queda abierto, entonces $I_2 \approx 0$ y $V_{ZC}=V_s$. Luego,
 
 $$
-V_i = I_1 j \omega L1 + V_R  \\
+V_i = I_1 j \omega L1 + V_R
+$$
+
+$$
 V_{s} = \mp I_1 j \omega M
 $$
 
