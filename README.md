@@ -27,6 +27,10 @@
 
 │   │   ├── [Apunte distorsión en señal por cap parasita](./Apuntes/Transitorio/Capacitancia_parasita_en_cables/Apunte%20distorsión%20en%20señal%20por%20cap%20parasita.md)
 
+**├── inducción/**
+
+│   ├── [Apunte inducción - una bobina dentro de otra](./Apuntes/inducción/Apunte%20inducción%20-%20una%20bobina%20dentro%20de%20otra.md)
+
 **├── Circuitos DC/**
 
 │   ├── [Apunte divisor de tensión](./Apuntes/Circuitos%20DC/Apunte%20divisor%20de%20tensión.md)
@@ -79,6 +83,12 @@
 
 │   ├── [Tutorial_Oper_GenFunc_Siglent](./Programas/Tutoriales_Adquicision/Tutorial_Oper_GenFunc_Siglent.ipynb)
 
+**├── Analisis_induccion/**
+
+│   ├── [analisis_freq](./Programas/Analisis_induccion/analisis_freq.ipynb)
+
+**│   ├── data/**
+
 **├── Tutorial_Ajuste_Lineal/**
 
 │   ├── [Tutorial_Ajuste_lineal](./Programas/Tutorial_Ajuste_Lineal/Tutorial_Ajuste_lineal.ipynb)
@@ -88,6 +98,8 @@
 │   ├── [Tutorial_Adq_filtros](./Programas/Filtros/Tutorial_Adq_filtros.ipynb)
 
 **│   ├── analisis/**
+
+│   │   ├── [anomalia_pico_pasabanda](./Programas/Filtros/analisis/anomalia_pico_pasabanda.ipynb)
 
 │   │   ├── [analisis_filtro_pasa_banda](./Programas/Filtros/analisis/analisis_filtro_pasa_banda.ipynb)
 
