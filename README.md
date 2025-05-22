@@ -29,7 +29,7 @@
 
 **├── inducción/**
 
-│   ├── [Apunte inducción - una bobina dentro de otra](./Apuntes/inducción/Apunte%20inducción%20-%20una%20bobina%20dentro%20de%20otra.md)
+│   ├── [Apunte inducción-una bobina dentro de otra](./Apuntes/inducción/Apunte%20inducción-una%20bobina%20dentro%20de%20otra.md)
 
 **├── Circuitos DC/**
 

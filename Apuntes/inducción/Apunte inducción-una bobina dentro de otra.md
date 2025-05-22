@@ -1,4 +1,4 @@
-## Inducción, caso ideal
+## Inducción
 
 
 
@@ -6,7 +6,7 @@
 
 ![circ1](images/circ1.jpg)
 
-El circuito del diagrama permite modelar el comportamiento del sistema (bobina acoplada dentro de otra) en bajas frecuencias, donde los efectos de acoplamiento magnético dominan. A altas frecuencias, este modelo simplificado pierde validez debido a:
+El circuito del diagrama permite modelar el comportamiento del sistema (bobina acoplada dentro de otra) en **bajas frecuencias**, donde los efectos de acoplamiento magnético dominan. A altas frecuencias, este modelo simplificado pierde validez debido a:
 
 - La aparición de capacitancias parásitas entre espiras y entre devanados.
 
@@ -14,9 +14,9 @@ El circuito del diagrama permite modelar el comportamiento del sistema (bobina a
 
 - Resonancias no deseadas por inductancias de dispersión y capacitancias.
 
-Para frecuencias superiores a cierto limite, que depende de los componentes de su circuito, se recomienda incluir estos efectos en el modelo (por ej añadiendo capacitancias en paralelo o resistencias de pérdidas).
+Para frecuencias superiores a cierto limite, que depende de los componentes de tu circuito, es necesario incluir estos efectos en un modelo mas realista, por ejemplo añadiendo capacitancias en paralelo o resistencias de pérdidas. 
 
-Planteamos las ecuaciones del circuito,
+No obstante, con el modelo simple se puede extraer mucho jugo a los datos. Planteado las ecuaciones del circuito del diagrama, tenemos,
 
 $$
 V_i = I_1 Z_{L1} \pm I_2 Z_M+ V_R
@@ -38,7 +38,7 @@ $$
 V_{s} = \mp I_1 j \omega M
 $$
 
-En el secundario no circula corriente pero hay tensión inducida debido al acoplamiento con la bobina del primario.
+En el secundario no circula corriente, pero hay una tensión inducida debido al acoplamiento con la bobina del primario.
 
 Además como medimos la caida de tensión sobre la resistencia, sabemos
 
@@ -46,20 +46,20 @@ $$
 V_R = I_1 R
 $$
 
-Entonces estudiando la relación entre la caída de tensión del secundario y la caída de tensión en la resistencia,
+Y esto es muy bueno, porque estudiando la relación entre la caída de tensión del secundario y la caída de tensión en la resistencia, obtenemos,
 
 
 $$
 \frac{V_s}{V_R} = \frac{\mp I_1 j \omega M}{I_1 R},
 $$
 
-lo bueno es que nos sacamos de encima $I_1$,
+esto nos permite sacamos de encima $I_1$,
 
 $$
  \frac{V_s}{V_R} = \frac{\mp j \omega M }{ R}.
 $$
 
-Tomando modulo nos sacamos de encima la $j$ compleja y los signos, luego,
+Luego, tomando modulo nos sacamos de encima la $j$ compleja y los signos, 
 
 $$
  \frac{v_s}{v_R} = M \frac{\omega }{ R},
@@ -75,7 +75,7 @@ $$
 M = k \sqrt{L_1 L_2}
 $$
 
-Luego si midieron $L_1$ y $L_2$ con el multimetro-RLC, pueden determinar el valor de $k$ que pesa que tan bueno es el acople entre los inductores, en general encontraremos $k<0.8$
+Luego, si midieron $L_1$ y $L_2$ con el multimetro-RLC, pueden determinar el valor de $k$ que pesa que tan bueno es el acople entre los inductores, en general encontraremos $k<0.8$
 
 ### 2. Caso con nucleo de hierro
 
