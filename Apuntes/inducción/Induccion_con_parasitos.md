@@ -1,6 +1,6 @@
 ### Inducción una bobina dentro de otra, caso realista
 
-Para el caso del experimento de una bobina de entro de otra, el modelo más simple falla a altas frecuencias. Esto es debido a la aparición de componentes parásitos en el circuito.
+Para el caso del experimento de una bobina dentro de otra, el modelo más simple falla a altas frecuencias. Esto es debido a la aparición de componentes parásitos en el circuito.
 
 El efecto de alguno de estos componentes parásitos se puede modelar introduciendo combinaciones adecuadas de componentes ideales con el objetivo de capturar los efectos fisícos que producen los parásitos.
 
@@ -21,12 +21,12 @@ Si bien este circuito parace complicado, se puede estudiar facilmente planteando
 
 En el primario se introduce la cantidad $Z_{Ref}$, conocida como impedancia refleja, la cual acopla el efecto del secundario en el primario. 
 
-En el secundario se introduce la *fuente inducida* $V_{L1}$ que acopla en el efecto del primario en el secundario.
+En el secundario se introduce la *fuente inducida* $V_{L1}$ que acopla la tensión inducida por el primario en el secundario.
 
 En el circuito primario las relaciones importantes son,
 
 $$
-Z_1 = R_1 || \frac{1}{j \omega C_1}
+Z_1 = R_1 // \frac{1}{j \omega C_1}
 $$
 
 $$
