@@ -29,6 +29,8 @@
 
 **├── inducción/**
 
+│   ├── [Induccion_con_parasitos](./Apuntes/inducción/Induccion_con_parasitos.md)
+
 │   ├── [Apunte inducción-una bobina dentro de otra](./Apuntes/inducción/Apunte%20inducción-una%20bobina%20dentro%20de%20otra.md)
 
 **├── Circuitos DC/**
@@ -85,7 +87,9 @@
 
 **├── Analisis_induccion/**
 
-│   ├── [analisis_freq](./Programas/Analisis_induccion/analisis_freq.ipynb)
+│   ├── [Induccion_Modelo_bajas_freq](./Programas/Analisis_induccion/Induccion_Modelo_bajas_freq.ipynb)
+
+│   ├── [Induccion_Modelo_Realista](./Programas/Analisis_induccion/Induccion_Modelo_Realista.ipynb)
 
 **│   ├── data/**
 

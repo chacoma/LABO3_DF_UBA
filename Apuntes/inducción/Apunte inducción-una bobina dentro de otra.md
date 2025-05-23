@@ -77,7 +77,7 @@ $$
 
 Luego, si midieron $L_1$ y $L_2$ con el multimetro-RLC, pueden determinar el valor de $k$ que pesa que tan bueno es el acople entre los inductores, en general encontraremos $k<0.8$
 
-### 2. Caso con nucleo de hierro
+### 2. Caso con núcleo de hierro
 
 Al introducir un nucleo de hierro en la bobina del primario, la inductacia de la bobina del primario se multiplicará por un factor,
 
@@ -85,7 +85,7 @@ $$
 L_1^\prime = \mu L_1 
 $$
 
-pero, en este experimento, tambien aumentará la del secundario por que el nucleo también esta dentro de esta, 
+pero, en este experimento, tambien aumentará la del secundario por que el núcleo también esta dentro de esta, 
 
 $$
 L_2^\prime = \mu L_2 
@@ -101,7 +101,7 @@ $$
 M^\prime = k \sqrt{ L_1 L_2} \mu  = M \mu.
 $$
 
-Entonces, **si se repite el experimento con el nucleo magnetico dentro de la bobina del primario**, estudiando la relacion $\frac{v_s}{v_R}$ vs. $\frac{\omega}{R}$ se puede obtener $M^\prime$ y con eso una estimación de $\mu$ como,
+Entonces, **si se repite el experimento con el núcleo magnético dentro de la bobina del primario**, estudiando la relacion $\frac{v_s}{v_R}$ vs. $\frac{\omega}{R}$ se puede obtener $M^\prime$ y con eso una estimación de $\mu$ como,
 
 $$
 \mu = \frac{M^\prime}{M}.

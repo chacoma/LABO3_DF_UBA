@@ -1,0 +1,81 @@
+### Inducción una bobina dentro de otra, caso realista
+
+
+
+![pars](images/parasitos.jpg)
+
+
+Si bien este circuito parace complicado, se puede estudiar facilmente planteando dos circuitos equivalentes acoplados.
+
+![pars](images/parasitos_2.jpg)
+
+En el primario se introduce la cantidad $Z_{Ref}$, conocida como impedancia refleja, la cual acopla el efecto del secundario en el primario. 
+
+En el secundario se introduce la *fuente inducida* $V_{L1}$ que acopla en el efecto del primario en el secundario.
+
+En el circuito primario las relaciones importantes son,
+
+$$
+Z_1 = R_1 || \frac{1}{j \omega C_1}
+$$
+
+$$
+Z_{L1} = r_1 + j \omega L_1
+$$
+
+$$
+Z_{Ref} = \frac{(\omega M)^2}{Z_{V_{L1}}}
+$$
+
+
+$$
+I_1 = I_{L1} \bigg(\frac{Z_{Ref}+Z_{L1}+ Z_1 }{Z_1} \bigg)
+$$
+
+$$
+V_R = I_1 R
+$$
+
+
+Aquí, $Z_{V_{L1}}$ es la impedancia que ve la *fuente inducida* $V_{L1}$ en el secundario.
+
+
+Por otro lado, en el circuito secundario,
+
+
+$$
+V_{L1} = j \omega M I_{L1} = Z_M I_{L1}
+$$
+
+$$
+I_2 = \frac{V_{L1}}{(Z_2 + Z_{L2})}
+$$
+
+$$
+V_S = -V_{L1} + I_2 Z_{L2}
+$$
+
+Donde $I_2$ es la corriente generada por la *funte inducida* $V_{L1}$ que circula sobra la carga de las impedancias de la rama. $V_S$ sale por leyes de Kirchhoff.
+
+Luego se llega a las relaciones,
+
+$$
+V_S= I_{L1} Z_M \bigg( -1  + \frac{Z_{L2}}{Z_2+Z_{L2}} \bigg)
+$$ 
+
+$$
+V_R= R I_{L1} \bigg(\frac{Z_{Ref}+Z_{L1}+ Z_1 }{Z_1} \bigg)
+$$
+
+Luego la ecuación de transferencia compleja viene dada por el cociente,
+
+
+$$
+T = \frac{V_S}{V_R} = 
+\frac{ ( -1  + \frac{Z_{L2}}{Z_2+Z_{L2}}) }
+{R(\frac{Z_{Ref}+Z_{L1}+ Z_1 }{Z_1})}
+$$
+
+Si medimos amplitud CRMS sobre los bornes de $R$ y sobre el secundario, se puede utilizar el modulo de esa expresión para intentar ajustar los datos a alta frecuencia y obtener los valores de los parámetros parásitos.
+
+En el apunte [Induccion modelo realista](../../Programas/Analisis_induccion/Induccion_Modelo_Realista.ipynb), se muestra un ejemplo de como utilizar esta expresión para hacer el ajuste.
