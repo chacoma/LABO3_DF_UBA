@@ -72,7 +72,7 @@ Luego la ecuación de transferencia compleja viene dada por el cociente,
 
 $$
 T = \frac{V_S}{V_R} = 
-\frac{ ( -1  + \frac{Z_{L2}}{Z_2+Z_{L2}}) }
+\frac{ Z_M( \frac{Z_{L2}}{Z_2+Z_{L2}}) -1 }
 {R(\frac{Z_{Ref}+Z_{L1}+ Z_1 }{Z_1})}
 $$
 
