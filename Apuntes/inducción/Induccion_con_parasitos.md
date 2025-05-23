@@ -26,7 +26,7 @@ En el secundario se introduce la *fuente inducida* $V_{L1}$ que acopla la tensi�
 En el circuito primario las relaciones importantes son,
 
 $$
-Z_1 = R_1 // \frac{1}{j \omega C_1}
+Z_1 = R_1 {||} \frac{1}{j \omega C_1}
 $$
 
 $$
@@ -86,6 +86,6 @@ T = \frac{V_S}{V_R} =
 {R(\frac{Z_{Ref}+Z_{L1}+ Z_1 }{Z_1})}
 $$
 
-Si medimos amplitud CRMS sobre los bornes de $R$ y sobre el secundario, se puede utilizar el modulo de esa expresión para intentar ajustar los datos a alta frecuencia y obtener los valores de los parámetros parásitos.
+Si medimos amplitud CRMS sobre los bornes de $R$ y sobre el secundario, se puede utilizar el módulo de esa expresión para intentar ajustar los datos a alta frecuencia y obtener los valores de los parámetros parásitos.
 
 En el apunte [Induccion modelo realista](../../Programas/Analisis_induccion/Induccion_Modelo_Realista.ipynb), se muestra un ejemplo de como utilizar esta expresión para hacer el ajuste.
