@@ -1,8 +1,18 @@
 ### Inducción una bobina dentro de otra, caso realista
 
+Para el caso del experimento de una bobina de entro de otra, el modelo más simple falla a altas frecuencias. Esto es debido a la aparición de componentes parásitos en el circuito.
 
+El efecto de alguno de estos componentes parásitos se puede modelar introduciendo combinaciones adecuadas de componentes ideales con el objetivo de capturar los efectos fisícos que producen los parásitos.
+
+Mi propuesta para un modelo más realista esta basada en el siguiente circuito,
 
 ![pars](images/parasitos.jpg)
+
+respecto del circuito ideal, se introduce lo siguiente,
+
+- Resistencias internas de los bobinados
+- Resistencias en paralelo al bobinado para modelar perdidas de corriente
+- Capacitores en paralelo a los bobinados para capturar la capacitancia parásita que se forma en el devanado
 
 
 Si bien este circuito parace complicado, se puede estudiar facilmente planteando dos circuitos equivalentes acoplados.
