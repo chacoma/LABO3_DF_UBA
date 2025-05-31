@@ -27,6 +27,10 @@
 
 │   │   ├── [Apunte distorsión en señal por cap parasita](./Apuntes/Transitorio/Capacitancia_parasita_en_cables/Apunte%20distorsión%20en%20señal%20por%20cap%20parasita.md)
 
+**├── No lineales/**
+
+│   ├── [Diodos](./Apuntes/No%20lineales/Diodos.md)
+
 **├── inducción/**
 
 │   ├── [Induccion_con_parasitos](./Apuntes/inducción/Induccion_con_parasitos.md)
@@ -106,4 +110,14 @@
 │   │   ├── [anomalia_pico_pasabanda](./Programas/Filtros/analisis/anomalia_pico_pasabanda.ipynb)
 
 │   │   ├── [analisis_filtro_pasa_banda](./Programas/Filtros/analisis/analisis_filtro_pasa_banda.ipynb)
+
+**├── Analisis No lineales/**
+
+**│   ├── Diodos/**
+
+│   │   ├── [analisis_curva_diodo](./Programas/Analisis%20No%20lineales/Diodos/analisis_curva_diodo.ipynb)
+
+**├── Analisis campo magnetico/**
+
+│   ├── [campo_manetico](./Programas/Analisis%20campo%20magnetico/campo_manetico.ipynb)
 
