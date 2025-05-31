@@ -1,6 +1,6 @@
 ### Conceptos básicos
 
-![diodo](https://www.electrical4u.com/wp-content/uploads/diode-symbol.jpg)
+![diodo](https://imgs.search.brave.com/EYuj8nhLeKtB_zRMD4l5lg26e95vR4a1g72PTQqKKdg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9ob3cy/ZWxlY3Ryb25pY3Mu/Y29tL3dwLWNvbnRl/bnQvdXBsb2Fkcy8y/MDIzLzA0L1BOLURp/b2RlLnBuZw)
 
 Una forma intuitiva de entender los diodos, es pensarlos como una llave, dada ciertas condiciones esa llave se abre y permite que la corriente fluya en una sola dirección sobre la rama donde se encuentra el diodo. Sin esas condiciones, este componente NO permitirá la circulación.
 
@@ -95,10 +95,12 @@ Se utiliza un solo diodo. Se exita con una señal alterna, la corriente solo cir
 
 ### (3) Rectificador de onda completa
 
+Se utilizan 4 diodos para capturar tanto las contribución del semiciclo positivo como la del negativo. Agregamos tambien un capacitor para suavizar la salida.
+
 ![onda_comp](images/rectif_onda_completa.gif)
 
 
-### Calculo del factor de ripple
+### Cálculo del factor de ripple
 
 El ripple (o rizado) es la variación residual de voltaje en la salida DC debido a que el rectificador no entrega una corriente perfectamente plana.
 

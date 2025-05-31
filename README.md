@@ -29,6 +29,8 @@
 
 **├── No lineales/**
 
+│   ├── [Transistores](./Apuntes/No%20lineales/Transistores.md)
+
 │   ├── [Diodos](./Apuntes/No%20lineales/Diodos.md)
 
 **├── inducción/**
