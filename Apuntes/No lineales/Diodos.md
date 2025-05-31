@@ -113,8 +113,8 @@ $$
 ​
 **¿Cómo interpretar el resultado?**
 
-$\gamma< 5\%$: Ripple bajo (bueno para electrónica sensible).
+$\gamma< 5$ %: Ripple bajo (bueno para electrónica sensible).
 
-$5\% < \gamma < 10\%$: Aceptable para aplicaciones generales.
+$5\% < \gamma < 10$ %: Aceptable para aplicaciones generales.
 
-$\gamma > 10\%$: Necesitas mejorar el filtrado (aumentar capacitancia).
+$\gamma > 10$ %: Necesitas mejorar el filtrado (aumentar capacitancia).
