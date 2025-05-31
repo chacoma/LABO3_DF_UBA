@@ -13,16 +13,16 @@ Pero ¿cuáles son esas condiciones? Tenemos que pensar en dos cosas:
 
 #### Diodos de silicio 
 
-Este tipo de diodo trabaja polarizado en **directa** y deja circular corriente cuando esta siedo sometido a valores$V_d >0.6-0.7 \ V$. 
+Este tipo de diodo trabaja polarizado en **directa** y deja circular corriente cuando esta siedo sometido a valores$V_d >0.6-0.7$ $V$. 
 
 #### Diodos Led 
 
-Los diodos Led tambien trabajan polarizados en **directa**, y deja circular corriente cuando $V_d >1.8-3 \ V$, esto depende del color del led.
+Los diodos Led tambien trabajan polarizados en **directa**, y deja circular corriente cuando $V_d >1.8-3$ $V$, esto depende del color del led.
 
 #### Diodo Zener
 
 Este tipo de diodo puede trabajar en **directa y en inversa**. 
-En directa funciona de forma similar a un diodo de silicio, con $V_d >0.6-0.7 \ V$. En inversa, el diodo Zener permite conducir corriente a una tensión de ruptura de $V_Z > 2.4-5.6 \ V$.
+En directa funciona de forma similar a un diodo de silicio, con $V_d >0.6-0.7$ $V$. En inversa, el diodo Zener permite conducir corriente a una tensión de ruptura de $V_Z > 2.4-5.6$ $V$.
 
 ---
 ## Experimentos
@@ -64,18 +64,25 @@ Es importante que la frecuencia de la rampa sea baja para tener mejor resolució
 Para ajustar esta relación se puede utilizar la ecuación de Shockley.
 
 $$
-I = I_S \left( e^{\frac{V_d}{n V_T}} - 1 \right)
+I = I_S ( e^{\frac{V_d}{n V_T}} - 1 )
 $$
+
 Donde:
--$I$: Corriente que atraviesa el diodo.
--$I_S$: **Corriente de saturación inversa** (típicamente en el rango de $10^{-12}$a$10^{-6}$A, depende del material y construcción).
--$V_d$: Voltaje aplicado al diodo (ánodo - cátodo).
--$n$: **Factor de idealidad** (entre 1 y 2;$n = 1$para diodos ideales,$n \approx 1.3$a 2 en diodos reales).
--$V_T$: **Tensión térmica** ($V_T = \frac{kT}{q}$):
-  -$k$: Constante de Boltzmann ($1.38 \times 10^{-23}$J/K).
-  -$T$: Temperatura absoluta (en Kelvin).
-  -$q$: Carga del electrón ($1.6 \times 10^{-19}$C).
-  -A temperatura ambiente ($T = 300$K):$V_T \approx 26$mV.
+
+$I$: Corriente que atraviesa el diodo.
+
+$I_S$: **Corriente de saturación inversa** (típicamente en el rango de $10^{-12}$ a $10^{-6}$ A, depende del material y construcción).
+
+$V_d$: Voltaje aplicado al diodo (ánodo - cátodo).
+
+$n$: **Factor de idealidad** (entre 1 y 2;$n = 1$para diodos ideales,$n \approx 1.3$a 2 en diodos reales).
+
+$V_T$: **Tensión térmica** ($V_T = \frac{kT}{q}$):
+
+$k$: Constante de Boltzmann ($1.38 \times 10^{-23}$ J/K).
+$T$: Temperatura absoluta (en Kelvin).
+$q$: Carga del electrón ($1.6 \times 10^{-19}$ C).
+A temperatura ambiente ($T = 300$ K):$V_T \approx 26$ mV.
 
 
 ### (2) Rectificador de media onda
@@ -87,3 +94,6 @@ Donde:
 ### (3) Rectificador de onda completa
 
 ![onda_comp](images/rectif_onda_completa.gif)
+
+
+Rizado
