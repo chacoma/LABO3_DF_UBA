@@ -13,7 +13,7 @@ Pero ¿cuáles son esas condiciones? Tenemos que pensar en dos cosas:
 
 #### Diodos de silicio 
 
-Este tipo de diodo trabaja polarizado en **directa** y deja circular corriente cuando esta siedo sometido a valores$V_d >0.6-0.7$ $V$. 
+Este tipo de diodo trabaja polarizado en **directa** y deja circular corriente cuando esta siedo sometido a valores $V_d >0.6-0.7$ $V$. 
 
 #### Diodos Led 
 
@@ -75,14 +75,14 @@ $I_S$: **Corriente de saturación inversa** (típicamente en el rango de $10^{-1
 
 $V_d$: Voltaje aplicado al diodo (ánodo - cátodo).
 
-$n$: **Factor de idealidad** (entre 1 y 2;$n = 1$para diodos ideales,$n \approx 1.3$a 2 en diodos reales).
+$n$: **Factor de idealidad** (entre 1 y 2; $n = 1$ para diodos ideales, $n \approx 1.3$ a 2 en diodos reales).
 
 $V_T$: **Tensión térmica** ($V_T = \frac{kT}{q}$):
 
 $k$: Constante de Boltzmann ($1.38 \times 10^{-23}$ J/K).
 $T$: Temperatura absoluta (en Kelvin).
 $q$: Carga del electrón ($1.6 \times 10^{-19}$ C).
-A temperatura ambiente ($T = 300$ K):$V_T \approx 26$ mV.
+A temperatura ambiente ($T = 300$ K): $V_T \approx 26$ mV.
 
 
 ### (2) Rectificador de media onda
