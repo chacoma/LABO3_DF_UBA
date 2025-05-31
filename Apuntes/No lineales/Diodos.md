@@ -97,7 +97,7 @@ Se utiliza un solo diodo. Se exita con una señal alterna, la corriente solo cir
 
 Se utilizan 4 diodos para capturar tanto las contribución del semiciclo positivo como la del negativo. Agregamos tambien un capacitor para suavizar la salida.
 
-![onda_comp](images/rectif_onda_completa.gif)
+![onda_comp](images/rect_onda_completa.gif)
 
 
 ### Cálculo del factor de ripple
