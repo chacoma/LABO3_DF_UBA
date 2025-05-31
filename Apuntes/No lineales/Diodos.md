@@ -87,6 +87,8 @@ A temperatura ambiente ($T = 300$ K): $V_T \approx 26$ mV.
 
 ### (2) Rectificador de media onda
 
+Se utiliza un solo diodo. Se exita con una señal alterna, la corriente solo circula cuando $V>0.7$ entonces la tensión en la resistencia estará relacionada con el semiciclo positivo de la fuente.
+
 ![media_onda](images/rect_media_onda.gif)
 
 
@@ -96,4 +98,23 @@ A temperatura ambiente ($T = 300$ K): $V_T \approx 26$ mV.
 ![onda_comp](images/rectif_onda_completa.gif)
 
 
-Rizado
+### Calculo del factor de ripple
+
+El ripple (o rizado) es la variación residual de voltaje en la salida DC debido a que el rectificador no entrega una corriente perfectamente plana.
+
+El factor de ripple ($\gamma$) mide la "pureza" de la salida DC y se calcula como:
+
+$$
+\gamma = \frac{v_{CRMS}}{v_{AVG}}
+$$
+
+​donde, $v_{RMS}$ es el Valor eficaz de la señal y $v_{AVG}$ es el valor promedio
+
+​
+**¿Cómo interpretar el resultado?**
+
+$\gamma< 5\%$: Ripple bajo (bueno para electrónica sensible).
+
+$5\% < \gamma < 10\%$: Aceptable para aplicaciones generales.
+
+$\gamma > 10\%$: Necesitas mejorar el filtrado (aumentar capacitancia).
