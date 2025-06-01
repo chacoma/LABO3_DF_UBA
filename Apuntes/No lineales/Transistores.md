@@ -11,6 +11,7 @@ La relación entre $I_C$ vs. $V_{CE}$ para distintos valores de la corriente de 
 - Si $V_{CE}<0.3$ estamos en **zona de saturación**. Esto parece anti intuitivo por que la curva se plancha para $V_{CE}>0.3$. No obstante, el término saturación no viene de la descripción de la curva, si no de que en ese rango de valores al aumentar $I_B$ no puedo hacer que se mueva mucho $I_C$. En esta zona de trabajo podemos hacer interruptures y compuertas logicas.
 
 - Si $V_{CE}>0.3$ estamos en la **zona activa**, aqui se cumple una relación lineal entre la corriente de la base y el colector,
+
 $$
 I_C = \beta I_B,
 $$
@@ -51,6 +52,7 @@ $$
 $$
 R_C \approx 135\Omega
 $$
+
 Como hice la cuenta con los valores límites, pongo una resistencia mas grande, por ejemplo tomo $R_C=200$ $\Omega$
 
 **Paso 2) Determinación de $I_B$ necesaria**.
