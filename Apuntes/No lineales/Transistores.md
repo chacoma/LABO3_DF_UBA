@@ -2,23 +2,23 @@
 
 ![trans_1](images/curva_trans.jpg)
 
-A esta altura de la evolución humana todos sabemos que los transistores son muy importantes en nuestras vidas, pero ¿sabemos por qué?. Intuitivamente, el pueblo en general sabe que de alguna manera estan relacionado con las computadoras y los músicos seguro saben que estan relacionados con los amplificadores. Ya son parte de nuestra cultura.
+Básicamente un transistor es un componente circuital no lineal, basado en semiconductores, de tres patas: Base, Colector y Emisor. 
 
-Para nosotros es un componente circuital no lineal, basado en semiconductores, de tres patas: Base, Colector y Emisor. La idea general es que con una corriente lo suficientemente alta de la base, $I_B$, puedo *controlar* la circulación de corriente en el colector $I_C$. Esto que parece una pavada es muy poderoso.
+Para que el transistor conduzca, en nuestra configruación tenemos que asegurarnos de que $V_{BE}\approx0.7V$, esto es parecido a lo que pasa con el diodo.
+
+¿Para que lo utilizamos? La idea general es que con una pequeña corriente en la base, $I_B$, puedo *controlar* grandes variaciones en la corriente del colector $I_C$. Esto lo hace muy útil para muchas aplicaciones.
 
 La relación entre $I_C$ vs. $V_{CE}$ para distintos valores de la corriente de base $I_B$ nos da lo que se conoce como *zonas de trabajo* del transistor.
 
-- Si $V_{CE}<0.3$ estamos en **zona de saturación**. Esto parece anti intuitivo por que la curva se plancha para $V_{CE}>0.3$. No obstante, el término saturación no viene de la descripción de la curva, si no de que en ese rango de valores al aumentar $I_B$ no puedo hacer que se mueva mucho $I_C$. En esta zona de trabajo podemos hacer interruptures y compuertas logicas.
+**Si $V_{CE}<0.3$ estamos en zona de saturación**. Esto parece anti intuitivo por que la curva se plancha para $V_{CE}>0.3$. No obstante, el término saturación no viene de la descripción de la curva, si no de que en ese rango de valores al aumentar $I_B$ no puedo hacer que se mueva mucho $I_C$. En esta zona de trabajo podemos hacer interruptures y compuertas lógicas.
 
-- Si $V_{CE}>0.3$ estamos en la **zona activa**, aqui se cumple una relación lineal entre la corriente de la base y el colector,
+**Si $V_{CE}>0.3$ estamos en la zona activa**, aqui se cumple una relación lineal entre la corriente de la base y el colector,
 
 $$
 I_C = \beta I_B,
 $$
 
-donde el parametro $\beta$ se conoce como ganancia y lo informa el fabricante. En esta zona de trabajo los transistores sirven para hacer principalmente amplificadores.
-
-
+En esta zona se diseñan principalmente amplificadores.
 
 ---
 ## Experimentos
