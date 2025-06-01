@@ -16,7 +16,7 @@ $$
 I_C = \beta I_B,
 $$
 
-    donde el parametro $\beta$ se conoce como ganancia y lo informa el fabricante. En esta zona de trabajo los transistores sirven para hacer principalmente amplificadores.
+donde el parametro $\beta$ se conoce como ganancia y lo informa el fabricante. En esta zona de trabajo los transistores sirven para hacer principalmente amplificadores.
 
 
 
@@ -57,7 +57,7 @@ Como hice la cuenta con los valores límites, pongo una resistencia mas grande, 
 
 **Paso 2) Determinación de $I_B$ necesaria**.
 
-La relación en esta zona no es lineal con $I_C$. Por eso, para un diseño riguroso, en esta zona es crucial tener las curvas del trabajo del transistor.
+La relación $I_B$ vs. $I_C$ no es lineal en saturación. Por eso, para un diseño riguroso en esta zona de trabajo, es crucial tener las curvas de trabajo del transistor.
 
 Si no tenemos las curvas, una forma practica de estimar la relación entre $I_C$ e $I_B$ en saturación, es definir una ganancia efectiva $\beta_{sat}= \beta/10$, donde $\beta$ es la ganancia que da el fabricante para la zona activa, luego,
 
