@@ -65,8 +65,6 @@
 
 **├── Analisis_Transitorio/**
 
-│   ├── [Tutorial_Adq_transitorios_RC_RL_RLC](./Analisis/Analisis_Transitorio/Tutorial_Adq_transitorios_RC_RL_RLC.ipynb)
-
 **│   ├── Tutorial_ajuste_curvas_RC_RL/**
 
 │   │   ├── [ajuste_RL](./Analisis/Analisis_Transitorio/Tutorial_ajuste_curvas_RC_RL/ajuste_RL.ipynb)
@@ -122,4 +120,8 @@
 **├── Adq_Filtros/**
 
 │   ├── [Tutorial_Adq_filtros](./Programas/Adq_Filtros/Tutorial_Adq_filtros.ipynb)
+
+**├── Adq_transitorios/**
+
+│   ├── [Tutorial_Adq_transitorios_RC_RL_RLC](./Programas/Adq_transitorios/Tutorial_Adq_transitorios_RC_RL_RLC.ipynb)
 
