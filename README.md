@@ -109,8 +109,6 @@
 
 **│   ├── analisis/**
 
-│   │   ├── [anomalia_pico_pasabanda](./Programas/Filtros/analisis/anomalia_pico_pasabanda.ipynb)
-
 │   │   ├── [analisis_filtro_pasa_banda](./Programas/Filtros/analisis/analisis_filtro_pasa_banda.ipynb)
 
 **├── Analisis No lineales/**
