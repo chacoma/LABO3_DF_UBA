@@ -92,31 +92,3 @@ Se utiliza un solo diodo. Se exita con una señal alterna, la corriente solo cir
 ![media_onda](images/rect_media_onda.gif)
 
 
-
-### (3) Rectificador de onda completa
-
-Se utilizan 4 diodos para capturar tanto las contribución del semiciclo positivo como la del negativo. Agregamos tambien un capacitor para suavizar la salida.
-
-![onda_comp](images/rect_onda_completa.gif)
-
-
-### Cálculo del factor de ripple
-
-El ripple (o rizado) es la variación residual de voltaje en la salida DC debido a que el rectificador no entrega una corriente perfectamente plana.
-
-El factor de ripple ($\gamma$) mide la "pureza" de la salida DC y se calcula como:
-
-$$
-\gamma = \frac{v_{CRMS}}{v_{AVG}}
-$$
-
-​donde, $v_{RMS}$ es el Valor eficaz de la señal y $v_{AVG}$ es el valor promedio
-
-​
-**¿Cómo interpretar el resultado?**
-
-$\gamma< 5$ %: Ripple bajo (bueno para electrónica sensible).
-
-$5\% < \gamma < 10$ %: Aceptable para aplicaciones generales.
-
-$\gamma > 10$ %: Necesitas mejorar el filtrado (aumentar capacitancia).
