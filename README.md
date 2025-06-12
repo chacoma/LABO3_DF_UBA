@@ -5,6 +5,12 @@
 
 ### Apuntes/
 
+**├── Inducción/**
+
+│   ├── [Induccion_con_parasitos](./Apuntes/Inducción/Induccion_con_parasitos.md)
+
+│   ├── [Apunte inducción-una bobina dentro de otra](./Apuntes/Inducción/Apunte%20inducción-una%20bobina%20dentro%20de%20otra.md)
+
 **├── Filtros/**
 
 │   ├── [Apunte Filtros pasa-bajos](./Apuntes/Filtros/Apunte%20Filtros%20pasa-bajos.md)
@@ -35,12 +41,6 @@
 
 │   ├── [Diodos](./Apuntes/No%20lineales/Diodos.md)
 
-**├── inducción/**
-
-│   ├── [Induccion_con_parasitos](./Apuntes/inducción/Induccion_con_parasitos.md)
-
-│   ├── [Apunte inducción-una bobina dentro de otra](./Apuntes/inducción/Apunte%20inducción-una%20bobina%20dentro%20de%20otra.md)
-
 **├── Circuitos DC/**
 
 │   ├── [Apunte divisor de tensión](./Apuntes/Circuitos%20DC/Apunte%20divisor%20de%20tensión.md)
@@ -65,19 +65,19 @@
 
 **├── Analisis_Transitorio/**
 
-**│   ├── Tutorial_ajuste_curvas_RC_RL/**
+**│   ├── Ajuste_curvas_RLC/**
 
-│   │   ├── [ajuste_RL](./Analisis/Analisis_Transitorio/Tutorial_ajuste_curvas_RC_RL/ajuste_RL.ipynb)
+│   │   ├── [ajuste_RLC_sobreamortiguado](./Analisis/Analisis_Transitorio/Ajuste_curvas_RLC/ajuste_RLC_sobreamortiguado.ipynb)
 
-│   │   ├── [ajuste_RC](./Analisis/Analisis_Transitorio/Tutorial_ajuste_curvas_RC_RL/ajuste_RC.ipynb)
+│   │   ├── [ajuste_RLC_subamortiguado](./Analisis/Analisis_Transitorio/Ajuste_curvas_RLC/ajuste_RLC_subamortiguado.ipynb)
 
-**│   ├── Tutorial_ajuste_curvas_RLC/**
+│   │   ├── [ajuste_RLC_critico](./Analisis/Analisis_Transitorio/Ajuste_curvas_RLC/ajuste_RLC_critico.ipynb)
 
-│   │   ├── [ajuste_RLC_sobreamortiguado](./Analisis/Analisis_Transitorio/Tutorial_ajuste_curvas_RLC/ajuste_RLC_sobreamortiguado.ipynb)
+**│   ├── Ajuste_curvas_RC_RL/**
 
-│   │   ├── [ajuste_RLC_subamortiguado](./Analisis/Analisis_Transitorio/Tutorial_ajuste_curvas_RLC/ajuste_RLC_subamortiguado.ipynb)
+│   │   ├── [ajuste_RL](./Analisis/Analisis_Transitorio/Ajuste_curvas_RC_RL/ajuste_RL.ipynb)
 
-│   │   ├── [ajuste_RLC_critico](./Analisis/Analisis_Transitorio/Tutorial_ajuste_curvas_RLC/ajuste_RLC_critico.ipynb)
+│   │   ├── [ajuste_RC](./Analisis/Analisis_Transitorio/Ajuste_curvas_RC_RL/ajuste_RC.ipynb)
 
 **├── Analisis_induccion/**
 
@@ -90,6 +90,10 @@
 **│   ├── Diodos/**
 
 │   │   ├── [analisis_curva_diodo](./Analisis/Analisis%20No%20lineales/Diodos/analisis_curva_diodo.ipynb)
+
+**├── Ajuste_Lineal/**
+
+│   ├── [Ajuste_lineal_full](./Analisis/Ajuste_Lineal/Ajuste_lineal_full.ipynb)
 
 **├── Analisis campo magnetico/**
 
@@ -112,10 +116,6 @@
 │   ├── [Ejercicios_Adquicision](./Programas/Tutoriales_Adquicision/Ejercicios_Adquicision.ipynb)
 
 │   ├── [Tutorial_Oper_GenFunc_Siglent](./Programas/Tutoriales_Adquicision/Tutorial_Oper_GenFunc_Siglent.ipynb)
-
-**├── Tutorial_Ajuste_Lineal/**
-
-│   ├── [Tutorial_Ajuste_lineal](./Programas/Tutorial_Ajuste_Lineal/Tutorial_Ajuste_lineal.ipynb)
 
 **├── Adq_Filtros/**
 
