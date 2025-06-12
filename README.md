@@ -29,6 +29,8 @@
 
 **├── No lineales/**
 
+│   ├── [rectificador de onda completa](./Apuntes/No%20lineales/rectificador%20de%20onda%20completa.md)
+
 │   ├── [Transistores](./Apuntes/No%20lineales/Transistores.md)
 
 │   ├── [Diodos](./Apuntes/No%20lineales/Diodos.md)
@@ -96,8 +98,6 @@
 │   ├── [Induccion_Modelo_bajas_freq](./Programas/Analisis_induccion/Induccion_Modelo_bajas_freq.ipynb)
 
 │   ├── [Induccion_Modelo_Realista](./Programas/Analisis_induccion/Induccion_Modelo_Realista.ipynb)
-
-**│   ├── data/**
 
 **├── Tutorial_Ajuste_Lineal/**
 
