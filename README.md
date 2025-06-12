@@ -61,25 +61,47 @@
 
 │   ├── [Exp 2 - R interna de amperimetro](./Apuntes/Circuitos%20DC/Exp%202%20-%20R%20interna%20de%20amperimetro.md)
 
-### Programas/
+### Analisis/
 
 **├── Analisis_Transitorio/**
 
-│   ├── [Tutorial_Adq_transitorios_RC_RL_RLC](./Programas/Analisis_Transitorio/Tutorial_Adq_transitorios_RC_RL_RLC.ipynb)
+│   ├── [Tutorial_Adq_transitorios_RC_RL_RLC](./Analisis/Analisis_Transitorio/Tutorial_Adq_transitorios_RC_RL_RLC.ipynb)
 
 **│   ├── Tutorial_ajuste_curvas_RC_RL/**
 
-│   │   ├── [ajuste_RL](./Programas/Analisis_Transitorio/Tutorial_ajuste_curvas_RC_RL/ajuste_RL.ipynb)
+│   │   ├── [ajuste_RL](./Analisis/Analisis_Transitorio/Tutorial_ajuste_curvas_RC_RL/ajuste_RL.ipynb)
 
-│   │   ├── [ajuste_RC](./Programas/Analisis_Transitorio/Tutorial_ajuste_curvas_RC_RL/ajuste_RC.ipynb)
+│   │   ├── [ajuste_RC](./Analisis/Analisis_Transitorio/Tutorial_ajuste_curvas_RC_RL/ajuste_RC.ipynb)
 
 **│   ├── Tutorial_ajuste_curvas_RLC/**
 
-│   │   ├── [ajuste_RLC_sobreamortiguado](./Programas/Analisis_Transitorio/Tutorial_ajuste_curvas_RLC/ajuste_RLC_sobreamortiguado.ipynb)
+│   │   ├── [ajuste_RLC_sobreamortiguado](./Analisis/Analisis_Transitorio/Tutorial_ajuste_curvas_RLC/ajuste_RLC_sobreamortiguado.ipynb)
 
-│   │   ├── [ajuste_RLC_subamortiguado](./Programas/Analisis_Transitorio/Tutorial_ajuste_curvas_RLC/ajuste_RLC_subamortiguado.ipynb)
+│   │   ├── [ajuste_RLC_subamortiguado](./Analisis/Analisis_Transitorio/Tutorial_ajuste_curvas_RLC/ajuste_RLC_subamortiguado.ipynb)
 
-│   │   ├── [ajuste_RLC_critico](./Programas/Analisis_Transitorio/Tutorial_ajuste_curvas_RLC/ajuste_RLC_critico.ipynb)
+│   │   ├── [ajuste_RLC_critico](./Analisis/Analisis_Transitorio/Tutorial_ajuste_curvas_RLC/ajuste_RLC_critico.ipynb)
+
+**├── Analisis_induccion/**
+
+│   ├── [Induccion_Modelo_bajas_freq](./Analisis/Analisis_induccion/Induccion_Modelo_bajas_freq.ipynb)
+
+│   ├── [Induccion_Modelo_Realista](./Analisis/Analisis_induccion/Induccion_Modelo_Realista.ipynb)
+
+**├── Analisis No lineales/**
+
+**│   ├── Diodos/**
+
+│   │   ├── [analisis_curva_diodo](./Analisis/Analisis%20No%20lineales/Diodos/analisis_curva_diodo.ipynb)
+
+**├── Analisis campo magnetico/**
+
+│   ├── [campo_manetico](./Analisis/Analisis%20campo%20magnetico/campo_manetico.ipynb)
+
+**├── Analisis_filtros/**
+
+│   ├── [analisis_filtro_pasa_banda](./Analisis/Analisis_filtros/analisis_filtro_pasa_banda.ipynb)
+
+### Programas/
 
 **├── Tutoriales_Adquicision/**
 
@@ -93,31 +115,11 @@
 
 │   ├── [Tutorial_Oper_GenFunc_Siglent](./Programas/Tutoriales_Adquicision/Tutorial_Oper_GenFunc_Siglent.ipynb)
 
-**├── Analisis_induccion/**
-
-│   ├── [Induccion_Modelo_bajas_freq](./Programas/Analisis_induccion/Induccion_Modelo_bajas_freq.ipynb)
-
-│   ├── [Induccion_Modelo_Realista](./Programas/Analisis_induccion/Induccion_Modelo_Realista.ipynb)
-
 **├── Tutorial_Ajuste_Lineal/**
 
 │   ├── [Tutorial_Ajuste_lineal](./Programas/Tutorial_Ajuste_Lineal/Tutorial_Ajuste_lineal.ipynb)
 
-**├── Filtros/**
+**├── Adq_Filtros/**
 
-│   ├── [Tutorial_Adq_filtros](./Programas/Filtros/Tutorial_Adq_filtros.ipynb)
-
-**│   ├── analisis/**
-
-│   │   ├── [analisis_filtro_pasa_banda](./Programas/Filtros/analisis/analisis_filtro_pasa_banda.ipynb)
-
-**├── Analisis No lineales/**
-
-**│   ├── Diodos/**
-
-│   │   ├── [analisis_curva_diodo](./Programas/Analisis%20No%20lineales/Diodos/analisis_curva_diodo.ipynb)
-
-**├── Analisis campo magnetico/**
-
-│   ├── [campo_manetico](./Programas/Analisis%20campo%20magnetico/campo_manetico.ipynb)
+│   ├── [Tutorial_Adq_filtros](./Programas/Adq_Filtros/Tutorial_Adq_filtros.ipynb)
 
