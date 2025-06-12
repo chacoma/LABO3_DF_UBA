@@ -48,14 +48,14 @@ $$
 
 
 **Ejemplo numérico:**
-Si \(V_P = 10\,V\):
+Si $V_P = 10$ V:
 - Rectificador de onda completa:  
   $$
-  V_{CD} = \frac{2 \cdot 10}{\pi} \approx 6.37\,V
+  V_{CD} = \frac{2 \cdot 10}{\pi} \approx 6.37V
   $$
 - Rectificador de media onda:  
   $$
-  V_{CD} = \frac{10}{\pi} \approx 3.18\,V
+  V_{CD} = \frac{10}{\pi} \approx 3.18V
   $$
 
 
