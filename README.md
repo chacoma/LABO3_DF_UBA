@@ -31,7 +31,7 @@
 
 **├── 4.1.Analisis campo magnetico/**
 
-│   ├── [campo_manetico](./Analisis/4.1.Analisis%20campo%20magnetico/campo_manetico.ipynb)
+│   ├── [campo_magnetico](./Analisis/4.1.Analisis%20campo%20magnetico/campo_magnetico.ipynb)
 
 **├── 4.2.Analisis_induccion/**
 
