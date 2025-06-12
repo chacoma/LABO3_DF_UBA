@@ -88,4 +88,4 @@ $$
 
 Si medimos amplitud CRMS sobre los bornes de $R$ y sobre el secundario, se puede utilizar el módulo de esa expresión para intentar ajustar los datos a alta frecuencia y obtener los valores de los parámetros parásitos.
 
-En el programa [Inducción modelo realista](../../Programas/Analisis_induccion/Induccion_Modelo_Realista.ipynb), se muestra un ejemplo de como utilizar esta expresión para hacer el ajuste.
+En el programa [Inducción modelo realista](../../Analisis/4.2.Analisis_induccion/Induccion_Modelo_Realista.ipynb), se muestra un ejemplo de como utilizar esta expresión para hacer el ajuste.
