@@ -3,105 +3,105 @@
 
 ### /
 
-### Analisis/
+### Apuntes/
+
+**├── 1.Circuitos_DC/**
+
+│   ├── [1- Ley de ohm DC](./Apuntes/1.Circuitos_DC/1-%20Ley%20de%20ohm%20DC.md)
+
+│   ├── [2- Res interna de amperimetro](./Apuntes/1.Circuitos_DC/2-%20Res%20interna%20de%20amperimetro.md)
+
+│   ├── [3- Res interna del voltimetro](./Apuntes/1.Circuitos_DC/3-%20Res%20interna%20del%20voltimetro.md)
+
+│   ├── [4- Res en Serie y paralelo](./Apuntes/1.Circuitos_DC/4-%20Res%20en%20Serie%20y%20paralelo.md)
+
+│   ├── [5- Equiv de Thevenin](./Apuntes/1.Circuitos_DC/5-%20Equiv%20de%20Thevenin.md)
+
+│   ├── [6- Transf de potencia](./Apuntes/1.Circuitos_DC/6-%20Transf%20de%20potencia.md)
+
+│   ├── [7- Puente de Wheatstone](./Apuntes/1.Circuitos_DC/7-%20Puente%20de%20Wheatstone.md)
+
+│   ├── [Apunte Fuentes DC](./Apuntes/1.Circuitos_DC/Apunte%20Fuentes%20DC.md)
+
+│   ├── [Apunte divisor de tensión](./Apuntes/1.Circuitos_DC/Apunte%20divisor%20de%20tensión.md)
+
+**├── 2.Transitorio/**
+
+│   ├── [1- Circuitos RC transitorio](./Apuntes/2.Transitorio/1-%20Circuitos%20RC%20transitorio.md)
+
+│   ├── [2- Circuito RL transitorio](./Apuntes/2.Transitorio/2-%20Circuito%20RL%20transitorio.md)
+
+│   ├── [3- Circuito RLC transitorio](./Apuntes/2.Transitorio/3-%20Circuito%20RLC%20transitorio.md)
+
+**├── 3.Filtros/**
+
+│   ├── [1- Filtros pasa-bajos](./Apuntes/3.Filtros/1-%20Filtros%20pasa-bajos.md)
+
+│   ├── [2- Filtros pasa-altos](./Apuntes/3.Filtros/2-%20Filtros%20pasa-altos.md)
+
+│   ├── [3- Filtro cancela banda](./Apuntes/3.Filtros/3-%20Filtro%20cancela%20banda.md)
+
+│   ├── [4- Filtro pasa banda](./Apuntes/3.Filtros/4-%20Filtro%20pasa%20banda.md)
+
+**│   ├── Capacitancia_parasita_en_cables/**
+
+│   │   ├── [Apunte distorsión en señal por cap parasita](./Apuntes/3.Filtros/Capacitancia_parasita_en_cables/Apunte%20distorsión%20en%20señal%20por%20cap%20parasita.md)
+
+**├── 4.Inducción/**
+
+│   ├── [1- Inducción: una bobina dentro de otra](./Apuntes/4.Inducción/1-%20Inducción:%20una%20bobina%20dentro%20de%20otra.md)
+
+│   ├── [2- Induccion con componentes parasitos](./Apuntes/4.Inducción/2-%20Induccion%20con%20componentes%20parasitos.md)
+
+**├── 5.No_lineales/**
+
+│   ├── [1- Diodos](./Apuntes/5.No_lineales/1-%20Diodos.md)
+
+│   ├── [2- Rectificadores](./Apuntes/5.No_lineales/2-%20Rectificadores.md)
+
+│   ├── [3- Transistores](./Apuntes/5.No_lineales/3-%20Transistores.md)
+
+### Data analisis/
 
 **├── 1.Ajuste_Lineal/**
 
-│   ├── [Ajuste_lineal_full](./Analisis/1.Ajuste_Lineal/Ajuste_lineal_full.ipynb)
+│   ├── [Ajuste_lineal_full](./Data%20analisis/1.Ajuste_Lineal/Ajuste_lineal_full.ipynb)
 
 **├── 2.Analisis_Transitorio/**
 
 **│   ├── Ajuste_curvas_RC_RL/**
 
-│   │   ├── [ajuste_RL](./Analisis/2.Analisis_Transitorio/Ajuste_curvas_RC_RL/ajuste_RL.ipynb)
+│   │   ├── [ajuste_RC](./Data%20analisis/2.Analisis_Transitorio/Ajuste_curvas_RC_RL/ajuste_RC.ipynb)
 
-│   │   ├── [ajuste_RC](./Analisis/2.Analisis_Transitorio/Ajuste_curvas_RC_RL/ajuste_RC.ipynb)
+│   │   ├── [ajuste_RL](./Data%20analisis/2.Analisis_Transitorio/Ajuste_curvas_RC_RL/ajuste_RL.ipynb)
 
 **│   ├── Ajuste_curvas_RLC/**
 
-│   │   ├── [ajuste_RLC_sobreamortiguado](./Analisis/2.Analisis_Transitorio/Ajuste_curvas_RLC/ajuste_RLC_sobreamortiguado.ipynb)
+│   │   ├── [ajuste_RLC_critico](./Data%20analisis/2.Analisis_Transitorio/Ajuste_curvas_RLC/ajuste_RLC_critico.ipynb)
 
-│   │   ├── [ajuste_RLC_subamortiguado](./Analisis/2.Analisis_Transitorio/Ajuste_curvas_RLC/ajuste_RLC_subamortiguado.ipynb)
+│   │   ├── [ajuste_RLC_sobreamortiguado](./Data%20analisis/2.Analisis_Transitorio/Ajuste_curvas_RLC/ajuste_RLC_sobreamortiguado.ipynb)
 
-│   │   ├── [ajuste_RLC_critico](./Analisis/2.Analisis_Transitorio/Ajuste_curvas_RLC/ajuste_RLC_critico.ipynb)
+│   │   ├── [ajuste_RLC_subamortiguado](./Data%20analisis/2.Analisis_Transitorio/Ajuste_curvas_RLC/ajuste_RLC_subamortiguado.ipynb)
 
 **├── 3.Analisis_filtros/**
 
-│   ├── [analisis_filtro_pasa_banda](./Analisis/3.Analisis_filtros/analisis_filtro_pasa_banda.ipynb)
+│   ├── [analisis_filtro_pasa_banda](./Data%20analisis/3.Analisis_filtros/analisis_filtro_pasa_banda.ipynb)
 
 **├── 4.1.Analisis campo magnetico/**
 
-│   ├── [campo_magnetico](./Analisis/4.1.Analisis%20campo%20magnetico/campo_magnetico.ipynb)
+│   ├── [campo_magnetico](./Data%20analisis/4.1.Analisis%20campo%20magnetico/campo_magnetico.ipynb)
 
 **├── 4.2.Analisis_induccion/**
 
-│   ├── [Induccion_Modelo_bajas_freq](./Analisis/4.2.Analisis_induccion/Induccion_Modelo_bajas_freq.ipynb)
+│   ├── [Induccion_Modelo_Realista](./Data%20analisis/4.2.Analisis_induccion/Induccion_Modelo_Realista.ipynb)
 
-│   ├── [Induccion_Modelo_Realista](./Analisis/4.2.Analisis_induccion/Induccion_Modelo_Realista.ipynb)
+│   ├── [Induccion_Modelo_bajas_freq](./Data%20analisis/4.2.Analisis_induccion/Induccion_Modelo_bajas_freq.ipynb)
 
 **├── 5.Analisis No lineales/**
 
 **│   ├── Diodos/**
 
-│   │   ├── [analisis_curva_diodo](./Analisis/5.Analisis%20No%20lineales/Diodos/analisis_curva_diodo.ipynb)
-
-### Apuntes/
-
-**├── 1.Circuitos_DC/**
-
-│   ├── [Apunte divisor de tensión](./Apuntes/1.Circuitos_DC/Apunte%20divisor%20de%20tensión.md)
-
-│   ├── [Exp 3 - Resistencia interna del voltimetro](./Apuntes/1.Circuitos_DC/Exp%203%20-%20Resistencia%20interna%20del%20voltimetro.md)
-
-│   ├── [Exp 6 - Transferencia de potencia](./Apuntes/1.Circuitos_DC/Exp%206%20-%20Transferencia%20de%20potencia.md)
-
-│   ├── [Exp - Puente de Wheatstone](./Apuntes/1.Circuitos_DC/Exp%20-%20Puente%20de%20Wheatstone.md)
-
-│   ├── [Exp 4 - Resist en Serie y paralelo](./Apuntes/1.Circuitos_DC/Exp%204%20-%20Resist%20en%20Serie%20y%20paralelo.md)
-
-│   ├── [Exp 5 - Equiv de Thevenin](./Apuntes/1.Circuitos_DC/Exp%205%20-%20Equiv%20de%20Thevenin.md)
-
-│   ├── [Apunte Fuentes DC](./Apuntes/1.Circuitos_DC/Apunte%20Fuentes%20DC.md)
-
-│   ├── [Exp 1 - Ley de ohm DC](./Apuntes/1.Circuitos_DC/Exp%201%20-%20Ley%20de%20ohm%20DC.md)
-
-│   ├── [Exp 2 - R interna de amperimetro](./Apuntes/1.Circuitos_DC/Exp%202%20-%20R%20interna%20de%20amperimetro.md)
-
-**├── 2.Transitorio/**
-
-│   ├── [Apunte circuito RL transitorio](./Apuntes/2.Transitorio/Apunte%20circuito%20RL%20transitorio.md)
-
-│   ├── [Apunte circuitos RC transitorio](./Apuntes/2.Transitorio/Apunte%20circuitos%20RC%20transitorio.md)
-
-│   ├── [Apunte Circuito RLC transitorio](./Apuntes/2.Transitorio/Apunte%20Circuito%20RLC%20transitorio.md)
-
-**│   ├── Capacitancia_parasita_en_cables/**
-
-│   │   ├── [Apunte distorsión en señal por cap parasita](./Apuntes/2.Transitorio/Capacitancia_parasita_en_cables/Apunte%20distorsión%20en%20señal%20por%20cap%20parasita.md)
-
-**├── 3.Filtros/**
-
-│   ├── [Apunte Filtros pasa-bajos](./Apuntes/3.Filtros/Apunte%20Filtros%20pasa-bajos.md)
-
-│   ├── [Apunte Filtros pasa-altos](./Apuntes/3.Filtros/Apunte%20Filtros%20pasa-altos.md)
-
-│   ├── [Apunte Filtro cancela banda](./Apuntes/3.Filtros/Apunte%20Filtro%20cancela%20banda.md)
-
-│   ├── [Apunte Filtro pasa banda](./Apuntes/3.Filtros/Apunte%20Filtro%20pasa%20banda.md)
-
-**├── 4.Inducción/**
-
-│   ├── [Induccion_con_parasitos](./Apuntes/4.Inducción/Induccion_con_parasitos.md)
-
-│   ├── [Apunte inducción-una bobina dentro de otra](./Apuntes/4.Inducción/Apunte%20inducción-una%20bobina%20dentro%20de%20otra.md)
-
-**├── 5.No_lineales/**
-
-│   ├── [rectificador de onda completa](./Apuntes/5.No_lineales/rectificador%20de%20onda%20completa.md)
-
-│   ├── [Transistores](./Apuntes/5.No_lineales/Transistores.md)
-
-│   ├── [Diodos](./Apuntes/5.No_lineales/Diodos.md)
+│   │   ├── [analisis_curva_diodo](./Data%20analisis/5.Analisis%20No%20lineales/Diodos/analisis_curva_diodo.ipynb)
 
 ### Programas/
 
@@ -115,13 +115,13 @@
 
 **├── Tutoriales_Adquicision/**
 
+│   ├── [Ejercicios_Adquicision](./Programas/Tutoriales_Adquicision/Ejercicios_Adquicision.ipynb)
+
 │   ├── [Tutorial_Adq_Osc_Tektronix_TBS1000C](./Programas/Tutoriales_Adquicision/Tutorial_Adq_Osc_Tektronix_TBS1000C.ipynb)
 
 │   ├── [Tutorial_Adq_Osc_Tektronix_TDS1052B-EDU](./Programas/Tutoriales_Adquicision/Tutorial_Adq_Osc_Tektronix_TDS1052B-EDU.ipynb)
 
-│   ├── [Tutorial_Oper_GenFunc_Tektronix](./Programas/Tutoriales_Adquicision/Tutorial_Oper_GenFunc_Tektronix.ipynb)
-
-│   ├── [Ejercicios_Adquicision](./Programas/Tutoriales_Adquicision/Ejercicios_Adquicision.ipynb)
-
 │   ├── [Tutorial_Oper_GenFunc_Siglent](./Programas/Tutoriales_Adquicision/Tutorial_Oper_GenFunc_Siglent.ipynb)
+
+│   ├── [Tutorial_Oper_GenFunc_Tektronix](./Programas/Tutoriales_Adquicision/Tutorial_Oper_GenFunc_Tektronix.ipynb)
 
