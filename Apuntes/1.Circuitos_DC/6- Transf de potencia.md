@@ -1,4 +1,4 @@
-## Exp 6 - Transferencia de potencia
+## Transferencia de potencia
 
 #### **1. Circuito Equivalente de Thévenin**
 

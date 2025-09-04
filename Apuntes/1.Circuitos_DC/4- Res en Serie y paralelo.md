@@ -1,4 +1,4 @@
-## Exp 4 - Resist en Serie y paralelo
+## Verificación de las ecuaciones para resistencias en serie y en paralelo
 
 ### Serie:
 
