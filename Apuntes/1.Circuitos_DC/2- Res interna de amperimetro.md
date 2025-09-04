@@ -3,8 +3,8 @@
 ### Elementos
 
 - Fuente 
-- dos multimetros
-- 1 resistencia, 1 potenciometro
+- 2 Multímetros
+- Resistencias de carbono / Resistencias variables
 
 ### Opción A) Con llave interruptora
 
@@ -74,7 +74,12 @@ $$
 
 Note que si $R_L>>r_A$ entonces $r_A=r_p$.
 
-**Resistencia límite para corriente máxima:**
+**Ordenes de magnitud de los valores a utilizar**
+
+Como necesitamos $R_L>>r_A$, con $R_L\approx 1k$ andamos bien para que valga la aproximación. La tensión de la fuente no debe ser muy alta, con $V_0 \approx 5V$ drenamos corriente del orden de los $2mA$ lo cual es perfectamente resoluble.
+
+
+**Resistencia límite inferior para corriente máxima:**
 
 Para no quemar el amperimetro, es importante verificar el valor maximo de corriente que soporta, dependiendo del multimetro en el orden de los $\sim 100 mA$. Esto nos pone un limite en el valor de las resistencias a utilizar. Con el interruptor cerrado el circuito es un divisor de tensión, luego:
 
@@ -88,18 +93,25 @@ $$
 {R_L} = V_0/I_{max} - r_A = 5000/100 - 1 = 49 \Omega
 $$
 
-  Ese es el limite inferior de la resistencia, el valor elegido tiene que ser mas grande.
+  Ese es el **limite inferior** de la resistencia, el valor elegido tiene que ser mas grande.
 
-### Opción B) Con voltímetro
+### Opción B) Por ley de Ohm
 
-**Procedimiento**
+La idea es variar la tensión en la fuente y medir la tensión que cae en el amperimetro. De esta manera utilizando la medición de corriente que este genera, por ley de ohm se puede estimar la resistencia interna.
 
-La idea es medir la tensión que cae en el amperimetro. de esta manera utilizando la medición de corriente que este genera, por ley de ohm se puede estimar la resistencia interna.
+Utilizamos un divisor de tensión, variando la tensión de la fuente con valores bajos $V_0 \approx 200mV - 1V$ y una resistencia limitante pequeña para obtener buena resolución, del orden de los $100\Omega$ vamos a drenar corriente del orden de los $2mA$.
 
-Utilizamos un divisor de tensión, con una tensión $V_0$ y una resistencia divisora no muy grande, para obtener buena resolución.
-
-![1](images/2-3.png)
+![1](images/res_int_ampe_1.png)
 
 Se recopilan los valores de corriente $i_A$ y de tensión $V$.
 
 Por ley de ohm la resistencia será $R= \frac{V}{i_A}$.
+
+
+### Opción C) Ajustando resistencia limitante
+
+Se setea una fuente con muy bajo voltaje $V_0 \approx 200mV$. Se varia la resistencia limitante hasta que se registra un voltaje de la mitad del entregado por la fuente. Por las propiedades del divisor de tensión, la resistencia del amperimetro será igual a la resistencia limitante.
+
+
+
+![1](images/res_int_ampe_2.png)
