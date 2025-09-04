@@ -61,49 +61,49 @@
 
 │   ├── [3- Transistores](./Apuntes/5.No_lineales/3-%20Transistores.md)
 
-### Data analisis/
+### Data_analisis/
 
 **├── 1.Ajuste_Lineal/**
 
-│   ├── [Ajuste_lineal_full](./Data%20analisis/1.Ajuste_Lineal/Ajuste_lineal_full.ipynb)
+│   ├── [Ajuste_lineal_full](./Data_analisis/1.Ajuste_Lineal/Ajuste_lineal_full.ipynb)
 
 **├── 2.Analisis_Transitorio/**
 
 **│   ├── Ajuste_curvas_RC_RL/**
 
-│   │   ├── [ajuste_RC](./Data%20analisis/2.Analisis_Transitorio/Ajuste_curvas_RC_RL/ajuste_RC.ipynb)
+│   │   ├── [ajuste_RC](./Data_analisis/2.Analisis_Transitorio/Ajuste_curvas_RC_RL/ajuste_RC.ipynb)
 
-│   │   ├── [ajuste_RL](./Data%20analisis/2.Analisis_Transitorio/Ajuste_curvas_RC_RL/ajuste_RL.ipynb)
+│   │   ├── [ajuste_RL](./Data_analisis/2.Analisis_Transitorio/Ajuste_curvas_RC_RL/ajuste_RL.ipynb)
 
 **│   ├── Ajuste_curvas_RLC/**
 
-│   │   ├── [ajuste_RLC_critico](./Data%20analisis/2.Analisis_Transitorio/Ajuste_curvas_RLC/ajuste_RLC_critico.ipynb)
+│   │   ├── [ajuste_RLC_critico](./Data_analisis/2.Analisis_Transitorio/Ajuste_curvas_RLC/ajuste_RLC_critico.ipynb)
 
-│   │   ├── [ajuste_RLC_sobreamortiguado](./Data%20analisis/2.Analisis_Transitorio/Ajuste_curvas_RLC/ajuste_RLC_sobreamortiguado.ipynb)
+│   │   ├── [ajuste_RLC_sobreamortiguado](./Data_analisis/2.Analisis_Transitorio/Ajuste_curvas_RLC/ajuste_RLC_sobreamortiguado.ipynb)
 
-│   │   ├── [ajuste_RLC_subamortiguado](./Data%20analisis/2.Analisis_Transitorio/Ajuste_curvas_RLC/ajuste_RLC_subamortiguado.ipynb)
+│   │   ├── [ajuste_RLC_subamortiguado](./Data_analisis/2.Analisis_Transitorio/Ajuste_curvas_RLC/ajuste_RLC_subamortiguado.ipynb)
 
 **├── 3.Analisis_filtros/**
 
-│   ├── [analisis_filtro_pasa_banda](./Data%20analisis/3.Analisis_filtros/analisis_filtro_pasa_banda.ipynb)
+│   ├── [analisis_filtro_pasa_banda](./Data_analisis/3.Analisis_filtros/analisis_filtro_pasa_banda.ipynb)
 
 **├── 4.Magnetismo/**
 
 **│   ├── 4.1.Analisis campo magnetico/**
 
-│   │   ├── [campo_magnetico_bobina](./Data%20analisis/4.Magnetismo/4.1.Analisis%20campo%20magnetico/campo_magnetico_bobina.ipynb)
+│   │   ├── [campo_magnetico_bobina](./Data_analisis/4.Magnetismo/4.1.Analisis%20campo%20magnetico/campo_magnetico_bobina.ipynb)
 
 **│   ├── 4.2.Analisis_induccion/**
 
-│   │   ├── [Induccion_Modelo_Realista](./Data%20analisis/4.Magnetismo/4.2.Analisis_induccion/Induccion_Modelo_Realista.ipynb)
+│   │   ├── [Induccion_Modelo_Realista](./Data_analisis/4.Magnetismo/4.2.Analisis_induccion/Induccion_Modelo_Realista.ipynb)
 
-│   │   ├── [Induccion_Modelo_bajas_freq](./Data%20analisis/4.Magnetismo/4.2.Analisis_induccion/Induccion_Modelo_bajas_freq.ipynb)
+│   │   ├── [Induccion_Modelo_bajas_freq](./Data_analisis/4.Magnetismo/4.2.Analisis_induccion/Induccion_Modelo_bajas_freq.ipynb)
 
 **├── 5.Analisis No lineales/**
 
 **│   ├── Diodos/**
 
-│   │   ├── [analisis_curva_diodo](./Data%20analisis/5.Analisis%20No%20lineales/Diodos/analisis_curva_diodo.ipynb)
+│   │   ├── [analisis_curva_diodo](./Data_analisis/5.Analisis%20No%20lineales/Diodos/analisis_curva_diodo.ipynb)
 
 ### Programas/
 

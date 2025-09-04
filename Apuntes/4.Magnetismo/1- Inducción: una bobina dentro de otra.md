@@ -101,7 +101,7 @@ $$
 M^\prime = k \sqrt{ L_1 L_2} \mu  = M \mu.
 $$
 
-Entonces, **si se repite el experimento con el núcleo magnético dentro de la bobina del primario**, estudiando la relacion $\frac{v_s}{v_R}$ vs. $\frac{\omega}{R}$ se puede obtener $M^\prime$ y con eso una estimación de $\mu$ como,
+Entonces, **si se repite el experimento con el núcleo magnético dentro de la bobina del primario**, estudiando la relacion $\frac{v_s}{v_R}$ vs. $\frac{\omega}{R}$ se puede obtener $M^\prime$ y con eso una estimación de $\mu$ como el cociente,
 
 $$
 \mu = \frac{M^\prime}{M}.
