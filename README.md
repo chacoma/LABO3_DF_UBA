@@ -47,11 +47,11 @@
 
 │   │   ├── [Apunte distorsión en señal por cap parasita](./Apuntes/3.Filtros/Capacitancia_parasita_en_cables/Apunte%20distorsión%20en%20señal%20por%20cap%20parasita.md)
 
-**├── 4.Inducción/**
+**├── 4.magnetismo/**
 
-│   ├── [1- Inducción: una bobina dentro de otra](./Apuntes/4.Inducción/1-%20Inducción:%20una%20bobina%20dentro%20de%20otra.md)
+│   ├── [1- Inducción: una bobina dentro de otra](./Apuntes/4.magnetismo/1-%20Inducción:%20una%20bobina%20dentro%20de%20otra.md)
 
-│   ├── [2- Induccion con componentes parasitos](./Apuntes/4.Inducción/2-%20Induccion%20con%20componentes%20parasitos.md)
+│   ├── [2- Induccion con componentes parasitos](./Apuntes/4.magnetismo/2-%20Induccion%20con%20componentes%20parasitos.md)
 
 **├── 5.No_lineales/**
 
@@ -87,15 +87,17 @@
 
 │   ├── [analisis_filtro_pasa_banda](./Data%20analisis/3.Analisis_filtros/analisis_filtro_pasa_banda.ipynb)
 
-**├── 4.1.Analisis campo magnetico/**
+**├── 4.Magnetismo/**
 
-│   ├── [campo_magnetico](./Data%20analisis/4.1.Analisis%20campo%20magnetico/campo_magnetico.ipynb)
+**│   ├── 4.1.Analisis campo magnetico/**
 
-**├── 4.2.Analisis_induccion/**
+│   │   ├── [campo_magnetico_bobina](./Data%20analisis/4.Magnetismo/4.1.Analisis%20campo%20magnetico/campo_magnetico_bobina.ipynb)
 
-│   ├── [Induccion_Modelo_Realista](./Data%20analisis/4.2.Analisis_induccion/Induccion_Modelo_Realista.ipynb)
+**│   ├── 4.2.Analisis_induccion/**
 
-│   ├── [Induccion_Modelo_bajas_freq](./Data%20analisis/4.2.Analisis_induccion/Induccion_Modelo_bajas_freq.ipynb)
+│   │   ├── [Induccion_Modelo_Realista](./Data%20analisis/4.Magnetismo/4.2.Analisis_induccion/Induccion_Modelo_Realista.ipynb)
+
+│   │   ├── [Induccion_Modelo_bajas_freq](./Data%20analisis/4.Magnetismo/4.2.Analisis_induccion/Induccion_Modelo_bajas_freq.ipynb)
 
 **├── 5.Analisis No lineales/**
 
