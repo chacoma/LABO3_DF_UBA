@@ -1,4 +1,4 @@
-## Exp 2 - Resistencia interna del amperimetro
+## Determinación de la resistencia interna del amperímetro
 
 ### Elementos
 

@@ -1,4 +1,4 @@
-## Exp 3 - Resistencia interna del voltimetro
+## Determinación de la resistencia interna del voltímetro
 
 ### Elementos
 

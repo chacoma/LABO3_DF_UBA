@@ -1,4 +1,4 @@
-## Exp 1 - Ley de ohm DC
+## Verificación de la ley de ohm DC
 
 **Elementos:**
 
