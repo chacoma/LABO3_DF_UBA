@@ -110,7 +110,9 @@ Por ley de ohm la resistencia será $R= \frac{V}{i_A}$.
 
 ### Opción C) Ajustando resistencia limitante
 
-Se setea una fuente con muy bajo voltaje $V_0 \approx 200mV$. Se varia la resistencia limitante hasta que se registra un voltaje de la mitad del entregado por la fuente. Por las propiedades del divisor de tensión, la resistencia del amperimetro será igual a la resistencia limitante.
+Se setea una fuente con **muy bajo voltaje** $V_0 \approx 200mV$. Se varia la resistencia limitante hasta que se registra un voltaje de la mitad del entregado por la fuente. Por las propiedades del divisor de tensión, la resistencia del amperimetro será igual a la resistencia limitante.
+
+En esta configuración tenemos que tener cuidado con la corriente, con esos valores nos moveremos en el orden de los $10mA$.
 
 
 
