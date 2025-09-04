@@ -47,11 +47,11 @@
 
 │   │   ├── [Apunte distorsión en señal por cap parasita](./Apuntes/3.Filtros/Capacitancia_parasita_en_cables/Apunte%20distorsión%20en%20señal%20por%20cap%20parasita.md)
 
-**├── 4.magnetismo/**
+**├── 4.Magnetismo/**
 
-│   ├── [1- Inducción: una bobina dentro de otra](./Apuntes/4.magnetismo/1-%20Inducción:%20una%20bobina%20dentro%20de%20otra.md)
+│   ├── [1- Inducción: una bobina dentro de otra](./Apuntes/4.Magnetismo/1-%20Inducción:%20una%20bobina%20dentro%20de%20otra.md)
 
-│   ├── [2- Induccion con componentes parasitos](./Apuntes/4.magnetismo/2-%20Induccion%20con%20componentes%20parasitos.md)
+│   ├── [2- Induccion con componentes parasitos](./Apuntes/4.Magnetismo/2-%20Induccion%20con%20componentes%20parasitos.md)
 
 **├── 5.No_lineales/**
 
