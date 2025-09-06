@@ -69,13 +69,13 @@
 
 **├── 2.Analisis_Transitorio/**
 
-**│   ├── 1-Ajuste_curvas_RC/**
+**│   ├── 1-Ajuste_RC/**
 
-│   │   ├── [ajuste_RC](./Data_analisis/2.Analisis_Transitorio/1-Ajuste_curvas_RC/ajuste_RC.ipynb)
+│   │   ├── [Ajuste_RC](./Data_analisis/2.Analisis_Transitorio/1-Ajuste_RC/Ajuste_RC.ipynb)
 
 **│   ├── 2-Ajuste_RL/**
 
-│   │   ├── [ajuste_RL](./Data_analisis/2.Analisis_Transitorio/2-Ajuste_RL/ajuste_RL.ipynb)
+│   │   ├── [Ajuste_RL](./Data_analisis/2.Analisis_Transitorio/2-Ajuste_RL/Ajuste_RL.ipynb)
 
 **│   ├── 3-Ajuste_curvas_RLC/**
 
