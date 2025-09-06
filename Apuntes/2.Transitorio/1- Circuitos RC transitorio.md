@@ -120,6 +120,18 @@ $$
 $$
 
 
-### 3. Derivación y resolución de las ecuaciones diferenciales
+**Cosas a tener en cuenta**
 
-### 4. Notas teóricas sobre el capacitor de placas paralelas
+Sea $T=1/f$ el periodo de la señal cuadrada de frecuencia $f$. Para observar completo el proceso de carga y decarga del capacitor necesitamos que 
+
+$$
+\frac{T}{2} = \frac{1}{2f} > 5 \tau 
+$$
+
+entonces la frecuencia de la señal tiene que ser:
+
+$$
+f < \frac{1}{10RC}
+$$
+
+[Cálculo de la freq generador](https://colab.research.google.com/drive/14LEiFM1qyDkJrZ5-tHD0Md8l96riWtzj?usp=sharing)
