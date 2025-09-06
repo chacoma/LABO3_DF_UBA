@@ -69,19 +69,21 @@
 
 **├── 2.Analisis_Transitorio/**
 
-**│   ├── Ajuste_curvas_RC_RL/**
+**│   ├── 1-Ajuste_curvas_RC/**
 
-│   │   ├── [ajuste_RC](./Data_analisis/2.Analisis_Transitorio/Ajuste_curvas_RC_RL/ajuste_RC.ipynb)
+│   │   ├── [ajuste_RC](./Data_analisis/2.Analisis_Transitorio/1-Ajuste_curvas_RC/ajuste_RC.ipynb)
 
-│   │   ├── [ajuste_RL](./Data_analisis/2.Analisis_Transitorio/Ajuste_curvas_RC_RL/ajuste_RL.ipynb)
+**│   ├── 2-Ajuste_RL/**
 
-**│   ├── Ajuste_curvas_RLC/**
+│   │   ├── [ajuste_RL](./Data_analisis/2.Analisis_Transitorio/2-Ajuste_RL/ajuste_RL.ipynb)
 
-│   │   ├── [ajuste_RLC_critico](./Data_analisis/2.Analisis_Transitorio/Ajuste_curvas_RLC/ajuste_RLC_critico.ipynb)
+**│   ├── 3-Ajuste_curvas_RLC/**
 
-│   │   ├── [ajuste_RLC_sobreamortiguado](./Data_analisis/2.Analisis_Transitorio/Ajuste_curvas_RLC/ajuste_RLC_sobreamortiguado.ipynb)
+│   │   ├── [ajuste_RLC_critico](./Data_analisis/2.Analisis_Transitorio/3-Ajuste_curvas_RLC/ajuste_RLC_critico.ipynb)
 
-│   │   ├── [ajuste_RLC_subamortiguado](./Data_analisis/2.Analisis_Transitorio/Ajuste_curvas_RLC/ajuste_RLC_subamortiguado.ipynb)
+│   │   ├── [ajuste_RLC_sobreamortiguado](./Data_analisis/2.Analisis_Transitorio/3-Ajuste_curvas_RLC/ajuste_RLC_sobreamortiguado.ipynb)
+
+│   │   ├── [ajuste_RLC_subamortiguado](./Data_analisis/2.Analisis_Transitorio/3-Ajuste_curvas_RLC/ajuste_RLC_subamortiguado.ipynb)
 
 **├── 3.Analisis_filtros/**
 
