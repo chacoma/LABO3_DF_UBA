@@ -87,9 +87,9 @@ Obetivos:
 - Lograr ajustes adecuados de $V_C(t)$ e $I(t)$ de los cuales extraigan el tiempo característico para cada valor de $R_2$
 - Comprobar la linealidad entre $\tau$ y $R$. Con un ajuste determinar $C$
 
-Los tiempos de alto y bajo de la onda cuadrada tienen que ser de aprox $t \approx 5\tau$ para observar todo el proceso de carga y descarga adecuadamente.
+Los tiempos de alto y bajo de la onda cuadrada tienen que ser de aprox $t > 5\tau$ para observar todo el proceso de carga y descarga adecuadamente.
 
-En el chanel 1 se mide la tensión del generador de funciones, ese canal puede obtenerse con un *conector T* directo del generador.
+En el chanel 1 se mide la tensión del generador de funciones, ese canal puede obtenerse con un *conector tipo T* directo del generador.
 
 En el chanel 2 se mide la tensión en los bornes del capacitor.
 
