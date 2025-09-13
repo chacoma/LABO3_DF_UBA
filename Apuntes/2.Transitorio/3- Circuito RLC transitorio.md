@@ -143,17 +143,15 @@ $$
 ---
 
 ### 3. Experimento propuesto
-![circ](images/RLC_squem.png)
+
+La idea es medir los transitorios para los casos Sub y Sobre Amortiguado. Para esto hay que elegir los componentes electronicos de manera adecuada, en este link:
 
 [Colab para el cálculo del tiempo carcterístico](https://colab.research.google.com/drive/1yhTcZA-GSk9p4tQdrW828Y4U56DDYV1Q?usp=sharing)
 
+Se puede encontrar un programa que facilita la elección de los valores de componentes en función de los parámetros y tiempos caracterísiticos deseados.
 
-- Generar un tren de pulsos cuadrados, tiempo de alto y bajo aproximadamente $5\tau$ para poder ver el transitorio completo.
 
-- Adquirir con el osciloscopio la salida generador de funciones $V_{in}$ y los bornes del capacitor $V_C$, uno en cada canal.
+Uno vez calculado el tiempo característico, $\tau$, este se utiliza para generar un tren de pulsos cuadrados, $f \approx \frac{1}{20 \tau}$, para poder ver el transitorio completo.
 
-- De la señal de $V_C$ estimar:
-  - Amplitud de la señal
-  - Frecuencia de oscilación
-  - Decaimiento
-  - Valor medio de oscilación
+La idea es adquirir con el osciloscopio la salida generador de funciones $V_{in}$ y los bornes del capacitor $V_C$, uno en cada canal.
+
