@@ -137,8 +137,11 @@ $$
 Supongamos que tenemos un circuito con los componentes,
 
 $R= 1150$ $\Omega$
+
 $L= 10$ $mH$
+
 $C= 1$ $\mu F$
+
 $V_0 = 5$ $V$
 
 Calculamos $\gamma^2$ y $\omega_0^2$ y hacemos el cociente, podemos ver que,
@@ -150,8 +153,8 @@ $$
 Entonces confirmamos que podemos hacer la aproximación. 
 Calculando los tiempos característicos obtenemos,
 
-$\tau_1= 1.15$ $m sec$,
-$\tau_2= 8.69$ $\mu sec$, 
+$$\tau_1= 1.15$ $m sec$$,
+$$\tau_2= 8.69$ $\mu sec$$, 
 
 vemos que $\tau_2$ es muy chico respecto a $\tau_1$. Haciendo el cociente obtenemos,
 
