@@ -33,6 +33,8 @@
 
 │   ├── [3- Circuito RLC transitorio](./Apuntes/2.Transitorio/3-%20Circuito%20RLC%20transitorio.md)
 
+│   ├── [3-1-Aprox caso RLC SobreAmortiguado](./Apuntes/2.Transitorio/3-1-Aprox%20caso%20RLC%20SobreAmortiguado.md)
+
 **├── 3.Filtros/**
 
 │   ├── [1- Filtros pasa-bajos](./Apuntes/3.Filtros/1-%20Filtros%20pasa-bajos.md)

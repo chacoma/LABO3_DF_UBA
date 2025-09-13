@@ -52,8 +52,17 @@ $$
 \ddot{I} + \frac{R}{L} \dot{I} + \frac{1}{LC} I = 0
 $$
 
-definimos $\gamma = \frac{R}{2L}$ como el *coeficiente de amortiguamiento*, $\omega_0^2 = \frac{1}{LC}$ como la *frecuencia natural*. Luego,
+definimos **coeficiente de amortiguamiento** como,
+$$
+\gamma = \frac{R}{2L}
+$$
 
+y la **frecuencia natural** del sistema como,
+$$
+\omega_0^2 = \frac{1}{LC}
+$$
+
+Luego la ec. diferencial puede expresarse,
 $$
 \ddot{I} + 2 \gamma \dot{I} + \omega_0^2 I = 0
 $$
