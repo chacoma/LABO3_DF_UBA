@@ -161,7 +161,7 @@ $$
 vemos que $\tau_2$ es muy chico respecto a $\tau_1$. Haciendo el cociente obtenemos,
 
 $$
-\frac{\tau_2}{\tau_1}= 0.030245 \approx 0.
+\frac{\tau_2}{\tau_1}= 0.00756 \approx 0.
 $$
 
 A continuación se muestra una comparación de las asociada a la solución sin aproximar, a la aproximación, y al termino a despreciar asociado a la exponencial con $\tau_2$,
