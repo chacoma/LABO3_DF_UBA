@@ -5,7 +5,7 @@
 
 A $t=0$ el inductor se opone al cambio, genera un pico de tensión igual a la fuente y hace que la corriente sea nula. En este tiempo el capacitor funciona como un cortocircuito.
 
-A $t>0$ empieza a circular corriente, la tensión en el infuctor decae, la tensión en el capacitor crece hasta igualar la tensión de la fuente. En este transitorio, la corriente evoluciona dependiendo de los valores de los parámetros.
+A $t>0$ empieza a circular corriente, la tensión en el inductor decae, la tensión en el capacitor crece hasta igualar la tensión de la fuente. En este transitorio, la corriente evoluciona dependiendo de los valores de los parámetros.
 
 - **Caso sub amortiguado.** Oscilaciones amortiguadas alrededor de cero, tiempo característico $\tau= \frac{2L}{R}$.
 
