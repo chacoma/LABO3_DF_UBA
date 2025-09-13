@@ -115,6 +115,7 @@ $$
 $$
 
 y finalmente,
+
 $$
 \tau_1 \gg  \tau_2
 $$
@@ -153,6 +154,7 @@ $\tau_1= 1.15$ $m sec$,
 $\tau_2= 8.69$ $\mu sec$, 
 
 vemos que $\tau_2$ es muy chico respecto a $\tau_1$. Haciendo el cociente obtenemos,
+
 $$
 \frac{\tau_2}{\tau_1}= 0.030245 \approx 0.
 $$
