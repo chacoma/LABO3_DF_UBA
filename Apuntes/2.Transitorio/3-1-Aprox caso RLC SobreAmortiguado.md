@@ -13,11 +13,13 @@ $$
 $$
 
 y la frecuencia natural del sistema,
+
 $$
 \omega_0^2 = \frac{1}{LC}.
 $$
 
-La solución de la ecuación diferencial en este caso es, 
+La solución de la ecuación diferencial en este caso es,
+
 $$
 V_C(t) = V_0 \left( 1 - \frac{s_2 e^{s_1 t} - s_1 e^{s_2 t}}{s_2 - s_1} \right),
 $$
