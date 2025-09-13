@@ -53,16 +53,19 @@ $$
 $$
 
 definimos **coeficiente de amortiguamiento** como,
+
 $$
 \gamma = \frac{R}{2L}
 $$
 
 y la **frecuencia natural** del sistema como,
+
 $$
 \omega_0^2 = \frac{1}{LC}
 $$
 
 Luego la ec. diferencial puede expresarse,
+
 $$
 \ddot{I} + 2 \gamma \dot{I} + \omega_0^2 I = 0
 $$
