@@ -7,6 +7,7 @@ $$
 $$
 
 Donde, el coeficiente de amortiguamiento es,
+
 $$
 \gamma = \frac{R}{2L},
 $$
