@@ -1,4 +1,4 @@
-## Solución aproximada en el caso Sobre Amortiguado
+## Solución aproximada en el caso RLC SOBRE Amortiguado
 
 Este regimen se caracteriza por la condición: 
 
@@ -164,7 +164,7 @@ $$
 \frac{\tau_2}{\tau_1}= 0.00756 \approx 0.
 $$
 
-A continuación se muestra una comparación de las asociada a la solución sin aproximar, a la aproximación, y al termino a despreciar asociado a la exponencial con $\tau_2$,
+A continuación se muestra una comparación de la solución sin aproximar con la solución aproximada. Se plotea tambiénel término a despreciar asociado a la exponencial con $\tau_2$,
 
 ![img1](images/aprox_VC.png)
 
