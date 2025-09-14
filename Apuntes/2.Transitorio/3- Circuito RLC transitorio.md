@@ -151,7 +151,7 @@ La idea es medir los transitorios para los casos Sub y Sobre Amortiguado. Para e
 Se puede encontrar un programa que facilita la elección de los valores de componentes en función de los parámetros y tiempos caracterísiticos deseados.
 
 
-Uno vez calculado el tiempo característico, $\tau$, este se utiliza para generar un tren de pulsos cuadrados, $f \approx \frac{1}{20 \tau}$, para poder ver el transitorio completo.
+Una vez calculado el tiempo característico, $\tau$, este se utiliza para generar un tren de pulsos cuadrados, $f \approx \frac{1}{20 \tau}$, para poder ver el transitorio completo.
 
 La idea es adquirir con el osciloscopio la salida generador de funciones $V_{in}$ y los bornes del capacitor $V_C$, uno en cada canal. Recordar que las masas del osci y el gen deben coincidir.
 
