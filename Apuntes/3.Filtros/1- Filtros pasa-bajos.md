@@ -123,18 +123,18 @@ Por lo tanto la relación entre amplitudes ec.(2) y el desfasaje ec.(3), siguen 
 La atenuación que subre la señal a la salida se expresa como:
 
 $$
-A (f) = -20 log_{10}\big[ T(f)\big]\quad [dB]
+A (f) = 20 log_{10}\big[ T(f)\big]\quad [dB]
 $$
 
 Utilizando la función de transferencia asociada a nuestros filtros, la atenuación para los filtros pasa-bajos queda:
 
 
 $$
-A (f) = -20 log_{10}\big[ ( 1 + (f/f_c)^2  )^{-\frac{1}{2}} \big]
+A (f) = 20 log_{10}\big[ ( 1 + (f/f_c)^2  )^{-\frac{1}{2}} \big]
 $$
 
 $$
-A (f) = 10 log_{10} \big [ 1 + \big(\frac{f}{f_c} \big)^2  \big]
+A (f) = -10 log_{10} \big [ 1 + \big(\frac{f}{f_c} \big)^2  \big]
 $$
 
 A la frecuencia de corte la atenuación es $A(f_c)\approx 3dB$.

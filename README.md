@@ -87,7 +87,13 @@
 
 **├── 3.Analisis_filtros/**
 
-│   ├── [analisis_filtro_pasa_banda](./Data_analisis/3.Analisis_filtros/analisis_filtro_pasa_banda.ipynb)
+│   ├── [1-Filtros_PasaBajos](./Data_analisis/3.Analisis_filtros/1-Filtros_PasaBajos.ipynb)
+
+│   ├── [2-Filtros_PasaAltos](./Data_analisis/3.Analisis_filtros/2-Filtros_PasaAltos.ipynb)
+
+│   ├── [3-Filtros_PasaBanda](./Data_analisis/3.Analisis_filtros/3-Filtros_PasaBanda.ipynb)
+
+│   ├── [4-Filtros_RechazaBanda](./Data_analisis/3.Analisis_filtros/4-Filtros_RechazaBanda.ipynb)
 
 **├── 4.Magnetismo/**
 
