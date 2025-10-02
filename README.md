@@ -115,13 +115,15 @@
 
 ### Programas/
 
-**├── Adq_Filtros/**
+**├── Ejemplos/**
 
-│   ├── [Tutorial_Adq_filtros](./Programas/Adq_Filtros/Tutorial_Adq_filtros.ipynb)
+**│   ├── 1.Adq_transitorios/**
 
-**├── Adq_transitorios/**
+│   │   ├── [Tutorial_Adq_transitorios_RC_RL_RLC](./Programas/Ejemplos/1.Adq_transitorios/Tutorial_Adq_transitorios_RC_RL_RLC.ipynb)
 
-│   ├── [Tutorial_Adq_transitorios_RC_RL_RLC](./Programas/Adq_transitorios/Tutorial_Adq_transitorios_RC_RL_RLC.ipynb)
+**│   ├── 2.Adq_Filtros/**
+
+│   │   ├── [Tutorial_Adq_filtros](./Programas/Ejemplos/2.Adq_Filtros/Tutorial_Adq_filtros.ipynb)
 
 **├── Tutoriales_Adquicision/**
 
@@ -129,7 +131,7 @@
 
 │   ├── [Tutorial_Adq_Osc_Tektronix_TBS1000C](./Programas/Tutoriales_Adquicision/Tutorial_Adq_Osc_Tektronix_TBS1000C.ipynb)
 
-│   ├── [Tutorial_Adq_Osc_Tektronix_TDS1052B-EDU](./Programas/Tutoriales_Adquicision/Tutorial_Adq_Osc_Tektronix_TDS1052B-EDU.ipynb)
+│   ├── [Tutorial_Adq_Osc_Tektronix_TBS1052B-EDU](./Programas/Tutoriales_Adquicision/Tutorial_Adq_Osc_Tektronix_TBS1052B-EDU.ipynb)
 
 │   ├── [Tutorial_Oper_GenFunc_Siglent](./Programas/Tutoriales_Adquicision/Tutorial_Oper_GenFunc_Siglent.ipynb)
 
