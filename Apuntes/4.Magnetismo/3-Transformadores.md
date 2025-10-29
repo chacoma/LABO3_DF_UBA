@@ -4,12 +4,13 @@
 
 Se tienen dos bobinados conectados por un núcleo de hierro
 
-![ind](images/ind1.jpg)
+![ind](./images/ind1.jpg)
+
 
 Para resolver este sistema es muy útil plantear su equivalente. Este viene dado por dos cicuitos separados pero acoplados con las siguientes caracterísiticas,
 
 
-![ind](images/ind1_equiv.jpg)
+![ind](./images/ind1_equiv.jpg)
 
 
 
