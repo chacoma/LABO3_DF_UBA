@@ -2,8 +2,7 @@
 
 ### 1. Relación entre las tensiones del transformador y el número de vueltas de los bobinados
 
-![ind](https://drive.google.com/file/d/145HiU2vCklTikDXXc9An5i923aeif-1D/view?usp=sharing)
-
+![ind](https://drive.google.com/uc?export=download&id=145HiU2vCklTikDXXc9An5i923aeif-1D)
 
 
 Los parámetros de acople, en términos generales, vienen dados por,
