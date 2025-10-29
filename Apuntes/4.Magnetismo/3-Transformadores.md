@@ -1,0 +1,83 @@
+# Transformadores
+
+### 1. Relación entre las tensiones del transformador y el número de vueltas de los bobinados
+
+![ind](https://drive.google.com/file/d/145HiU2vCklTikDXXc9An5i923aeif-1D/view?usp=sharing)
+
+
+
+Los parámetros de acople, en términos generales, vienen dados por,
+
+- $V_{L1} = I_{L1} j \omega M$ es la fuente inducida en el secundario debido a la presencia del primario, donde $I_{L1}$ es la corriente que circula por la bobina $L_1$
+
+- $Z_{Ref}= \frac{(\omega M)^2}{Z_{V_{L1}}}$ es la impedancia que ve el primario debido a la presencia del secundario. Acá, $Z_{V_{L1}}$ es la impedancia que ve la fuente inducida $V_{L1}$. 
+
+En particular para este caso, la corriente que circula por la bobina L1 es es $I_{L1}=I_p$, la impedancia que ve la fuente inducida es $Z_{V_{L1}} = Z_{L2}+Z_c$, y la impedancia reflejada es $Z_{ref}= \frac{(\omega M)^2}{Z_{L2}+Z_c}$.
+
+
+Con esto, escribimos las tensiones en los bornes del primario y secundario,
+
+$$
+V_p =  I_p \big[ Z_{Ref}+Z_{L_1}\big] = I_p \big[\frac{(\omega M)^2}{Z_{L2}+Z_c}+Z_{L_1}\big]
+$$
+
+$$
+V_s = I_s Z_c = V_{L_1} \frac{Z_c}{Z_c + Z_{L_2}}
+$$
+
+En la condición $Z_c \to \infty$, 
+
+$$
+V_s \approx V_{L_1}
+$$
+
+$$
+V_p \approx I_p Z_{L_1}
+$$
+
+
+El circuito secundario esta abierto y no circula corriente por el.
+
+La relación entre la tensión en el secundario y la tensión en el primario queda como,
+
+$$
+\frac{V_s}{V_p} \approx \frac{V_{L_1}}{I_p Z_{L_1}} = 
+\frac{\cancel{I_p j \omega} M}{\cancel{I_p j \omega} L_1}
+$$
+
+$$
+\frac{V_s}{V_p} \approx \frac{k \sqrt{L_1 L_2} }{L_1} = k \sqrt{ \frac{L_1}{L_2}}
+$$
+
+Sabemos además que el valor de las inductancias esta relacionado con la geometría y propiedades del material de esta manera,
+
+$$
+L = \frac{\mu_0 \mu_r A N^2}{l}
+$$
+
+Suponiendo que ambas bobinas estan hechas de la misma dimensión y del mismo material y que solo difieren en el número de vueltas, entonces,
+
+$$
+\frac{V_s}{V_p} \approx k \frac{N_1}{N_2}
+$$
+
+Para el caso ideal donde el acoplamiento es perfecto, k=1. De donde vemos que nos queda la relación archi conocida entre las tensiones del transformador y el número de vueltas de sus bobinas. Spoiler, en el labo eso nunca pasa, en general se observa $k<0.8$, y si vas a frecuencias altas los componentes parásitos rompen todo, así que ojo.
+
+### 2. Experimento propuesto
+
+La idea es variar la relación entre vueltas de los transformadores, medir amplitud en el secundario y en el primario y obtener la constante de acoplamiento $k$ mediante un ajuste lineal,
+
+$$
+\frac{v_s}{v_p} \quad vs.\quad \frac{N_1}{N_2} \quad \to k
+$$
+
+
+Se puede repetir el experimento abriendo una de las partes del núcleo de hierro para ver como se modifica el acoplamiento y en consecuencia.
+
+Precauciones:
+- Trabajar en un rango de frecuencias BAJO, fijarla por debajo de los $500$ Hz.
+- Apagar la fuente al cambiar los bobinados.
+- Utilizar el multímetro RLC del pañol para medir los valores de $L_1$ y $L_2$, 
+
+
+
