@@ -55,6 +55,8 @@
 
 │   ├── [2- Induccion con componentes parasitos](./Apuntes/4.Magnetismo/2-%20Induccion%20con%20componentes%20parasitos.md)
 
+│   ├── [3-Transformadores](./Apuntes/4.Magnetismo/3-Transformadores.md)
+
 **├── 5.No_lineales/**
 
 │   ├── [1- Diodos](./Apuntes/5.No_lineales/1-%20Diodos.md)

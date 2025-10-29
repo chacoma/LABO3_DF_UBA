@@ -2,7 +2,15 @@
 
 ### 1. Relación entre las tensiones del transformador y el número de vueltas de los bobinados
 
-![ind](https://drive.google.com/uc?export=download&id=145HiU2vCklTikDXXc9An5i923aeif-1D)
+Se tienen dos bobinados conectados por un núcleo de hierro
+
+![ind](images/ind1.jpg)
+
+Para resolver este sistema es muy útil plantear su equivalente. Este viene dado por dos cicuitos separados pero acoplados con las siguientes caracterísiticas,
+
+
+![ind](images/ind1_equiv.jpg)
+
 
 
 Los parámetros de acople, en términos generales, vienen dados por,
