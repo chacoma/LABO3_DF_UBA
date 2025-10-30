@@ -66,7 +66,7 @@ donde $v_R$ es la amplitud CRMS medida con el osc sobre la resistencia y $v_s$ e
 
 **Propuesta de experimento**
 
-Medir el cosiente de las amplitudes variando la frecuencia para obtener la inductancia mutua con un ajuste lineal.
+La idea es medir el cociente de las amplitudes variando la frecuencia para obtener la inductancia mutua con un ajuste lineal.
 
 $$
 \frac{v_s}{v_R}\quad vs.\quad \frac{\omega}{R} \quad \to M
