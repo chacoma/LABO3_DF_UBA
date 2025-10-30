@@ -11,7 +11,7 @@ Para ello montamos el siguiente circuito,
 
 Noten las carácterísticas de las conexiones: 1) la masa del generador se corresponde con la masa del canal 2, el cual es usado para medir la tensión en el primario, 2) el circuito secundario esta aislado galvanicamente del primario, la medición con el canal 1 se hace a circuito flotado. La resistencia en el primario en este caso, funciona únicamente como limitante de corriente.
 
-Para resolver este sistema es muy útil plantear su equivalente. Este viene dado por dos cicuitos separados, pero acoplados entre si, de la siguiente manera,
+Para resolver circuitos que involucran transformadores, en general suele ser muy útil plantear un circuito equivalente. Este viene dado por dos cicuitos separados, pero acoplados entre si, de la siguiente manera,
 
  
 <!-- ![ind2](./images/ind1_equiv.jpg) -->
