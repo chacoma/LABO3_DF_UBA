@@ -81,7 +81,7 @@ $$
 $$
 
 
-Se puede repetir el experimento abriendo una de las partes del núcleo de hierro para ver como se modifica el acoplamiento y en consecuencia.
+Se puede repetir el experimento abriendo una de las partes del núcleo de hierro para ver como se modifica el acoplamiento y en consecuencia el valor de $k$.
 
 Precauciones:
 - Trabajar en un rango de frecuencias BAJO, fijarla por debajo de los $500$ Hz.
