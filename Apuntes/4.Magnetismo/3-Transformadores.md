@@ -9,7 +9,7 @@ Para ello montamos el siguiente circuito,
 
 ![ind](https://drive.google.com/uc?export=download&id=145HiU2vCklTikDXXc9An5i923aeif-1D)
 
-Noten las carácterísticas de las conexiones: 1) la masa del generador se corresponde con la masa del canal 2, el cual es usado para medir la tensión en el primario, 2) el circuito secundario esta aislado galvanicamente del primario, la medición con el canal 1 se hace a circuito flotado.
+Noten las carácterísticas de las conexiones: 1) la masa del generador se corresponde con la masa del canal 2, el cual es usado para medir la tensión en el primario, 2) el circuito secundario esta aislado galvanicamente del primario, la medición con el canal 1 se hace a circuito flotado. La resistencia en el primario en este caso, funciona únicamente como limitante de corriente.
 
 Para resolver este sistema es muy útil plantear su equivalente. Este viene dado por dos cicuitos separados, pero acoplados entre si, de la siguiente manera,
 
@@ -39,7 +39,7 @@ V_p =  I_p \big[ Z_{Ref}+Z_{L_1}\big] = I_p \big[\frac{(\omega M)^2}{Z_{L2}+Z_c}
 $$
 
 
-En la condición $Z_c \to \infty$, es decir a circuito abierto como es nuestro caso, nos queda,
+En la condición $Z_c \to \infty$, es decir a circuito abierto como es nuestro caso, vale la siguiente aproximación,
 
 $$
 V_s \approx V_{L_1}
@@ -87,7 +87,8 @@ Para el **caso ideal** el acoplamiento es perfecto, luego **k=1**, y recuperamos
 
 ### Experimento propuesto
 
-La idea es variar la relación entre vueltas de los transformadores, medir amplitud en el secundario y en el primario y obtener la constante de acoplamiento $k$ mediante un ajuste lineal,
+El set up nos permite cambiar los bobinados del transformador eligiendo entre bobinados de distinto numero de vueltas.
+Entonces, la idea es variar la relación entre vueltas de los transformadores, medir amplitud en el secundario y en el primario y obtener la constante de acoplamiento $k$ mediante un ajuste lineal,
 
 $$
 \frac{v_s}{v_p} \quad vs.\quad \frac{N_2}{N_1} \quad \to k
@@ -97,6 +98,7 @@ $$
 Se puede repetir el experimento abriendo una de las partes del núcleo de hierro para ver como se modifica el acoplamiento y en consecuencia el valor de $k$.
 
 **Importante**:
+- Asegurarse de que $N_1>N_2$, para que el transformador funcione como reductor de la tensión de entrada. Conviene fijar el bobinado con mayor cantidad de vueltas en el primario y cambiar solo el del secundario
 - Trabajar en un rango de frecuencias **BAJO**, fijarla por debajo de los $500$ Hz.
 - Desconectar la fuente al cambiar los bobinados.
 - Utilizar el multímetro RLC del pañol para medir los valores de $L_1$ y $L_2$, 
