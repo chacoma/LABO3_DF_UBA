@@ -7,7 +7,7 @@ Se tienen dos bobinados conectados por un núcleo de hierro. El esquema y el cir
 ![ind](./images/ind1.jpg)
 
 
-Para resolver este sistema es muy útil plantear su equivalente. Este viene dado por dos cicuitos separados pero acoplados con las siguientes caracterísiticas,
+Para resolver este sistema es muy útil plantear su equivalente. Este viene dado por dos cicuitos separados pero acoplados con las siguientes características,
 
 
 ![ind2](./images/ind1_equiv.jpg)
@@ -20,7 +20,7 @@ Los parámetros de acople, en términos generales, vienen dados por,
 
 - $Z_{Ref}= \frac{(\omega M)^2}{Z_{V_{L1}}}$ es la impedancia que ve el primario debido a la presencia del secundario. Acá, $Z_{V_{L1}}$ es la impedancia que ve la fuente inducida $V_{L1}$. 
 
-En particular para este caso, la corriente que circula por la bobina L1 es es $I_{L1}=I_p$, la impedancia que ve la fuente inducida es $Z_{V_{L1}} = Z_{L2}+Z_c$, y la impedancia reflejada es $Z_{ref}= \frac{(\omega M)^2}{Z_{L2}+Z_c}$.
+En particular para este caso, la corriente que circula por la bobina $L_1$ es es $I_{L1}=I_p$, la impedancia que ve la fuente inducida es $Z_{V_{L1}} = Z_{L2}+Z_c$, y la impedancia reflejada es $Z_{ref}= \frac{(\omega M)^2}{Z_{L2}+Z_c}$.
 
 
 Con esto, escribimos las tensiones en los bornes del primario y secundario,
