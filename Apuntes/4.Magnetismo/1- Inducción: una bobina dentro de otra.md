@@ -4,19 +4,16 @@
 
 ### 1. Caso una bobina dentro de otra sin núcleo
 
-![circ1](images/circ1.jpg)
 
-El circuito del diagrama permite modelar el comportamiento del sistema (bobina acoplada dentro de otra) en **bajas frecuencias**, donde los efectos de acoplamiento magnético dominan. A altas frecuencias, este modelo simplificado pierde validez debido a:
+Se monta un circuito con la idea de medir la inductancia mutua entre dos bobinados, se plantea el siguiente esquema
 
-- La aparición de capacitancias parásitas entre espiras y entre devanados.
 
-- Pérdidas por corrientes parásitas en el núcleo (si está presente).
+<!-- ![circ1](images/circ1.jpg) -->
+![ind](https://drive.google.com/uc?export=download&id=13CoH1ty3FnIpmvV0SccMEepn54hglemV)
 
-- Resonancias no deseadas por inductancias de dispersión y capacitancias.
 
-Para frecuencias superiores a cierto limite, que depende de los componentes de tu circuito, es necesario incluir estos efectos en un modelo mas realista, por ejemplo añadiendo capacitancias en paralelo o resistencias de pérdidas. 
 
-No obstante, con el modelo simple se puede extraer mucho jugo a los datos. Planteado las ecuaciones del circuito del diagrama, tenemos,
+Planteado las ecuaciones del circuito del diagrama, tenemos,
 
 $$
 V_i = I_1 Z_{L1} \pm I_2 Z_M+ V_R
@@ -67,7 +64,15 @@ $$
 
 donde $v_R$ es la amplitud CRMS medida con el osc sobre la resistencia y $v_s$ es la amplitud CRMS medida con el osc sobre el secundario.
 
-Entonces graficando las relaciones $\frac{v_s}{v_R}$ vs. $\frac{\omega}{R}$, obtenidas en el **experimento del barrido en frecuencia**, se puede obtener $M$.
+**Propuesta de experimento**
+
+Medir el cosiente de las amplitudes variando la frecuencia para obtener la inductancia mutua con un ajuste lineal.
+
+$$
+\frac{v_s}{v_R}\quad vs.\quad \frac{\omega}{R} \quad \to M
+$$
+
+Medir a frecuencias bajas, para $f>1$ kHz, aparecen no linealidades.
 
 Además $M$ esta relacionado con las inductancias por la relación,
 
@@ -76,6 +81,8 @@ M = k \sqrt{L_1 L_2}
 $$
 
 Luego, si midieron $L_1$ y $L_2$ con el multimetro-RLC, pueden determinar el valor de $k$ que pesa que tan bueno es el acople entre los inductores, en general encontraremos $k<0.8$
+
+
 
 ### 2. Caso con núcleo de hierro
 
@@ -125,3 +132,18 @@ $$
 donde $l_b$ se puede estimar como el largo de la barra, $A_{sb}$ es el area de la sección del cilindro.
 
 
+
+### 3. Importante! medir a bajas frecuencias
+
+
+El circuito propuesto permite modelar el comportamiento del sistema (bobina acoplada dentro de otra) en **bajas frecuencias**, donde los efectos de acoplamiento magnético dominan. A altas frecuencias, este modelo simplificado pierde validez debido a:
+
+- La aparición de capacitancias parásitas entre espiras y entre devanados.
+
+- Pérdidas por corrientes parásitas en el núcleo (si está presente).
+
+- Resonancias no deseadas por inductancias de dispersión y capacitancias.
+
+Para frecuencias superiores a cierto limite, que depende de los componentes de tu circuito, es necesario incluir estos efectos en un modelo mas realista, por ejemplo añadiendo capacitancias en paralelo o resistencias de pérdidas. 
+
+En el archivo [Inducción con compoenntes parásitos](2-%20Induccion%20con%20componentes%20parasitos.md) se muestra como ejemplo una propuesta de modelado que tenga en cuenta esos factores. 
