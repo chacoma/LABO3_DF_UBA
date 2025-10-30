@@ -62,26 +62,9 @@ $$
  \frac{v_s}{v_R} = M \frac{\omega }{ R},
 $$
 
-donde $v_R$ es la amplitud CRMS medida con el osc sobre la resistencia y $v_s$ es la amplitud CRMS medida con el osc sobre el secundario.
+donde $v_R$ es la amplitud CRMS medida con el osc sobre la resistencia y $v_s$ es la amplitud CRMS medida con el osc sobre el secundario. 
 
-**Propuesta de experimento**
-
-La idea es medir el cociente de las amplitudes variando la frecuencia para obtener la inductancia mutua con un ajuste lineal.
-
-$$
-\frac{v_s}{v_R}\quad vs.\quad \frac{\omega}{R} \quad \to M
-$$
-
-Medir a frecuencias bajas, para $f>1$ kHz, aparecen no linealidades.
-
-Además $M$ esta relacionado con las inductancias por la relación,
-
-$$
-M = k \sqrt{L_1 L_2}
-$$
-
-Luego, si midieron $L_1$ y $L_2$ con el multimetro-RLC, pueden determinar el valor de $k$ que pesa que tan bueno es el acople entre los inductores, en general encontraremos $k<0.8$
-
+Noten que estudiando la relación $\frac{v_s}{v_R}$ vs. $\frac{\omega}{R}$ se puede obtener $M$.
 
 
 ### 2. Caso con núcleo de hierro
@@ -108,7 +91,7 @@ $$
 M^\prime = k \sqrt{ L_1 L_2} \mu  = M \mu.
 $$
 
-Entonces, **si se repite el experimento con el núcleo magnético dentro de la bobina del primario**, estudiando la relacion $\frac{v_s}{v_R}$ vs. $\frac{\omega}{R}$ se puede obtener $M^\prime$ y con eso una estimación de $\mu$ como el cociente,
+Entonces, si se repite el experimento con el núcleo magnético dentro de la bobina del primario, estudiando la relacion $\frac{v_s}{v_R}$ vs. $\frac{\omega}{R}$ se puede obtener $M^\prime$ y con eso una estimación de $\mu$ como el cociente,
 
 $$
 \mu = \frac{M^\prime}{M}.
@@ -132,11 +115,37 @@ $$
 donde $l_b$ se puede estimar como el largo de la barra, $A_{sb}$ es el area de la sección del cilindro.
 
 
+### 3. Propuesta de experimento
 
-### 3. Importante! medir a bajas frecuencias
+La idea es medir el cociente de las amplitudes variando la frecuencia para obtener la inductancia mutua con un ajuste lineal.
+
+$$
+\frac{v_s}{v_R}\quad vs.\quad \frac{\omega}{R} \quad \to M, M'
+$$
+
+En los casos sin núcleo magnético y con núcleo magnético.
+
+**Importante**
+
+- Medir a frecuencias bajas, para $f>1$ kHz, aparecen no linealidades.
+
+- Usar una resistencia en el rango de valores $50\Omega<R<500\Omega$
+
+- Recordar que $M$ esta relacionado con las inductancias por la expresión,
+
+$$
+M = k \sqrt{L_1 L_2}
+$$
+
+- Midan $L_1$ y $L_2$ con el multimetro-RLC, para determinar el valor de $k$, la constante de acoplamiento entre los inductores, en general encontraremos $k<0.8$
 
 
-El circuito propuesto permite modelar el comportamiento del sistema (bobina acoplada dentro de otra) en **bajas frecuencias**, donde los efectos de acoplamiento magnético dominan. A altas frecuencias, este modelo simplificado pierde validez debido a:
+
+
+### 3. Efécto de componentes parásitos
+
+
+El circuito propuesto permite modelar el comportamiento del sistema a **bajas frecuencias**, donde los efectos del acoplamiento magnético dominan. A altas frecuencias, este modelo simplificado pierde validez debido a:
 
 - La aparición de capacitancias parásitas entre espiras y entre devanados.
 
@@ -146,4 +155,4 @@ El circuito propuesto permite modelar el comportamiento del sistema (bobina acop
 
 Para frecuencias superiores a cierto limite, que depende de los componentes de tu circuito, es necesario incluir estos efectos en un modelo mas realista, por ejemplo añadiendo capacitancias en paralelo o resistencias de pérdidas. 
 
-En el archivo [Inducción con compoenntes parásitos](2-%20Induccion%20con%20componentes%20parasitos.md) se muestra como ejemplo una propuesta de modelado que tenga en cuenta esos factores. 
+En el archivo [Inducción con componentes parásitos](2-%20Induccion%20con%20componentes%20parasitos.md) se muestra como ejemplo una propuesta de modelado que tenga en cuenta esos factores. 

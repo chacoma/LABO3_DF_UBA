@@ -1,7 +1,6 @@
 # Transformadores
 
 
-
 Se quiere estudiar la relación entre las tensiones de un transformador y el número de vueltas de sus bobinados.
 
 Para ello montamos el siguiente circuito,
@@ -97,7 +96,7 @@ $$
 
 Se puede repetir el experimento abriendo una de las partes del núcleo de hierro para ver como se modifica el acoplamiento y en consecuencia el valor de $k$.
 
-Precauciones:
+**Importante**:
 - Trabajar en un rango de frecuencias **BAJO**, fijarla por debajo de los $500$ Hz.
 - Desconectar la fuente al cambiar los bobinados.
 - Utilizar el multímetro RLC del pañol para medir los valores de $L_1$ y $L_2$, 
