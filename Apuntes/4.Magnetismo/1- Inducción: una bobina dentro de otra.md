@@ -127,17 +127,11 @@ La idea es hacer primero el caso sin núcleo magnético para obtener $M$ y luego
 
 **Importante**
 
-- Medir a frecuencias bajas, para $f>1$ kHz, aparecen no linealidades.
+- Medir a frecuencias bajas, por debajo de $f<1$ kHz el modelo funciona bien, a frecuencias más altas empiezan a aparecer contribuciones no lineales.
 
 - Usar una resistencia en el rango de valores $50\Omega<R<500\Omega$
 
-- Recordar que $M$ esta relacionado con las inductancias por la expresión,
-
-$$
-M = k \sqrt{L_1 L_2}
-$$
-
-- Midan $L_1$ y $L_2$ con el multimetro-RLC, para determinar el valor de $k$, la constante de acoplamiento entre los inductores. En general encontraremos $k<0.8$
+- Midan $L_1$ y $L_2$ con el multimetro-RLC del pañol, para determinar el valor de $k$, la constante de acoplamiento entre los inductores. En general encontraremos $k<0.8$
 
 
 
