@@ -10,6 +10,8 @@ Para ello montamos el siguiente circuito,
 
 ![ind](https://drive.google.com/uc?export=download&id=145HiU2vCklTikDXXc9An5i923aeif-1D)
 
+Noten las carácterísticas de las conexiones: 1) la masa del generador se conrresponde con la masa del canal 2, usado para medir la tensión en el primario, 2) el circuito secundario esta aislado galvanicamente del primario, la medición con el canal 1 se hace a circuito flotado.
+
 
 Para resolver este sistema es muy útil plantear su equivalente. Este viene dado por dos cicuitos separados, pero acoplados entre si, de la siguiente manera,
 
