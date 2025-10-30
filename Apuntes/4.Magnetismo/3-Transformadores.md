@@ -23,17 +23,18 @@ Los parámetros de acople, en términos generales, vienen dados por,
 En particular para este caso, la corriente que circula por la bobina $L_1$ es es $I_{L1}=I_p$, la impedancia que ve la fuente inducida es $Z_{V_{L1}} = Z_{L2}+Z_c$, y la impedancia reflejada es $Z_{ref}= \frac{(\omega M)^2}{Z_{L2}+Z_c}$.
 
 
-Con esto, escribimos las tensiones en los bornes del primario y secundario,
-
-$$
-V_p =  I_p \big[ Z_{Ref}+Z_{L_1}\big] = I_p \big[\frac{(\omega M)^2}{Z_{L2}+Z_c}+Z_{L_1}\big]
-$$
+Con esto, escribimos las tensiones en los bornes del secundario y del primario de la siguiente manera,
 
 $$
 V_s = I_s Z_c = V_{L_1} \frac{Z_c}{Z_c + Z_{L_2}}
 $$
 
-En la condición $Z_c \to \infty$, 
+$$
+V_p =  I_p \big[ Z_{Ref}+Z_{L_1}\big] = I_p \big[\frac{(\omega M)^2}{Z_{L2}+Z_c}+Z_{L_1}\big]
+$$
+
+
+En la condición $Z_c \to \infty$, es decir a circuito abierto como es nuestro caso, nos queda,
 
 $$
 V_s \approx V_{L_1}
@@ -44,9 +45,7 @@ V_p \approx I_p Z_{L_1}
 $$
 
 
-El circuito secundario esta abierto y no circula corriente por el.
-
-La relación entre la tensión en el secundario y la tensión en el primario queda como,
+Haciendo el cociente entre la tensión en el secundario y la tensión en el primario, obtengo,
 
 $$
 \frac{V_s}{V_p} \approx \frac{V_{L_1}}{I_p Z_{L_1}} = 
@@ -58,19 +57,19 @@ $$
 = k \frac{\sqrt{L_2}}{\sqrt{ L_1}}
 $$
 
-Sabemos además que el valor de las inductancias esta relacionado con la geometría y propiedades del material de esta manera,
+Sabemos, además, que el valor de las inductancias esta relacionado con la geometría y propiedades del material de la siguiente manera,
 
 $$
 L = \frac{\mu_0 \mu_r A N^2}{l}
 $$
 
-Suponiendo que ambas bobinas estan hechas de la misma dimensión y del mismo material y que solo difieren en el número de vueltas, entonces,
+Suponiendo que ambas bobinas estan hechas de la misma dimensión, del mismo material, y que solo difieren en el número de vueltas, obtenemos lo siguiente,
 
 $$
 \frac{V_s}{V_p} \approx k \frac{N_2}{N_1}
 $$
 
-Para el caso ideal donde el acoplamiento es perfecto, k=1. De donde vemos que nos queda la relación archi conocida entre las tensiones del transformador y el número de vueltas de sus bobinas. Spoiler, en el labo eso nunca pasa, en general se observa $k<0.8$, y si vas a frecuencias altas los componentes parásitos rompen todo, así que ojo.
+Para el **caso ideal** el acoplamiento es perfecto, luego **k=1**, y recuperamos la relación archi conocida entre las tensiones del transformador y el número de vueltas de sus bobinas. Spoiler, en el labo eso nunca se cumple, en general se observa $k<0.8$, y si te vas a frecuencias altas los componentes parásitos rompen todo, así que ojo.
 
 ### 2. Experimento propuesto
 
