@@ -4,14 +4,17 @@
 
 Se tienen dos bobinados conectados por un núcleo de hierro. El esquema y el circuito esta dado por,
 
-![ind](./images/ind1_2.jpg)
+<!-- ![ind](./images/ind1.jpg) -->
+
+![ind](https://drive.google.com/uc?export=download&id=145HiU2vCklTikDXXc9An5i923aeif-1D)
 
 
 Para resolver este sistema es muy útil plantear su equivalente. Este viene dado por dos cicuitos separados pero acoplados con las siguientes características,
 
+ 
+<!-- ![ind2](./images/ind1_equiv.jpg) -->
 
-![ind2](./images/ind1_equiv.jpg)
-
+![ind](https://drive.google.com/uc?export=download&id=14d5SzNqT7-VaxJN4LuIrqYQiWnzRbVHg)
 
 
 Los parámetros de acople, en términos generales, vienen dados por,
