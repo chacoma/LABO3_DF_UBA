@@ -19,7 +19,7 @@ Para resolver este sistema es muy útil plantear su equivalente. Este viene dado
 ![ind](https://drive.google.com/uc?export=download&id=14d5SzNqT7-VaxJN4LuIrqYQiWnzRbVHg)
 
 
-Los parámetros de acople, en términos generales, vienen dados por,
+Los parámetros de acople, en términos generales, se expresan como,
 
 - $V_{L1} = I_{L1} j \omega M$ es la fuente inducida en el secundario debido a la presencia del primario, donde $I_{L1}$ es la corriente que circula por la bobina $L_1$
 
@@ -54,8 +54,17 @@ Haciendo el cociente entre la tensión en el secundario y la tensión en el prim
 
 $$
 \frac{V_s}{V_p} \approx \frac{V_{L_1}}{I_p Z_{L_1}} = 
-\frac{\cancel{I_p j \omega} M}{\cancel{I_p j \omega} L_1}
+\frac{I_p j \omega M}{I_p j \omega L_1}
+= \frac{M}{L_1}
 $$
+
+El parámetro $M$ es la inductancia mutua y depende de las inductancias $L_1$, $L_2$ y del nivel de acoplamenteo $k$ de la siguiente manera, 
+
+$$
+M =k \sqrt{L_1 L_2}
+$$
+
+Luego, reemplazando,
 
 $$
 \frac{V_s}{V_p} \approx \frac{k \sqrt{L_1 L_2} }{L_1} 
