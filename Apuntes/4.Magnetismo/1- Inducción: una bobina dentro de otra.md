@@ -123,7 +123,7 @@ $$
 \frac{v_s}{v_R}\quad vs.\quad \frac{\omega}{R} \quad \to M, M'
 $$
 
-La idea es hacer primero el caso sin núcleo magnético para obtener $M$ y luego hacer el caso con núcleo magnético, para obtener $M^\prime$.
+La idea es hacer primero el caso sin núcleo magnético para obtener $M$ y luego hacer el caso con núcleo magnético, para obtener $M^\prime$. Luego haciendo el cociente se puede obtener el valor de $\mu$.
 
 **Importante**
 

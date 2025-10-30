@@ -99,7 +99,7 @@ Se puede repetir el experimento abriendo una de las partes del núcleo de hierro
 
 **Importante**:
 - Asegurarse de que $N_1>N_2$, para que el transformador funcione como reductor de la tensión de entrada. Conviene fijar el bobinado con mayor cantidad de vueltas en el primario y cambiar solo el del secundario
-- Trabajar en un rango de frecuencias **BAJO**, fijarla por debajo de los $500$ Hz.
+- Fijar la frecuencia en un valor **BAJO**, $500$ $Hz$ suele funcionar.
 - Desconectar la fuente al cambiar los bobinados.
 - Utilizar el multímetro RLC del pañol para medir los valores de $L_1$ y $L_2$, 
 
