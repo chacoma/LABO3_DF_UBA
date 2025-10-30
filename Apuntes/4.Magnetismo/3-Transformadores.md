@@ -71,7 +71,7 @@ $$
 = k \frac{\sqrt{L_2}}{\sqrt{ L_1}}
 $$
 
-Sabemos, además, que el valor de las inductancias esta relacionado con la geometría y propiedades del material de la siguiente manera,
+Sabemos, además, que el valor de las inductancias esta relacionado con la geometría y propiedades del material, estas pueden escribirse como,
 
 $$
 L = \frac{\mu_0 \mu_r A N^2}{l}
@@ -97,8 +97,8 @@ $$
 Se puede repetir el experimento abriendo una de las partes del núcleo de hierro para ver como se modifica el acoplamiento y en consecuencia el valor de $k$.
 
 Precauciones:
-- Trabajar en un rango de frecuencias BAJO, fijarla por debajo de los $500$ Hz.
-- Apagar la fuente al cambiar los bobinados.
+- Trabajar en un rango de frecuencias **BAJO**, fijarla por debajo de los $500$ Hz.
+- Desconectar la fuente al cambiar los bobinados.
 - Utilizar el multímetro RLC del pañol para medir los valores de $L_1$ y $L_2$, 
 
 
