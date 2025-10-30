@@ -76,7 +76,7 @@ $$
 
 Para el **caso ideal** el acoplamiento es perfecto, luego **k=1**, y recuperamos la relación archi conocida entre las tensiones del transformador y el número de vueltas de sus bobinas. Spoiler, en el labo eso nunca se cumple, en general se observa $k<0.8$, y si te vas a frecuencias altas los componentes parásitos rompen todo, así que ojo.
 
-### 2. Experimento propuesto
+### Experimento propuesto
 
 La idea es variar la relación entre vueltas de los transformadores, medir amplitud en el secundario y en el primario y obtener la constante de acoplamiento $k$ mediante un ajuste lineal,
 
