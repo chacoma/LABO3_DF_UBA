@@ -1,15 +1,17 @@
 # Transformadores
 
-### 1. Relación entre las tensiones del transformador y el número de vueltas de los bobinados
 
-Se tienen dos bobinados conectados por un núcleo de hierro. El esquema y el circuito esta dado por,
+
+Se quiere estudiar la relación entre las tensiones de un transformador y el número de vueltas de sus bobinados.
+
+Para ello montamos el siguiente circuito,
 
 <!-- ![ind](./images/ind1.jpg) -->
 
 ![ind](https://drive.google.com/uc?export=download&id=145HiU2vCklTikDXXc9An5i923aeif-1D)
 
 
-Para resolver este sistema es muy útil plantear su equivalente. Este viene dado por dos cicuitos separados pero acoplados con las siguientes características,
+Para resolver este sistema es muy útil plantear su equivalente. Este viene dado por dos cicuitos separados, pero acoplados entre si, de la siguiente manera,
 
  
 <!-- ![ind2](./images/ind1_equiv.jpg) -->
