@@ -4,7 +4,7 @@
 
 Se tienen dos bobinados conectados por un núcleo de hierro. El esquema y el circuito esta dado por,
 
-![ind](./images/ind1.jpg)
+![ind](./images/ind1_1.jpg)
 
 
 Para resolver este sistema es muy útil plantear su equivalente. Este viene dado por dos cicuitos separados pero acoplados con las siguientes características,
