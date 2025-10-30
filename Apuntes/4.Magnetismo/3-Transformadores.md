@@ -2,7 +2,7 @@
 
 ### 1. Relación entre las tensiones del transformador y el número de vueltas de los bobinados
 
-Se tienen dos bobinados conectados por un núcleo de hierro
+Se tienen dos bobinados conectados por un núcleo de hierro. El esquema y el circuito esta dado por,
 
 ![ind](./images/ind1.jpg)
 
