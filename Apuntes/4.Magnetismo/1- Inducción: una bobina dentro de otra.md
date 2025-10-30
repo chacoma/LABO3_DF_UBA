@@ -13,7 +13,7 @@ Se monta un circuito con la idea de medir la inductancia mutua entre dos bobinad
 
 
 
-Planteado las ecuaciones del circuito del diagrama, tenemos,
+Planteando las ecuaciones del circuito, tenemos,
 
 $$
 V_i = I_1 Z_{L1} \pm I_2 Z_M+ V_R
@@ -62,7 +62,7 @@ $$
  \frac{v_s}{v_R} = M \frac{\omega }{ R},
 $$
 
-donde $v_R$ es la amplitud CRMS medida con el osc sobre la resistencia y $v_s$ es la amplitud CRMS medida con el osc sobre el secundario. 
+donde $v_R$ es la amplitud medida con el osc sobre la resistencia y $v_s$ es la amplitud medida con el osc sobre el secundario. 
 
 Noten que estudiando la relación $\frac{v_s}{v_R}$ vs. $\frac{\omega}{R}$ se puede obtener $M$.
 
@@ -123,7 +123,7 @@ $$
 \frac{v_s}{v_R}\quad vs.\quad \frac{\omega}{R} \quad \to M, M'
 $$
 
-En los casos sin núcleo magnético y con núcleo magnético.
+La idea es hacer primero el caso sin núcleo magnético para obtener $M$ y luego hacer el caso con núcleo magnético, para obtener $M^\prime$.
 
 **Importante**
 
@@ -137,7 +137,7 @@ $$
 M = k \sqrt{L_1 L_2}
 $$
 
-- Midan $L_1$ y $L_2$ con el multimetro-RLC, para determinar el valor de $k$, la constante de acoplamiento entre los inductores, en general encontraremos $k<0.8$
+- Midan $L_1$ y $L_2$ con el multimetro-RLC, para determinar el valor de $k$, la constante de acoplamiento entre los inductores. En general encontraremos $k<0.8$
 
 
 
