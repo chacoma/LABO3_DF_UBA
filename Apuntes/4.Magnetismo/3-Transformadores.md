@@ -54,7 +54,7 @@ $$
 $$
 
 $$
-\frac{V_s}{V_p} \approx \frac{k \sqrt{L_1 L_2} }{L_1} = k \sqrt{ \frac{L_1}{L_2}}
+\frac{V_s}{V_p} \approx \frac{k \sqrt{L_1 L_2} }{L_1} = k \sqrt{ \frac{L_2}{L_1}}
 $$
 
 Sabemos además que el valor de las inductancias esta relacionado con la geometría y propiedades del material de esta manera,
@@ -66,7 +66,7 @@ $$
 Suponiendo que ambas bobinas estan hechas de la misma dimensión y del mismo material y que solo difieren en el número de vueltas, entonces,
 
 $$
-\frac{V_s}{V_p} \approx k \frac{N_1}{N_2}
+\frac{V_s}{V_p} \approx k \frac{N_2}{N_1}
 $$
 
 Para el caso ideal donde el acoplamiento es perfecto, k=1. De donde vemos que nos queda la relación archi conocida entre las tensiones del transformador y el número de vueltas de sus bobinas. Spoiler, en el labo eso nunca pasa, en general se observa $k<0.8$, y si vas a frecuencias altas los componentes parásitos rompen todo, así que ojo.
@@ -76,7 +76,7 @@ Para el caso ideal donde el acoplamiento es perfecto, k=1. De donde vemos que no
 La idea es variar la relación entre vueltas de los transformadores, medir amplitud en el secundario y en el primario y obtener la constante de acoplamiento $k$ mediante un ajuste lineal,
 
 $$
-\frac{v_s}{v_p} \quad vs.\quad \frac{N_1}{N_2} \quad \to k
+\frac{v_s}{v_p} \quad vs.\quad \frac{N_2}{N_1} \quad \to k
 $$
 
 
