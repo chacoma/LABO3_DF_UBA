@@ -105,9 +105,9 @@
 
 **│   ├── 4.2.Analisis_induccion/**
 
-│   │   ├── [Induccion_Modelo_Realista](./Data_analisis/4.Magnetismo/4.2.Analisis_induccion/Induccion_Modelo_Realista.ipynb)
+│   │   ├── [1-Induccion_bobina_dentro_de_otra](./Data_analisis/4.Magnetismo/4.2.Analisis_induccion/1-Induccion_bobina_dentro_de_otra.ipynb)
 
-│   │   ├── [Induccion_Modelo_bajas_freq](./Data_analisis/4.Magnetismo/4.2.Analisis_induccion/Induccion_Modelo_bajas_freq.ipynb)
+│   │   ├── [2-Induccion_Modelo_Realista](./Data_analisis/4.Magnetismo/4.2.Analisis_induccion/2-Induccion_Modelo_Realista.ipynb)
 
 **├── 5.Analisis No lineales/**
 
