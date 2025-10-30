@@ -54,7 +54,8 @@ $$
 $$
 
 $$
-\frac{V_s}{V_p} \approx \frac{k \sqrt{L_1 L_2} }{L_1} = k \sqrt{ \frac{L_2}{L_1}}
+\frac{V_s}{V_p} \approx \frac{k \sqrt{L_1 L_2} }{L_1} 
+= k \frac{\sqrt{L_2}}{\sqrt{ L_1}}
 $$
 
 Sabemos además que el valor de las inductancias esta relacionado con la geometría y propiedades del material de esta manera,
