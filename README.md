@@ -113,7 +113,7 @@
 
 **│   ├── Diodos/**
 
-│   │   ├── [analisis_curva_diodo](./Data_analisis/5.Analisis%20No%20lineales/Diodos/analisis_curva_diodo.ipynb)
+│   │   ├── [1-Medicion_curva_diodo](./Data_analisis/5.Analisis%20No%20lineales/Diodos/1-Medicion_curva_diodo.ipynb)
 
 ### Programas/
 

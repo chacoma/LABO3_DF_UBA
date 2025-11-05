@@ -85,10 +85,4 @@ $q$: Carga del electrón ($1.6 \times 10^{-19}$ C).
 A temperatura ambiente ($T = 300$ K): $V_T \approx 26$ mV.
 
 
-### (2) Rectificador de media onda
-
-Se utiliza un solo diodo. Se exita con una señal alterna, la corriente solo circula cuando $V>0.7$ entonces la tensión en la resistencia estará relacionada con el semiciclo positivo de la fuente.
-
-![media_onda](images/rect_media_onda.gif)
-
 
