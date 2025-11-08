@@ -115,6 +115,8 @@
 
 │   │   ├── [1-Medicion_curva_diodo](./Data_analisis/5.Analisis%20No%20lineales/Diodos/1-Medicion_curva_diodo.ipynb)
 
+│   │   ├── [2-Rectificador_media_onda](./Data_analisis/5.Analisis%20No%20lineales/Diodos/2-Rectificador_media_onda.ipynb)
+
 ### Programas/
 
 **├── Ejemplos/**
