@@ -117,6 +117,8 @@
 
 │   │   ├── [2-Rectificador_media_onda](./Data_analisis/5.Analisis%20No%20lineales/Diodos/2-Rectificador_media_onda.ipynb)
 
+│   │   ├── [3-Rectificador_onda_completa](./Data_analisis/5.Analisis%20No%20lineales/Diodos/3-Rectificador_onda_completa.ipynb)
+
 ### Programas/
 
 **├── Ejemplos/**
