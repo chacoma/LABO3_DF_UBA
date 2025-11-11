@@ -59,8 +59,6 @@
 
 **├── 5.No_lineales/**
 
-│   ├── [1- Diodos](./Apuntes/5.No_lineales/1-%20Diodos.md)
-
 │   ├── [2- Rectificadores](./Apuntes/5.No_lineales/2-%20Rectificadores.md)
 
 │   ├── [3- Transistores](./Apuntes/5.No_lineales/3-%20Transistores.md)
