@@ -68,7 +68,7 @@ Resepcto a la tensión colector - emisor, tiene que ser menor a $0.3V$, idealmen
 
 #### (1) Interruptor, encender un Led
 
-En este ejemplo vemos como obtener los valores para que el transistor, funcionando en Corte-saturación, funcione como un interruptor para encender un led.
+En este ejemplo vemos como obtener los valores para que el transistor, configurado en CORTE-SATURACIÓN, funcione como un interruptor para encender un led.
 
 ![led](images/trans_led.jpg)
 
@@ -102,9 +102,7 @@ Como hice la cuenta con el valor límite que soporta el led, para estar tranquil
 
 **Paso 2) Determinación de $I_B$ necesaria**.
 
-La relación $I_B$ vs. $I_C$ no es lineal en saturación. Por eso, para un diseño riguroso en esta zona de trabajo, es crucial tener las curvas de trabajo del transistor.
-
-Si no tenemos las curvas, una forma practica de estimar la relación entre $I_C$ e $I_B$ en saturación, es definir una ganancia efectiva $\beta_{sat}= \beta/10$, donde $\beta$ es la ganancia que da el fabricante para la zona activa, luego,
+La relación $I_B$ vs. $I_C$ no es lineal en saturación. Usamos la ganancia efectiva $\beta_{sat}= \beta/10$, donde en este caso $\beta=100$ segun datos del fabricante. Luego,
 
 $$
 I_B = \frac{I_C}{\beta_{sat}}
@@ -139,10 +137,15 @@ $$
 R_B \approx 2150 \Omega
 $$
 
-De nuevo, tomo una resistencia un poco más grande, supongamos $R_B=2.2k\Omega$.
+De nuevo, tomo una resistencia un poco más grande por seguridad, supongamos $R_B=2.5k\Omega$.
 
 Hice una simulación con esos valores y obtuve lo siguiente,
 
-![simu1](images/simu_transistor_interruptor.gif)
+![simu1](images/Interruptor_led.png)
 
 
+Observaciones:
+
+- La corriente en la base es 10 veces mas chica que en el colector, $I_B \ll I_C$
+- La tensión $V_{BE}\approx 0.8$, equivalente a la tensión de un diodo.
+- La tensión $V_{CE} \approx 95 mV\approx 0$, se cumple condición de CORTE-SATURACIÓN $V_{CE} < 0.3V$
