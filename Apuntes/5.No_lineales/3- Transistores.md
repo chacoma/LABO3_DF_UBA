@@ -64,10 +64,9 @@ $$
 
 Respecto a la tensión colector - emisor, tiene que ser menor a $0.3V$. Idealmente para los calculos podemos trabajar con $V_{CE}=0$.
 
----
 ## Ejemplos de cálculo y propuesta de experimentos
 
-### (1) Interruptor, encender un Led
+### (1) Interruptor ON-OFF: Encendido de un Led
 
 En este ejemplo vemos como obtener los valores para que el transistor, configurado en CORTE-SATURACIÓN, funcione como un interruptor para encender un led.
 
