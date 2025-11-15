@@ -27,12 +27,13 @@ Asimismo, hay dos tensiones importantes que tendremos que analizar:
 
 En terminos generales el transistor trabaja en dos configuraciones: ACTIVA y CORTE-SATURACIÓN. De eso hablo en el apartado siguiente.
 
-### Configuración y puntos de trabajo
+## Configuración y puntos de trabajo
 
-Hay dos formas de utilizar un transistor. Para configurar alguna de ellas tenemos que elgir cuidadosamente los valores de las resistencias del circuito y de las fuentes para que se cumplan las condiciones que se indican a continuación.
+Hay dos formas típicas de utilizar un transistor: ACTIVA y CORTE-SATURACIÓN. Para configurarlo para que trabaje en alguna de estás configuraciones, tenemos que elegir cuidadosamente los valores de las resistencias y de las fuentes del circuito. A continuación enumero las condiciones necesarias para hacer a
+la configuración en cada caso.
 
 
-**1. Activa**
+### 1. Activa
 
 En esta configuración se cumple una relación muy importante entre la corriente de base y la corriente de colector,
 
@@ -42,16 +43,16 @@ $$
 
 donde $\beta$ se conoce como ganancia. Su valor depende del modelo del transistor, un valor típico es $\beta=100$. En concreto, con una pequeña corriente de base podemos controlar una gran corriente de colector.
 
-La tensión entre colector y emisor, $V_{CE}$, en esta configuración tiene que ser mayor $0.3V$.
+En esta configuración, la tensión entre colector y emisor, $V_{CE}$,  tiene que ser mayor $0.3V$.
 
-En esta configuración el transistor se usa como **amplificador**. Las variaciones en la corriente de base se reflejan en la corriente de colector. Como la corriente de base es chica sus pequeñas variaciones serán capturadas con grandes variaciones en la corriente de colector, lo cual permite amplificar la señal.
+En punto de trabajo, el transistor se usa como **amplificador**. Las variaciones en la corriente de base se reflejan en la corriente de colector. Como la corriente de base es chica sus pequeñas variaciones serán capturadas como grandes variaciones en la corriente de colector, lo cual permite amplificar la señal.
 
 
-**2. Corte - Saturación**
+### 2. Corte - Saturación
 
-En esta configuración utilizamos el transistor como una **llave electronica**, quiero que si no hay corriente en la base, la llave este cerrada, y que cuando haya corriente en la base, la llave se abra por completo. Es decir, en esta configuración quiero crear una especie de ON-OFF (0-1) controlado por la corriente de base. Esto que parece una pavada es el fundamento de toda la electronica digital moderna así que respeten.
+En esta configuración utilizamos el transistor como una **llave electronica**. Quiero que si no hay corriente en la base, la llave este cerrada, y que cuando haya corriente en la base, la llave se abra POR COMPLETO. Es decir, en esta configuración quiero crear una especie de ON-OFF (0-1) controlado por la corriente de base. Esto que parece una pavada, es el fundamento de toda la electronica digital moderna así que respeten.
 
-En la configuración Corte-saturación la corriente de base y de colector ya no siguen la relación lineal que teniamos en Activa. En saturación ya abrimos la llave por completo, por más que SE siga aumentando la corriente de base no se va a abrir más, por eso se dice que esta "saturado". No obstante, para hacer los calculos, la relación entre $I_B$ y $I_C$ se puede estimar definindo un $\beta_{sat}$,
+En la configuración CORTE-SATURACIÓN la corriente de base y de colector ya no siguen la relación lineal que teniamos en ACTIVA. En saturación ya abrimos la llave por completo, por más que se siga aumentando la corriente de base, la llave no se puede abrir más. Por eso se dice que esta **saturado**. No obstante, para hacer los calculos, la relación entre $I_B$ y $I_C$ se puede estimar definiendo un $\beta_{sat}$,
 
 $$
 I_C(sat) \approx \beta_{sat} I_B
@@ -61,7 +62,7 @@ $$
 \beta_{sat} = \beta/10
 $$
 
-Resepcto a la tensión colector - emisor, tiene que ser menor a $0.3V$, idealmente para los calculos podemos trabajar con $V_{CE}=0$.
+Respecto a la tensión colector - emisor, tiene que ser menor a $0.3V$. Idealmente para los calculos podemos trabajar con $V_{CE}=0$.
 
 ---
 ### Ejemplos de cálculo y propuesta de experimentos
@@ -147,5 +148,5 @@ Hice una simulación con esos valores y obtuve lo siguiente,
 Observaciones:
 
 - La corriente en la base es 10 veces mas chica que en el colector, $I_B \ll I_C$
-- La tensión $V_{BE}\approx 0.8$, equivalente a la tensión de un diodo.
-- La tensión $V_{CE} \approx 95 mV\approx 0$, se cumple condición de CORTE-SATURACIÓN $V_{CE} < 0.3V$
+- La tensión $V_{BE}\approx 0.8V$, equivalente a la tensión de un diodo.
+- La tensión $V_{CE} \approx 95 mV\approx 0V$, se cumple condición de CORTE-SATURACIÓN $V_{CE} < 0.3V$
