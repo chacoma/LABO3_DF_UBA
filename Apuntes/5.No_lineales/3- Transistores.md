@@ -45,7 +45,7 @@ donde $\beta$ se conoce como ganancia. Su valor depende del modelo del transisto
 
 En esta configuración, la tensión entre colector y emisor, $V_{CE}$,  tiene que ser mayor $0.3V$.
 
-En punto de trabajo, el transistor se usa como **amplificador**. Las variaciones en la corriente de base se reflejan en la corriente de colector. Como la corriente de base es chica sus pequeñas variaciones serán capturadas como grandes variaciones en la corriente de colector, lo cual permite amplificar la señal.
+En este punto de trabajo, el transistor se usa como **amplificador**. Las variaciones en la corriente de base se reflejan en la corriente de colector. Como la corriente de base es chica sus pequeñas variaciones serán capturadas como grandes variaciones en la corriente de colector, lo cual permite amplificar la señal.
 
 
 ### 2. Corte - Saturación
@@ -65,9 +65,9 @@ $$
 Respecto a la tensión colector - emisor, tiene que ser menor a $0.3V$. Idealmente para los calculos podemos trabajar con $V_{CE}=0$.
 
 ---
-### Ejemplos de cálculo y propuesta de experimentos
+## Ejemplos de cálculo y propuesta de experimentos
 
-#### (1) Interruptor, encender un Led
+### (1) Interruptor, encender un Led
 
 En este ejemplo vemos como obtener los valores para que el transistor, configurado en CORTE-SATURACIÓN, funcione como un interruptor para encender un led.
 
