@@ -2,7 +2,7 @@
 
 Un transistor es un componente circuital no lineal basado en semiconductores. No es la idea explicar aquí el detalle de su funcionamiento, sino más bien adquirir una cierta intuición de como y para que se utiliza.
 
-La forma más intuitiva de pensarlo es como un tubo con agua mas un grifo: Si cerramos el grifo no circula agua (CORTE), si lo abrimos un poquito, circulará algo de agua (ACTIVA), y  si lo abrimos todo circulará toda el agua disponible (SATURACIÓN).
+La forma más intuitiva de pensarlo es como un tubo/tanque de agua con un grifo: Si cerramos el grifo no circula agua (CORTE), si lo abrimos un poquito, circulará algo de agua (ACTIVA), y  si lo abrimos todo circulará toda el agua disponible (SATURACIÓN).
 
 Como ven, el grifo me permite **controlar** la circulación de agua.
 
@@ -10,15 +10,15 @@ Como ven, el grifo me permite **controlar** la circulación de agua.
 ![trans_1](images/esquema_transistor.jpg)
 
 
-Ahora bien, volviendo a la electronica, el transistor es un elemento de tres patas: Base, Colector y Emisor. La base nos permite abrir el grifo: haciendo circular una pequeña corriente por esa rama, controlamos la corriente que circula por las ramas Colector - Emisor.
+Ahora bien, volviendo a la electronica, el transistor es un elemento de tres patas: Base, Colector y Emisor. ¿Donde esta el grifo? En la Base, haciendo circular una pequeña corriente abrimos el grifo. ¿Cuál es el tubo con agua? es el Colector, listo para mandar agua al Emisor. Entonces haciendo circular una corriente por la Base, controlamos la corriente que circula por las ramas Colector - Emisor.
 
-Notar que vale la ley de mallas,
+Es importante remarcar que en el transistor vale la ley de mallas, se debe cumplir,
 
 $$
 I_B = I_C + I_E
 $$
 
-Asimismo, hay dos tensiones importantes que tendremos que analizar: 
+Asimismo, hay dos tensiones importantes que tendremos que tener en cuenta: 
 
 1) La tensión $V_{BE}$. Tenemos que pensar que entre B y E hay un diodo de silicio, por lo tanto para que el transistor salga de CORTE tenemos que asegurarnos de que caigan $0.7 V$ entre B y E.
 
