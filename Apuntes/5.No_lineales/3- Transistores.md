@@ -29,7 +29,7 @@ En terminos generales el transistor trabaja en dos configuraciones: ACTIVA y COR
 
 ## Configuración y puntos de trabajo
 
-Hay dos formas típicas de utilizar un transistor: ACTIVA y CORTE-SATURACIÓN. Para configurarlo para que trabaje en alguna de estás configuraciones, tenemos que elegir cuidadosamente los valores de las resistencias y de las fuentes del circuito. A continuación enumero las condiciones necesarias para hacer
+Hay dos formas típicas de utilizar un transistor: ACTIVA y CORTE-SATURACIÓN. Para configurarlo para que trabaje en alguna de estás formas, tenemos que elegir cuidadosamente los valores de las resistencias y de las fuentes del circuito. A continuación enumero las condiciones necesarias para hacer
 la configuración en cada caso.
 
 
@@ -43,7 +43,7 @@ $$
 
 donde $\beta$ se conoce como ganancia. Su valor depende del modelo del transistor, un valor típico es $\beta=100$. En concreto, con una pequeña corriente de base podemos controlar una gran corriente de colector.
 
-En esta configuración, la tensión entre colector y emisor, $V_{CE}$,  tiene que ser mayor $0.3V$.
+En esta configuración, la tensión entre colector y emisor, $V_{CE}$,  tiene que ser bastante mayor $0.3V$.
 
 En este punto de trabajo, el transistor se usa como **amplificador**. Las variaciones en la corriente de base se reflejan en la corriente de colector. Como la corriente de base es chica, sus pequeñas variaciones serán capturadas como grandes variaciones en la corriente de colector, lo cual permite amplificar la señal.
 
@@ -74,7 +74,7 @@ En este ejemplo vemos como obtener los valores para que el transistor, configura
 
 La rama vertical tiene un Led que quiero encender. Para eso necesito que la diferencia de potencial en sus bornes sea $V_{LED}=2V$ y que la corriente $I_C\leq20mA$, para no quemarlo. En función de eso tendremos que calcular los valores de los otros parámetros del circuito.
 
-Queremos hacer un interruptor ON/OFF, tal que cuando la tensión de control es $V_{BB}=0$ el led esta apagado, y cuando setee $V_{BB}\geq5V$ el led se prenda.
+Queremos hacer un interruptor ON/OFF, tal que cuando la tensión de control es $V_{BB}=0$ el led esta apagado, y cuando setee $V_{BB}\approx5V$ el led se prenda.
 
 **Paso 1) Determinación de $R_C$**. 
 
