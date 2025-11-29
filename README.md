@@ -65,6 +65,8 @@
 
 │   ├── [3- Transistores](./Apuntes/5.No_lineales/3-%20Transistores.md)
 
+│   ├── [4-Approx_coef_ripple](./Apuntes/5.No_lineales/4-Approx_coef_ripple.pdf)
+
 ### Data_analisis/
 
 **├── 1.Ajuste_Lineal/**
@@ -122,6 +124,8 @@
 ### Programas/
 
 **├── Ejemplos/**
+
+│   ├── [configuraciones_avanzadas](./Programas/Ejemplos/configuraciones_avanzadas.ipynb)
 
 **│   ├── 1.Adq_transitorios/**
 
