@@ -1,0 +1,194 @@
+\documentclass[]{article}
+\usepackage{graphicx,dcolumn,bm,xcolor,lineno,ulem}
+%opening
+\title{Aproximación del coeficiente de ripple en rectificadores}
+\author{A. Chacoma}
+\date{}
+\begin{document}
+
+\maketitle
+
+\subsection*{Introducción}
+
+El ripple de una señal $V(t)$ se define como el porcentaje del coeficiente de variación estadístico,
+$$
+\gamma = \frac{\sigma}{\langle V \rangle } \times 100
+$$
+donde $\sigma$ es la desviación estándar de la señal y $\langle V \rangle$ su valor medio, también conocido como el valor de continua, $V_{DC}$.
+%
+En términos generales, el cálculo exacto de estas cantidades se hace integrando la señal en un periodo,
+
+$$
+V_{DC} = \frac{1}{T} \int_0^{T} V(t) dt,
+$$
+%
+$$
+\sigma^2 = \frac{1}{T} \int_0^{T} [ V(t) - V_{DC} ]^2 dt,
+$$
+%
+
+
+Si bien el cálculo parece complejo, en la practica es bastante fácil, ya que lo hacemos vía algún script de python, por ejemplo utilizando las rutinas {\it numpy.mean} y {\it numpy.std} sobre el {\it array} que contiene los datos de la señal medida.
+
+Ahora bien, este cálculo también se puede efectuar en forma aproximada, y la aproximación tienen una utilidad muy valiosa: nos permiten develar la dependencia del ripple con los componentes del circuito.
+Por lo tanto, en esta nota, voy a mostrar como se calcula el ripple en forma aproximado. En particular, me voy a centrar en mostrar como se relaciona con el valor de la capacitancia utilizada para suavizar la señal de salida en los circuitos rectificadores.
+
+En este marco, en el siguiente apartado muestro como calcular el ripple en el caso de una señal triangular. Este cálculo es fundamental, ya que, como más adelante veremos, será nuestro proxy para hacer la aproximación del coeficiente.
+
+\subsection*{Ripple para una señal triangular}
+
+En la figura 1 se muestra una señal triangular simétrica típica de periodo $T$. 
+Vemos que en el primer semiperíodo la señal crece linealmente de $V_1$ a $V_2$, y en el segundo decae linealmente de $V_2$ a $V_1$. Para el semiperíodo inicial la función puede escribirse como, 
+
+$$
+V(t) = \frac{ V_2 - V_1 }{ \frac{T}{2} } + V_1 
+= \frac{2V_{pp}}{T} t + V_1.
+$$
+%
+Donde $V_{pp}$ es la ya conocida amplitud pico a pico.
+El valor medio de la señal se puede calcular, aprovechando la simetría de la señal, como,
+
+$$
+V_{DC} = \frac{2}{T} \int_0^{T/2} [\frac{2 V_{pp}}{T} t + V_1] dt,
+$$
+
+$$
+V_{DC} = \frac{2}{T} \big[  
+\frac{V_{pp}}{T} \frac{T^2}{4} + 
+V_1 \frac{T}{2} \big] =
+\frac{V_{pp}}{2} + V_1
+$$
+
+De la misma manera podemos calcular la desviación estándar como,
+
+$$
+\sigma^2 = \frac{2}{T} \int_0^{T/2} [ V(t) - V_{DC} ]^2 dt,
+$$
+%
+
+$$
+\sigma^2 = \frac{2}{T} \int_0^{T/2} [ 2 \frac{V_{pp}}{T} t + V_1
+- \frac{V_{pp}}{2} - V_1 ]^2 dt,
+$$
+
+
+$$
+\sigma^2 = \frac{2}{T} \frac{V_{pp}^2}{4}
+\int_0^{T/2} [ \frac{4}{T} t -1 ]^2 dt,
+$$
+%
+para resolver la integral hacemos un cambio de variables,
+
+$$
+u = \frac{4}{T} t -1  \quad \to \quad du = \frac{4}{T} dt
+$$
+%
+resolvemos,
+
+$$
+\sigma^2 = \frac{2}{T} \frac{V_{pp}^2}{4}
+\int_{-1}^1 u^2 \frac{T du}{4} 
+$$
+
+
+$$
+\sigma^2 = \frac{2}{T} \frac{V_{pp}^2}{4} \frac{T}{4}
+\big\{ 
+\frac{u^3}{3} \big |_{-1}^1\big\} 
+= \frac{V_{pp}^2}{4} \frac{1}{3}
+$$
+
+$$
+\sigma = \frac{V_{pp}}{2 \sqrt{3}}.
+$$
+%
+Con estos elementos, podemos finalmente expresar el coeficiente de ripple para la señal triangular como,
+
+$$
+\gamma=  \frac{1}{2 \sqrt{3}} \frac{V_{pp}}{V_{DC}}  \times 100
+$$
+
+En el apartado siguiente muestro como utilizar este resultado para aproximar del coeficiente de ripple asociado a la salida de un rectificador convencional.
+
+\begin{figure}[t!]
+\centering
+\includegraphics[width=1.\textwidth]{ripple.png}
+\caption{Señal triangular. Notar la semejanza que presenta respecto a lo que se observa a la salida de una señal rectificada con capacitor de suavizado.}
+\label{fi:}
+\end{figure}
+
+
+\subsection*{Cálculo aproximado del coeficiente de ripple}
+
+Para obtener un buen suavizado de la señal de salida en un rectificador, se pide que se cumpla la relación,
+
+$$
+R_L C \gg T
+$$
+
+Donde $T$ es el periodo de la señal rectificada. Este parámetro,
+esta relacionado con la frecuencia de la señal de entrada $f_{in}$. 
+En un rectificador de media onda la frecuencia de entrada es igual a la de salida, luego 
+
+$$
+T_{1/2} = \frac{1}{f_{in}}
+$$ 
+%
+Por otro lado, en un rectificador de onda completa, la frecuencia de salida se duplica, por la tanto 
+$$
+T_1 = \frac{1}{2 f_{in}}
+$$ 
+%
+
+Ahora bien, si el tiempo de descarga es muy lento, del orden del periodo, podemos aproximar el tiempo de descarga del capacitor, $t_D$. Para el caso de un rectificador de onda completa, tenemos,
+
+$$
+t_D \approx T_1 \approx \frac{1}{2 f_{in}}.
+$$
+%
+Entonces, el decaimiento que debería ser exponencial, se aproxima a un decaimiento lineal. Eso hace que las ondulaciones de la señal rectificada suavizada se parezca bastante a una señal triangular (ver figura 1).
+Por lo tanto, podemos utilizar la expresión obtenida en el apartado anterior para aproximar el cálculo del factor de ripple.
+
+En primer lugar, recordemos la relación entre la corriente y la tensión en los bornes de un capacitor, esta viene dada por,
+
+$$
+I = C \frac{dV}{dt}.
+$$
+
+En el régimen lineal de descarga podemos aproximar la corriente de descarga, $I_D$, como,
+
+$$
+I_D \approx C \frac{\Delta V}{t_D} \approx C \; V_{pp} \;2 f_{in}
+$$
+%
+Luego, el coeficiente de ripple puede expresarse como,
+
+$$
+\gamma \approx \frac{25}{\sqrt{3} }\;
+\frac{I_D}{V_{DC}}\; \frac{1}{f_{in}} \;\frac{1}{C} 
+$$
+%
+Notar la proporcionalidad inversa con la capacitancia del sistema, 
+
+$$
+\gamma \propto \frac{1}{C}
+$$
+%
+Aquí se ve de manera clara que el coeficiente disminuye cuando aumenta la capacitancia.
+%
+Notar también que, por ley de ohm, la relación entre la corriente de descarga y la tensión de continua esta mediada por la resistencia de carga,
+%
+$$
+\frac{I_D}{V_{DC}} = \frac{1}{R_L}.
+$$
+
+Entonces, en la practica de laboratorio, si se midió el coeficiente de ripple para varios valores de capacitancia, se puede intentar ajustar la curva $\gamma$ vs. $C$, con la siguiente expresión,
+
+$$
+\gamma = \frac{ \gamma_0 }{ R_L \; f_{in} } \; \frac{1}{C},
+$$
+%
+dejando fijos los valores de conocidos de $R_L$ y $f_{in}$ y libre la constante de proporcionalidad $\gamma_0$.
+
+
+\end{document}
